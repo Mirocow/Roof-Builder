@@ -1,0 +1,11 @@
+Form1 = 66, 66, 1038, 685, , 22, 22, 972, 641, C
+clsCollection = 220, 220, 1192, 839, 
+IContainer = 88, 88, 1060, 707, 
+clsTimer = 110, 110, 1193, 607, 
+clsTimings = 110, 110, 1082, 729, 
+clsArray = 242, 242, 1214, 861, 
+clsDictionary = 198, 198, 1170, 817, 
+clsHash = 154, 154, 1126, 773, 
+clsRecordset = 132, 132, 1104, 751, 
+clsList = 66, 66, 1149, 563, 
+clsDirect = 176, 176, 1148, 795, 

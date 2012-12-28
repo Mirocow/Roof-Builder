@@ -1,0 +1,27 @@
+Line 31: Class Frame.FrameHide of control FrameHide2 was not a loaded control class.
+Line 41: Class Frame.FrameHide of control FrameHide4 was not a loaded control class.
+Line 51: Class Frame.FrameHide of control FrameHide6 was not a loaded control class.
+Line 68: Class Frame.FrameHide of control FrameHide5 was not a loaded control class.
+Line 87: Class Frame.FrameHide of control FrameHide3 was not a loaded control class.
+Line 140: Class Frame.FrameHide of control FrameHide1 was not a loaded control class.
+Line 37: The property name _ExtentX in FrameHide2 is invalid.
+Line 38: The property name _ExtentY in FrameHide2 is invalid.
+Line 39: The property name Caption in FrameHide2 is invalid.
+Line 47: The property name _ExtentX in FrameHide4 is invalid.
+Line 48: The property name _ExtentY in FrameHide4 is invalid.
+Line 49: The property name Caption in FrameHide4 is invalid.
+Line 57: The property name _ExtentX in FrameHide6 is invalid.
+Line 58: The property name _ExtentY in FrameHide6 is invalid.
+Line 59: The property name Caption in FrameHide6 is invalid.
+Line 74: The property name _ExtentX in FrameHide5 is invalid.
+Line 75: The property name _ExtentY in FrameHide5 is invalid.
+Line 76: The property name Caption in FrameHide5 is invalid.
+Line 93: The property name _ExtentX in FrameHide3 is invalid.
+Line 94: The property name _ExtentY in FrameHide3 is invalid.
+Line 95: The property name Caption in FrameHide3 is invalid.
+Line 97: The property name isMinimize in FrameHide3 is invalid.
+Line 98: The property name MaximizeSize in FrameHide3 is invalid.
+Line 146: The property name _ExtentX in FrameHide1 is invalid.
+Line 147: The property name _ExtentY in FrameHide1 is invalid.
+Line 148: The property name Caption in FrameHide1 is invalid.
+Line 150: The property name MaximizeSize in FrameHide1 is invalid.

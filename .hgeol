@@ -1,0 +1,16 @@
+[repository]
+native = LF
+
+[patterns]
+**.py = native
+#**.vcproj = CRLF
+**.frm = CRLF
+**.ctl = CRLF
+**.vbp = CRLF
+**.txt = native
+#Makefile = LF
+**.frx = BIN
+**.jpg = BIN
+**.gif = BIN
+**.jpeg = BIN
+**.png = BIN

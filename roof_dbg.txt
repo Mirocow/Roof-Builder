@@ -1,0 +1,3012 @@
+'Object Offset: 279933
+Begin VB.Form Lapemenu
+       WindowState = 2  ' GuiOpcode: 10 Offset Dec: 279951
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 279953
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 279956
+       Icon="Lapemenu.frx":0000  ' GuiOpcode: 35 Offset Dec: 279958
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 280737
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 280739
+       ClientLeft = 60
+       ClientTop = 60
+       ClientWidth = 10320
+       ClientHeight = 7125
+       'Object Offset: 280759
+       Begin SplitterHV.SplitHV SplitHV1 'Length:236
+       End
+       'Object Offset: 280996
+       Begin VB.Frame Frame1
+              ForeColor=-2147483636
+              Left = 4200
+              Top = 0
+              Height = 6975
+              Width = 6015
+              TabIndex = 4  ' GuiOpcode: 18 Offset Dec: 281026
+              BorderStyle = 0  ' GuiOpcode: 34 Offset Dec: 281029
+              'Object Offset: 281032
+              Begin roof.isButton Command6 'Length:547
+              End
+              'Object Offset: 281580
+              Begin roof.isButton Command5 'Length:551
+              End
+              'Object Offset: 282132
+              Begin roof.isButton Command2 'Length:559
+              End
+              'Object Offset: 282692
+              Begin VB.Frame Frame3
+                     Left = 720
+                     Top = 240
+                     Height = 2415
+                     Width = 2175
+                     TabIndex = 5  ' GuiOpcode: 18 Offset Dec: 282717
+                     'Object Offset: 282721
+                     Begin roof.isButton Check3 'Length:645
+                     End
+                     'Object Offset: 283367
+                     Begin roof.isButton Check4 'Length:669
+                     End
+                     'Object Offset: 284037
+                     Begin VB.Checkbox Check2
+                            Caption = "Ñ ğàñêğîåì"  ' GuiOpcode: 1 Offset Dec: 284053
+                            Left = 120
+                            Top = 1680
+                            Height = 255
+                            Width = 1935
+                            Enabled = -1  ' GuiOpcode: 9 Offset Dec: 284076
+                            Visible = -1  ' GuiOpcode: 10 Offset Dec: 284078
+                            TabIndex = 7  ' GuiOpcode: 18 Offset Dec: 284080
+                            Value = 2  ' GuiOpcode: 19 Offset Dec: 284083
+                     End
+                     'Object Offset: 284086
+                     Begin VB.Checkbox ans
+                            Caption = "Ïåğåçàïèñàòü áåç âîïğîñà"  ' GuiOpcode: 1 Offset Dec: 284099
+                            Left = 120
+                            Top = 1920
+                            Height = 470
+                            Width = 1935
+                            Enabled = -1  ' GuiOpcode: 9 Offset Dec: 284136
+                            TabIndex = 6  ' GuiOpcode: 18 Offset Dec: 284138
+                     End
+              End
+              'Object Offset: 284143
+              Begin VB.Frame Frame4
+                     Left = 720
+                     Top = 2640
+                     Height = 2535
+                     Width = 2175
+                     TabIndex = 13  ' GuiOpcode: 18 Offset Dec: 284168
+                     'Object Offset: 284172
+                     Begin roof.isButton Command1 'Length:539
+                     End
+                     'Object Offset: 284712
+                     Begin VB.Optionbutton Option1
+                            Caption = "3"  ' GuiOpcode: 1 Offset Dec: 284729
+                            Left = 120
+                            Top = 750
+                            Height = 615
+                            Width = 1935
+                            Enabled = -1  ' GuiOpcode: 9 Offset Dec: 284743
+                            TabIndex = 16  ' GuiOpcode: 18 Offset Dec: 284745
+                            Value = -1  ' GuiOpcode: 19 Offset Dec: 284748
+                     End
+                     'Object Offset: 284751
+                     Begin VB.Optionbutton Check5
+                            Caption = "2"  ' GuiOpcode: 1 Offset Dec: 284767
+                            Left = 120
+                            Top = 1320
+                            Height = 495
+                            Width = 1935
+                            Enabled = -1  ' GuiOpcode: 9 Offset Dec: 284781
+                            TabIndex = 15  ' GuiOpcode: 18 Offset Dec: 284783
+                     End
+                     'Object Offset: 284787
+                     Begin VB.Optionbutton Check1
+                            Caption = "1"  ' GuiOpcode: 1 Offset Dec: 284803
+                            Left = 120
+                            Top = 1800
+                            Height = 615
+                            Width = 1935
+                            Enabled = -1  ' GuiOpcode: 9 Offset Dec: 284817
+                            TabIndex = 14  ' GuiOpcode: 18 Offset Dec: 284819
+                     End
+              End
+              'Object Offset: 284824
+              Begin MSComctlLib.ListView List2 'Length:667
+              End
+              'Object Offset: 285492
+              Begin MSComctlLib.ListView List1 'Length:571
+              End
+              'Object Offset: 286064
+              Begin VB.Label Label1
+                     Caption = "Ìåòêà1"  ' GuiOpcode: 1 Offset Dec: 286080
+                     Left = 0
+                     Top = 0
+                     Height = 255
+                     Width = 2775
+                     TabIndex = 10  ' GuiOpcode: 18 Offset Dec: 286099
+              End
+              'Object Offset: 286103
+              Begin VB.Label Label2
+                     Caption = "Ìåòêà2"  ' GuiOpcode: 1 Offset Dec: 286119
+                     Left = 3000
+                     Top = 0
+                     Height = 255
+                     Width = 3015
+                     TabIndex = 11  ' GuiOpcode: 18 Offset Dec: 286138
+              End
+       End
+       'Object Offset: 286143
+       Begin VB.PictureBox Picture3
+              BackColor = 14482428  ' GuiOpcode: 1 Offset Dec: 286161
+              Left = 120
+              Top = 240
+              Height = 6015
+              Width = 3945
+              TabIndex = 3  ' GuiOpcode: 18 Offset Dec: 286175
+              ScaleMode = 1  ' GuiOpcode: 26 Offset Dec: 286178
+              Name = "7N"  ' GuiOpcode: 0 Offset Dec: 286182
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286189
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286193
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286197
+              BackColor = 2105344  ' GuiOpcode: 1 Offset Dec: 286202
+              Name = "0( @"  ' GuiOpcode: 0 Offset Dec: 286207
+              BackColor = 0  ' GuiOpcode: 1 Offset Dec: 286234
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286239
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286243
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286247
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286251
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286255
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286259
+              Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 286263
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286268
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286272
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286276
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286280
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286284
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286288
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286292
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286296
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286300
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286304
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286308
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286312
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286316
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286320
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286324
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286328
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286332
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286336
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286340
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286344
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286348
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286374
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286378
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286382
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286386
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286390
+              Name = "ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿğÿÿğÿÿàÿÿàÿÿÀÿÿÀ"  ' GuiOpcode: 0 Offset Dec: 286394
+              Name = "€"  ' GuiOpcode: 0 Offset Dec: 286442
+              Name = "ş"  ' GuiOpcode: 0 Offset Dec: 286449
+              Name = ""  ' GuiOpcode: 0 Offset Dec: 286454
+              Name = " "  ' GuiOpcode: 0 Offset Dec: 286458
+              BackColor = 65077247  ' GuiOpcode: 1 Offset Dec: 286466
+              FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 286474
+       End
+       'Object Offset: 266621
+Begin VB.Form Pitmani
+       Caption = "Ôîğìà ïå÷àòè"  ' GuiOpcode: 1 Offset Dec: 266638
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 266654
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 266657
+       BorderStyle = 1  ' GuiOpcode: 34 Offset Dec: 266659
+       Icon="Pitmani.frx":0000  ' GuiOpcode: 35 Offset Dec: 266661
+       LinkTopic = "Ôîğìà1"  ' GuiOpcode: 36 Offset Dec: 267440
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 267450
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 267452
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 267454
+       ClientLeft = 45
+       ClientTop = 315
+       ClientWidth = 6495
+       ClientHeight = 6495
+       Appearance = 0  ' GuiOpcode: 65 Offset Dec: 267473
+       StartUpPosition = 1  ' GuiOpcode: 70 Offset Dec: 267475
+       'Object Offset: 267478
+       Begin VB.ListBox List1
+              Left = 0
+              Top = 840
+              Height = 4215
+              Width = 6495
+              TabIndex = 0  ' GuiOpcode: 17 Offset Dec: 267502
+              List = "!"  ' GuiOpcode: 20 Offset Dec: 267505
+              Name = ".4ÿFrame1°_¯ÿ—Command1ÿroof.isButtonxHoï-LB	`"  ' GuiOpcode: 0 Offset Dec: 267512
+       End
+       'Object Offset: 302801
+Begin VB.Form ROOFPIC
+       Caption = "ROOFPIC"  ' GuiOpcode: 1 Offset Dec: 302818
+       WindowState = 2  ' GuiOpcode: 10 Offset Dec: 302829
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 302831
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 302834
+       FillStyle = 8960  ' GuiOpcode: 29 Offset Dec: 302836
+       LinkTopic = "Ôîğìà1"  ' GuiOpcode: 36 Offset Dec: 302843
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 302853
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 302855
+       ClientLeft = 60
+       ClientTop = 345
+       ClientWidth = 10140
+       ClientHeight = 7920
+       'Object Offset: 302875
+       Begin SplitterHV.SplitHV SplitHV1 'Length:196
+       End
+       'Object Offset: 303072
+       Begin VB.PictureBox Picture1
+              BackColor = 14482428  ' GuiOpcode: 1 Offset Dec: 303090
+              ForeColor = -2147483640  ' GuiOpcode: 4 Offset Dec: 303095
+              Left = 0
+              Top = 0
+              Height = 5175
+              Width = 10155
+              TabIndex = 7  ' GuiOpcode: 18 Offset Dec: 303109
+              ScaleMode = 1  ' GuiOpcode: 26 Offset Dec: 303112
+              Name = "'Line1¨ `È
+ÿ%Frame1€ %"ÿText5pxgğ0ÿT"  ' GuiOpcode: 0 Offset Dec: 303116
+       End
+       'Object Offset: 264901
+Begin VB.Form Teksti
+       BackColor = 12632256  ' GuiOpcode: 3 Offset Dec: 264917
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 264922
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 264925
+       BorderStyle = 1  ' GuiOpcode: 34 Offset Dec: 264927
+       Icon="Teksti.frx":0000  ' GuiOpcode: 35 Offset Dec: 264929
+       LinkTopic = "Ôîğìà1"  ' GuiOpcode: 36 Offset Dec: 265708
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 265718
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 265720
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 265722
+       ClientLeft = 45
+       ClientTop = 315
+       ClientWidth = 8895
+       ClientHeight = 4770
+       StartUpPosition = 1  ' GuiOpcode: 70 Offset Dec: 265741
+       'Object Offset: 265744
+       Begin roof.isButton Êîììàíäà1 'Length:748
+       End
+       'Object Offset: 266493
+       Begin VB.TextBox Text1
+              Left = 120
+              Top = 120
+              Height = 4095
+              Width = 8655
+              TabIndex = 0  ' GuiOpcode: 18 Offset Dec: 266517
+              MultiLine = -1  ' GuiOpcode: 23 Offset Dec: 266520
+              ScrollBars = 2  ' GuiOpcode: 24 Offset Dec: 266522
+       End
+End
+'Object Offset: 260085
+Begin VB.Form frmView
+       Caption = "View"  ' GuiOpcode: 1 Offset Dec: 260102
+       WindowState = 2  ' GuiOpcode: 10 Offset Dec: 260110
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 260112
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 260115
+       Icon="frmView.frx":0000  ' GuiOpcode: 35 Offset Dec: 260117
+       LinkTopic = "Ôîğìà1"  ' GuiOpcode: 36 Offset Dec: 260896
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 260906
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 260908
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 260910
+       ClientLeft = 60
+       ClientTop = 615
+       ClientWidth = 12180
+       ClientHeight = 8100
+       'Object Offset: 260930
+       Begin VB.ListBox List1
+              Left = 120
+              Top = 600
+              Height = 7500
+              Width = 2295
+              TabIndex = 3  ' GuiOpcode: 17 Offset Dec: 260954
+              IntegralHeight = -1  ' GuiOpcode: 46 Offset Dec: 260957
+       End
+       'Object Offset: 260960
+       Begin VB.PictureBox Picture1
+              Left = 2520
+              Top = 120
+              Height = 7980
+              Width = 9675
+              TabIndex = 0  ' GuiOpcode: 18 Offset Dec: 260987
+              ScaleMode = 1  ' GuiOpcode: 26 Offset Dec: 260990
+              'Object Offset: 260996
+              Begin VB.VScrollBar VScroll1
+                     Left = 9360
+                     Top = 0
+                     Height = 7695
+                     Width = 255
+                     TabIndex = 6  ' GuiOpcode: 9 Offset Dec: 261023
+                     Max = 22800  ' GuiOpcode: 11 Offset Dec: 261026
+                     LargeChange = 5000  ' GuiOpcode: 13 Offset Dec: 261029
+              End
+              'Object Offset: 261033
+              Begin VB.HScrollBar HScroll1
+                     Left = 0
+                     Top = 7680
+                     Height = 255
+                     Width = 9375
+                     TabIndex = 5  ' GuiOpcode: 9 Offset Dec: 261060
+                     Max = 7000  ' GuiOpcode: 11 Offset Dec: 261063
+                     LargeChange = 5000  ' GuiOpcode: 13 Offset Dec: 261066
+              End
+              'Object Offset: 261070
+              Begin VB.PictureBox Pic
+                     BackColor = -2147483643  ' GuiOpcode: 1 Offset Dec: 261083
+                     ForeColor = -2147483640  ' GuiOpcode: 4 Offset Dec: 261088
+                     Left = 120
+                     Top = 120
+                     Height = 7455
+                     Width = 9120
+                     TabIndex = 1  ' GuiOpcode: 18 Offset Dec: 261102
+                     ScaleMode = 1  ' GuiOpcode: 26 Offset Dec: 261105
+                     Appearance = 0  ' GuiOpcode: 59 Offset Dec: 261110
+                     'Object Offset: 261113
+                     Begin VB.PictureBox 
+                     End
+                     'Object Offset: 263225
+Begin VB.Form Print_lape
+       Caption = "Prin Lape"  ' GuiOpcode: 1 Offset Dec: 263245
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 263258
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 263261
+       Icon="Print_lape.frx":0000  ' GuiOpcode: 35 Offset Dec: 263263
+       LinkTopic = "Form1"  ' GuiOpcode: 36 Offset Dec: 264042
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 264051
+       ClientLeft = 60
+       ClientTop = 345
+       ClientWidth = 2640
+       ClientHeight = 4695
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 264070
+       StartUpPosition = 1  ' GuiOpcode: 70 Offset Dec: 264072
+       'Object Offset: 264075
+       Begin roof.isButton Command1 'Length:627
+       End
+       'Object Offset: 264703
+       Begin VB.ListBox lst_print
+              Left = 0
+              Top = 510
+              Height = 3660
+              Width = 2655
+              TabIndex = 0  ' GuiOpcode: 17 Offset Dec: 264731
+              IntegralHeight = -1  ' GuiOpcode: 46 Offset Dec: 264734
+              Style = 13313  ' GuiOpcode: 51 Offset Dec: 264736
+       End
+       'Object Offset: 57761
+Begin VB.MDIForm OfficeStart
+       Caption = "Roof Builder"  ' GuiOpcode: 1 Offset Dec: 57782
+       BackColor = 12632256  ' GuiOpcode: 3 Offset Dec: 57798
+       MousePointer = 1  ' GuiOpcode: 11 Offset Dec: 57803
+       Icon="OfficeStart.frx":0000  ' GuiOpcode: 35 Offset Dec: 57805
+       LinkTopic = "MDIForm1"  ' GuiOpcode: 36 Offset Dec: 58584
+       AutoShowChildren = -1  ' GuiOpcode: 60 Offset Dec: 58613
+       Appearance = 0  ' GuiOpcode: 65 Offset Dec: 58615
+       StartUpPosition = 2  ' GuiOpcode: 70 Offset Dec: 58617
+       OLEDropMode = -255  ' GuiOpcode: 71 Offset Dec: 58619
+End
+'Object Offset: 287101
+Begin VB.Form Project
+       WindowState = 2  ' GuiOpcode: 10 Offset Dec: 287118
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 287120
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 287123
+       FillStyle = 8960  ' GuiOpcode: 29 Offset Dec: 287125
+       Top = 6,189702E+26  ' GuiOpcode: 6 Offset Dec: 287128
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287134
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287139
+       Caption = " "  ' GuiOpcode: 1 Offset Dec: 287144
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287150
+       hWnd = 1441792  ' GuiOpcode: 2 Offset Dec: 287155
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287160
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287164
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287168
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287172
+       ForeColor = 0  ' GuiOpcode: 4 Offset Dec: 287176
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287181
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287185
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287189
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287193
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287197
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287201
+       Name = "€"  ' GuiOpcode: 0 Offset Dec: 287205
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287210
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287214
+       Name = "€"  ' GuiOpcode: 0 Offset Dec: 287219
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287225
+       Name = "À"  ' GuiOpcode: 0 Offset Dec: 287229
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 287237
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287242
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287246
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 287251
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287257
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 287261
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287266
+       Name = "ÿÿÿÿÿÿÿğ"  ' GuiOpcode: 0 Offset Dec: 287270
+       Name = "ğ"  ' GuiOpcode: 0 Offset Dec: 287282
+       Name = "ÌÏÌÌÌÌÏ"  ' GuiOpcode: 0 Offset Dec: 287287
+       Name = "ˆ"  ' GuiOpcode: 0 Offset Dec: 287298
+       Name = "ÌÿÌÿÌÿÌğ"  ' GuiOpcode: 0 Offset Dec: 287303
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287316
+       Name = "üÏÿÌÿÌğpwøÿ"  ' GuiOpcode: 0 Offset Dec: 287320
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 287337
+       Width = -3,196349E+38  ' GuiOpcode: 7 Offset Dec: 287346
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 287353
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287361
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 287365
+       Height = -2,605613E+33  ' GuiOpcode: 8 Offset Dec: 287378
+       Width = -1,#QNAN  ' GuiOpcode: 7 Offset Dec: 287383
+       Name = "w"  ' GuiOpcode: 0 Offset Dec: 287394
+       Width = -6,871972E+09  ' GuiOpcode: 7 Offset Dec: 287400
+       Name = "ˆ€ÿğÿÿÿÿÿÿÿğ"  ' GuiOpcode: 0 Offset Dec: 287409
+       Name = "ÿÿÿğwp"  ' GuiOpcode: 0 Offset Dec: 287426
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287437
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287441
+       Name = "÷w"  ' GuiOpcode: 0 Offset Dec: 287445
+       Width = 7,615368E+33  ' GuiOpcode: 7 Offset Dec: 287451
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287456
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287460
+       Width = -5,729079E-03  ' GuiOpcode: 7 Offset Dec: 287464
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287473
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287477
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287490
+       Name = "»»»°"  ' GuiOpcode: 0 Offset Dec: 287494
+       MousePointer = 187  ' GuiOpcode: 11 Offset Dec: 287502
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287506
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287510
+       Name = "°»»p"  ' GuiOpcode: 0 Offset Dec: 287514
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287523
+       Name = "»»»»°·"  ' GuiOpcode: 0 Offset Dec: 287527
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287538
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287552
+       Name = "»"  ' GuiOpcode: 0 Offset Dec: 287556
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287561
+       FontItalic = 0  ' GuiOpcode: 15 Offset Dec: 287568
+       Name = "»°"  ' GuiOpcode: 0 Offset Dec: 287570
+       MousePointer = 11  ' GuiOpcode: 11 Offset Dec: 287582
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 287584
+       Name = "°w»»»°€»°ğ™°{»»»»°€»€"  ' GuiOpcode: 0 Offset Dec: 287586
+       Name = "{»»»»»°»"  ' GuiOpcode: 0 Offset Dec: 287617
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287632
+       Height = 1,723639E-38  ' GuiOpcode: 8 Offset Dec: 287643
+       Name = "™»»»»»°€»¸"  ' GuiOpcode: 0 Offset Dec: 287648
+       Name = "™»»»»»°€»°"  ' GuiOpcode: 0 Offset Dec: 287664
+       Name = "™{»»»»°»"  ' GuiOpcode: 0 Offset Dec: 287680
+       Name = "™™™"  ' GuiOpcode: 0 Offset Dec: 287695
+       MousePointer = 176  ' GuiOpcode: 11 Offset Dec: 287708
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287710
+       Width = 2,628252E-32  ' GuiOpcode: 7 Offset Dec: 287718
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287725
+       Name = "™™"  ' GuiOpcode: 0 Offset Dec: 287729
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287736
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287740
+       Name = "™™™™»»"  ' GuiOpcode: 0 Offset Dec: 287744
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287755
+       Name = "™™™™™™"  ' GuiOpcode: 0 Offset Dec: 287759
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287770
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287774
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287780
+       BackColor = 16778368  ' GuiOpcode: 3 Offset Dec: 287785
+       hWnd = 256  ' GuiOpcode: 2 Offset Dec: 287791
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287796
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287800
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287808
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287812
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287816
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287820
+       Name = "À"  ' GuiOpcode: 0 Offset Dec: 287824
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287829
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287833
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287837
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287841
+       Caption = ""  ' GuiOpcode: 1 Offset Dec: 287845
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287849
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287853
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287857
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287861
+       Enabled = 0  ' GuiOpcode: 9 Offset Dec: 287865
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287867
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287871
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287875
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287879
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287883
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287887
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287891
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287895
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 287899
+       Name = "$"  ' GuiOpcode: 0 Offset Dec: 287903
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 287914
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 287916
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 287918
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 287920
+       ClientLeft = 60
+       ClientTop = 105
+       ClientWidth = 9150
+       ClientHeight = 8865
+       OLEDropMode = -255  ' GuiOpcode: 71 Offset Dec: 287939
+End
+'Object Offset: 332341
+Begin VB.Form Setup
+       Caption = "Óñòàíîâêà ñâîéñòâ ïğîãğàììû"  ' GuiOpcode: 1 Offset Dec: 332356
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 332387
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 332390
+       BorderStyle = 1  ' GuiOpcode: 34 Offset Dec: 332392
+       Icon="Setup.frx":0000  ' GuiOpcode: 35 Offset Dec: 332394
+       LinkTopic = "Ôîğìà1"  ' GuiOpcode: 36 Offset Dec: 333173
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 333183
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 333185
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 333187
+       ClientLeft = 45
+       ClientTop = 315
+       ClientWidth = 9270
+       ClientHeight = 7800
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 333206
+       StartUpPosition = 1  ' GuiOpcode: 70 Offset Dec: 333208
+       'Object Offset: 333211
+       Begin VB.Frame sys
+              Left = 240
+              Top = 720
+              Height = 6255
+              Width = 8775
+              TabIndex = 0  ' GuiOpcode: 18 Offset Dec: 333233
+              'Object Offset: 333237
+              Begin VB.TextBox Text17
+                     Left = 7920
+                     Top = 4320
+                     Height = 285
+                     Width = 735
+                     Text = "ñì."  ' GuiOpcode: 11 Offset Dec: 333262
+                     TabIndex = 110  ' GuiOpcode: 18 Offset Dec: 333269
+                     Locked = -1  ' GuiOpcode: 45 Offset Dec: 333272
+                     Appearance = 0  ' GuiOpcode: 48 Offset Dec: 333274
+              End
+              'Object Offset: 333277
+              Begin VB.Checkbox Check17
+                     Caption = "Check17"  ' GuiOpcode: 1 Offset Dec: 333294
+                     Left = 120
+                     Top = 4320
+                     Height = 255
+                     Width = 7695
+                     TabIndex = 109  ' GuiOpcode: 18 Offset Dec: 333314
+                     Value = 1  ' GuiOpcode: 19 Offset Dec: 333317
+              End
+              'Object Offset: 333320
+              Begin roof.isButton Command8 'Length:627
+              End
+              'Object Offset: 333948
+              Begin roof.isButton Command3 'Length:627
+              End
+              'Object Offset: 334576
+              Begin roof.isButton Command4 'Length:631
+              End
+              'Object Offset: 335208
+              Begin VB.Checkbox Check7
+                     Caption = "Check7"  ' GuiOpcode: 1 Offset Dec: 335224
+                     Left = 120
+                     Top = 5760
+                     Height = 255
+                     Width = 8535
+                     TabIndex = 70  ' GuiOpcode: 18 Offset Dec: 335243
+              End
+              'Object Offset: 335247
+              Begin VB.Combobox Text6
+                     Style = 2  ' GuiOpcode: 1 Offset Dec: 335262
+                     Left = 7680
+                     Top = 2400
+                     Height = 315
+                     Width = 975
+                     Enabled = -1  ' GuiOpcode: 9 Offset Dec: 335273
+                     Text = ""  ' GuiOpcode: 12 Offset Dec: 335275
+              End
+              'Object Offset: 335280
+              Begin VB.TextBox Text2
+                     Left = 6000
+                     Top = 3480
+                     Height = 285
+                     Width = 855
+                     Text = "5"  ' GuiOpcode: 11 Offset Dec: 335304
+                     TabIndex = 53  ' GuiOpcode: 18 Offset Dec: 335309
+                     Appearance = 0  ' GuiOpcode: 48 Offset Dec: 335312
+              End
+              'Object Offset: 335315
+              Begin VB.TextBox Text4
+                     Left = 7920
+                     Top = 3960
+                     Height = 285
+                     Width = 735
+                     Text = "80"  ' GuiOpcode: 11 Offset Dec: 335339
+                     TabIndex = 52  ' GuiOpcode: 18 Offset Dec: 335345
+                     MaxLength = 5  ' GuiOpcode: 37 Offset Dec: 335348
+                     Appearance = 0  ' GuiOpcode: 48 Offset Dec: 335353
+              End
+              'Object Offset: 335356
+              Begin VB.Checkbox Check3
+                     Caption = "Auto Save"  ' GuiOpcode: 1 Offset Dec: 335372
+                     Left = 120
+                     Top = 2400
+                     Height = 255
+                     Width = 7095
+                     TabIndex = 50  ' GuiOpcode: 18 Offset Dec: 335394
+              End
+              'Object Offset: 335398
+              Begin VB.TextBox dirtemp
+                     Left = 840
+                     Top = 3000
+                     Height = 285
+                     Width = 7215
+                     Enabled = -1  ' GuiOpcode: 8 Offset Dec: 335424
+                     TabIndex = 46  ' GuiOpcode: 18 Offset Dec: 335426
+                     Locked = -1  ' GuiOpcode: 45 Offset Dec: 335429
+                     Appearance = 0  ' GuiOpcode: 48 Offset Dec: 335431
+              End
+              'Object Offset: 335434
+              Begin VB.Frame Frame6
+                     Left = 120
+                     Top = 120
+                     Height = 1455
+                     Width = 8535
+                     TabIndex = 11  ' GuiOpcode: 18 Offset Dec: 335459
+                     'Object Offset: 335463
+                     Begin roof.isButton Command5 'Length:627
+                     End
+                     'Object Offset: 336091
+                     Begin VB.TextBox dirown
+                            Left = 840
+                            Top = 960
+                            Height = 285
+                            Width = 7575
+                            Enabled = -1  ' GuiOpcode: 8 Offset Dec: 336116
+                            TabIndex = 12  ' GuiOpcode: 18 Offset Dec: 336118
+                            Locked = -1  ' GuiOpcode: 45 Offset Dec: 336121
+                            Appearance = 0  ' GuiOpcode: 48 Offset Dec: 336123
+                     End
+                     'Object Offset: 336126
+                     Begin VB.Label Label5
+                            Caption = "Ôàéë ñî ñëóæåáíîé èíôîğìàöèåé (mdb)"  ' GuiOpcode: 1 Offset Dec: 336142
+                            Left = 120
+                            Top = 240
+                            Height = 615
+                            Width = 7455
+                            TabIndex = 6  ' GuiOpcode: 18 Offset Dec: 336190
+                     End
+                     'Object Offset: 336194
+                     Begin VB.Label Label11
+                            Caption = "ERR"  ' GuiOpcode: 1 Offset Dec: 336211
+                            ForeColor = 255  ' GuiOpcode: 4 Offset Dec: 336218
+                            Left = 120
+                            Top = 960
+                            Height = 285
+                            Width = 615
+                            TabIndex = 7  ' GuiOpcode: 18 Offset Dec: 336232
+                            BorderStyle = 1  ' GuiOpcode: 19 Offset Dec: 336235
+                            Alignment = 2  ' GuiOpcode: 20 Offset Dec: 336237
+                                   BeginProperty Font
+                                          Name = "Arial"
+                                          Size = 9,75
+                                          Charset = 204
+                                          Weight = 700
+                                          Italic = 0
+                                          Underline = 0
+                                          Strikethrough = 0
+                                   EndProperty
+                            Appearance = 0  ' GuiOpcode: 39 Offset Dec: 336256
+                     End
+              End
+              'Object Offset: 336260
+              Begin VB.TextBox dirwork
+                     Left = 840
+                     Top = 1920
+                     Height = 285
+                     Width = 7215
+                     Enabled = -1  ' GuiOpcode: 8 Offset Dec: 336286
+                     TabIndex = 1  ' GuiOpcode: 18 Offset Dec: 336288
+                     Locked = -1  ' GuiOpcode: 45 Offset Dec: 336291
+                     Appearance = 0  ' GuiOpcode: 48 Offset Dec: 336293
+              End
+              'Object Offset: 336296
+              Begin VB.Label Label12
+                     Caption = "0"  ' GuiOpcode: 1 Offset Dec: 336313
+                     BackColor = -2147483643  ' GuiOpcode: 3 Offset Dec: 336318
+                     ForeColor = -2147483640  ' GuiOpcode: 4 Offset Dec: 336323
+                     Left = 6960
+                     Top = 3480
+                     Height = 285
+                     Width = 615
+                     TabIndex = 56  ' GuiOpcode: 18 Offset Dec: 336337
+                     BorderStyle = 1  ' GuiOpcode: 19 Offset Dec: 336340
+                     Appearance = 0  ' GuiOpcode: 39 Offset Dec: 336342
+              End
+              'Object Offset: 336345
+              Begin VB.Label Label8
+                     Caption = "Ãëóáèíà âëîæåíèÿ ôàéëîâ â ìåíş"  ' GuiOpcode: 1 Offset Dec: 336361
+                     Left = 120
+                     Top = 3480
+                     Height = 255
+                     Width = 5775
+                     TabIndex = 55  ' GuiOpcode: 18 Offset Dec: 336404
+              End
+              'Object Offset: 336408
+              Begin VB.Label Label6
+                     Caption = "Label6"  ' GuiOpcode: 1 Offset Dec: 336424
+                     Left = 120
+                     Top = 3960
+                     Height = 255
+                     Width = 7695
+                     TabIndex = 54  ' GuiOpcode: 18 Offset Dec: 336443
+              End
+              'Object Offset: 336447
+              Begin VB.Label Label10
+                     Caption = "ms"  ' GuiOpcode: 1 Offset Dec: 336464
+                     Left = 7320
+                     Top = 2400
+                     Height = 255
+                     Width = 255
+                     TabIndex = 51  ' GuiOpcode: 18 Offset Dec: 336479
+              End
+              'Object Offset: 336483
+              Begin VB.Label Label22
+                     Caption = "ERR"  ' GuiOpcode: 1 Offset Dec: 336500
+                     ForeColor = 255  ' GuiOpcode: 4 Offset Dec: 336507
+                     Left = 120
+                     Top = 3000
+                     Height = 285
+                     Width = 615
+                     TabIndex = 49  ' GuiOpcode: 18 Offset Dec: 336521
+                     BorderStyle = 1  ' GuiOpcode: 19 Offset Dec: 336524
+                     Alignment = 2  ' GuiOpcode: 20 Offset Dec: 336526
+                            BeginProperty Font
+                                   Name = "Arial"
+                                   Size = 9,75
+                                   Charset = 204
+                                   Weight = 700
+                                   Italic = 0
+                                   Underline = 0
+                                   Strikethrough = 0
+                            EndProperty
+                     Appearance = 0  ' GuiOpcode: 39 Offset Dec: 336545
+              End
+              'Object Offset: 336548
+              Begin VB.Label Label21
+                     Caption = "ERR"  ' GuiOpcode: 1 Offset Dec: 336565
+                     ForeColor = 255  ' GuiOpcode: 4 Offset Dec: 336572
+                     Left = 120
+                     Top = 1920
+                     Height = 285
+                     Width = 615
+                     TabIndex = 48  ' GuiOpcode: 18 Offset Dec: 336586
+                     BorderStyle = 1  ' GuiOpcode: 19 Offset Dec: 336589
+                     Alignment = 2  ' GuiOpcode: 20 Offset Dec: 336591
+                            BeginProperty Font
+                                   Name = "Arial"
+                                   Size = 9,75
+                                   Charset = 204
+                                   Weight = 700
+                                   Italic = 0
+                                   Underline = 0
+                                   Strikethrough = 0
+                            EndProperty
+                     Appearance = 0  ' GuiOpcode: 39 Offset Dec: 336610
+              End
+              'Object Offset: 336613
+              Begin VB.Label Label20
+                     Caption = "Äèğåêòîğèÿ âğåìåííûõ ôàéëîâ"  ' GuiOpcode: 1 Offset Dec: 336630
+                     Left = 120
+                     Top = 2760
+                     Height = 255
+                     Width = 8535
+                     TabIndex = 47  ' GuiOpcode: 18 Offset Dec: 336670
+              End
+              'Object Offset: 336674
+              Begin VB.Label Label4
+                     Caption = "Äèğåêòîğèÿ ïğîåêòîâ"  ' GuiOpcode: 1 Offset Dec: 336690
+                     Left = 120
+                     Top = 1680
+                     Height = 255
+                     Width = 5895
+                     TabIndex = 2  ' GuiOpcode: 18 Offset Dec: 336722
+              End
+       End
+       'Object Offset: 336727
+       Begin VB.Frame Frame8
+              Left = 240
+              Top = 720
+              Height = 6255
+              Width = 8775
+              TabIndex = 26  ' GuiOpcode: 18 Offset Dec: 336752
+              Caption = ""  ' GuiOpcode: 1 Offset Dec: 336756
+              Caption = ""  ' GuiOpcode: 1 Offset Dec: 336761
+              FontSize = 6,885923E+11  ' GuiOpcode: 13 Offset Dec: 336766
+              ToolTipText = "rifÿ""  ' GuiOpcode: 32 Offset Dec: 336774
+       End
+       'Object Offset: 311205
+Begin VB.Form SO
+       Caption = "Search & Open"  ' GuiOpcode: 1 Offset Dec: 311217
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 311234
+       Name = "#>"  ' GuiOpcode: 0 Offset Dec: 311238
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311245
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311249
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311253
+       hWnd = 1052672  ' GuiOpcode: 2 Offset Dec: 311258
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311263
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311267
+       Name = "  ¨( @ıüüõêêâããë××"  ' GuiOpcode: 0 Offset Dec: 311271
+       Name = "Î"  ' GuiOpcode: 0 Offset Dec: 311351
+       Name = "Ä"  ' GuiOpcode: 0 Offset Dec: 311359
+       Name = "»"  ' GuiOpcode: 0 Offset Dec: 311367
+       Name = "«"  ' GuiOpcode: 0 Offset Dec: 311375
+       Name = "¢"  ' GuiOpcode: 0 Offset Dec: 311383
+       Name = "Ÿ"  ' GuiOpcode: 0 Offset Dec: 311391
+       Name = "¤"  ' GuiOpcode: 0 Offset Dec: 311399
+       Name = "®"  ' GuiOpcode: 0 Offset Dec: 311407
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311415
+       Name = "’"  ' GuiOpcode: 0 Offset Dec: 311423
+       Name = "…"  ' GuiOpcode: 0 Offset Dec: 311431
+       Name = "u"  ' GuiOpcode: 0 Offset Dec: 311439
+       Name = "V"  ' GuiOpcode: 0 Offset Dec: 311447
+       Name = "W"  ' GuiOpcode: 0 Offset Dec: 311455
+              BeginProperty Font
+                     Name = "OO K@D xB; <@= 079 &&& 5   
+
+
+     ÿŸ çœŸ İº¼ Ù²´ ×°± Ø¯° ×¯± Ô©« Ó¥© "
+                     Size = 585,5061
+                     Charset = 0
+                     Weight = 92
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       Name = "µ"  ' GuiOpcode: 0 Offset Dec: 311555
+       Name = "¶"  ' GuiOpcode: 0 Offset Dec: 311563
+       Name = "¢"  ' GuiOpcode: 0 Offset Dec: 311571
+       Name = " "  ' GuiOpcode: 0 Offset Dec: 311579
+       Name = "É"  ' GuiOpcode: 0 Offset Dec: 311587
+       Name = "Á"  ' GuiOpcode: 0 Offset Dec: 311595
+       Name = "¸"  ' GuiOpcode: 0 Offset Dec: 311603
+       Name = "º"  ' GuiOpcode: 0 Offset Dec: 311611
+       Name = "´"  ' GuiOpcode: 0 Offset Dec: 311619
+       Name = "¬"  ' GuiOpcode: 0 Offset Dec: 311627
+       Name = "ª"  ' GuiOpcode: 0 Offset Dec: 311635
+       Name = "©"  ' GuiOpcode: 0 Offset Dec: 311643
+       Name = "£"  ' GuiOpcode: 0 Offset Dec: 311651
+       Name = "œ"  ' GuiOpcode: 0 Offset Dec: 311659
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311667
+       Name = "£"  ' GuiOpcode: 0 Offset Dec: 311675
+       Name = "v"  ' GuiOpcode: 0 Offset Dec: 311683
+       Name = "g"  ' GuiOpcode: 0 Offset Dec: 311691
+       Name = "W"  ' GuiOpcode: 0 Offset Dec: 311699
+       Name = "T"  ' GuiOpcode: 0 Offset Dec: 311707
+       Name = "M"  ' GuiOpcode: 0 Offset Dec: 311715
+       Name = "H"  ' GuiOpcode: 0 Offset Dec: 311723
+       PaletteMode = 67  ' GuiOpcode: 73 Offset Dec: 311729
+       Name = "|"  ' GuiOpcode: 0 Offset Dec: 311731
+       Name = "{"  ' GuiOpcode: 0 Offset Dec: 311739
+       Name = "q"  ' GuiOpcode: 0 Offset Dec: 311747
+       Name = "h"  ' GuiOpcode: 0 Offset Dec: 311755
+       Name = "D"  ' GuiOpcode: 0 Offset Dec: 311763
+       StartUpPosition = 71  ' GuiOpcode: 70 Offset Dec: 311768
+       Name = "^"  ' GuiOpcode: 0 Offset Dec: 311771
+       Name = "P"  ' GuiOpcode: 0 Offset Dec: 311779
+       Appearance = 62  ' GuiOpcode: 65 Offset Dec: 311785
+       Name = "="  ' GuiOpcode: 0 Offset Dec: 311787
+       Name = "5"  ' GuiOpcode: 0 Offset Dec: 311795
+       Tag = "=8"  ' GuiOpcode: 47 Offset Dec: 311802
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 311809
+       Name = ">"  ' GuiOpcode: 0 Offset Dec: 311811
+       HelpContextID = 808190053  ' GuiOpcode: 51 Offset Dec: 311817
+       Name = "d"  ' GuiOpcode: 0 Offset Dec: 311823
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 311828
+       Name = "]"  ' GuiOpcode: 0 Offset Dec: 311831
+       Name = ">"  ' GuiOpcode: 0 Offset Dec: 311839
+       Name = "-"  ' GuiOpcode: 0 Offset Dec: 311847
+       LinkTopic = ""  ' GuiOpcode: 36 Offset Dec: 311852
+       Name = "$"  ' GuiOpcode: 0 Offset Dec: 311859
+       Picture="SO.frx":0000  ' GuiOpcode: 33 Offset Dec: 311864
+       CurrentY = 6,622721E-24  ' GuiOpcode: 20 Offset Dec: 311876
+       DrawStyle = 50  ' GuiOpcode: 27 Offset Dec: 311881
+       ScaleTop = 1,03562E-25  ' GuiOpcode: 22 Offset Dec: 311884
+       ScaleWidth = 5,095457E-22  ' GuiOpcode: 23 Offset Dec: 311889
+       Name = "%"  ' GuiOpcode: 0 Offset Dec: 311895
+       ScaleWidth = 4,043787E-28  ' GuiOpcode: 23 Offset Dec: 311900
+       CurrentX = 2,800467E-29  ' GuiOpcode: 19 Offset Dec: 311905
+       Picture="SO.frx":1E003321  ' GuiOpcode: 33 Offset Dec: 311910
+       FillStyle = 4864  ' GuiOpcode: 29 Offset Dec: 311922
+       CurrentY = 4,423629E-34  ' GuiOpcode: 20 Offset Dec: 311925
+       CurrentX = 3,219883E-20  ' GuiOpcode: 19 Offset Dec: 311930
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311935
+       FontSize = 6,316682E-30  ' GuiOpcode: 13 Offset Dec: 311940
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 311945
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311947
+       ForeColor = 218106899  ' GuiOpcode: 4 Offset Dec: 311952
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 311957
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311959
+       Caption = ""  ' GuiOpcode: 1 Offset Dec: 311964
+       Left = 6,166181E-33  ' GuiOpcode: 5 Offset Dec: 311968
+       MousePointer = 13  ' GuiOpcode: 11 Offset Dec: 311973
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311975
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 311980
+       Width = 4,222361E-31  ' GuiOpcode: 7 Offset Dec: 311982
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311987
+       BackColor = 2565  ' GuiOpcode: 3 Offset Dec: 311992
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 311997
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312001
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312005
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312009
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312013
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312017
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312021
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312025
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312029
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312033
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312037
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312041
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312045
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312049
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312053
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312057
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312061
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312065
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312069
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312073
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312077
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312081
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312085
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312089
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312093
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312097
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312101
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312105
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312109
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312113
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312117
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312121
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312125
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312129
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312133
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312137
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312141
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312145
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312149
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312153
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312157
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312161
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312165
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312169
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312173
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312177
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312181
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312185
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312189
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312193
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312197
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312201
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312205
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312209
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312213
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312217
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312221
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312225
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312229
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312233
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312237
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312241
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312245
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312249
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312253
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312257
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312261
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312265
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312269
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312273
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312277
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312281
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312285
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312289
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312293
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312297
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312301
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312305
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312309
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312313
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312317
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312321
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312325
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312329
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312333
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312337
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312341
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312345
+       Name = "ÿÿÿ"  ' GuiOpcode: 0 Offset Dec: 312349
+       ForeColor = 259  ' GuiOpcode: 4 Offset Dec: 312375
+       Caption = "+şşşş-+şşş++şş++şş+		+şş+
+)+şş+%$,şşş+ ,şşşşş++,şşşşşşşş+++++,şşşşşşşşşşşş-&,şşşşşşşşşşşş-!',şşşşşşşşşşşş-"(-şşşşşşşşşşşş-#!*şşşşşşşşşşşşş--şà?ÿÿ€ÿÿ"  ' GuiOpcode: 1 Offset Dec: 312380
+       Width = 3,790969E-37  ' GuiOpcode: 7 Offset Dec: 312621
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 312628
+       BackColor = 50397183  ' GuiOpcode: 3 Offset Dec: 312633
+       Name = "ÿ€ÿÿÀÿÿğÿÿÿƒÿÿÿÁÿÿÿàÿÿÿğÿÿÿùÿÿ("  ' GuiOpcode: 0 Offset Dec: 312640
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312678
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312682
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312686
+       Height = 0  ' GuiOpcode: 8 Offset Dec: 312690
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312695
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312699
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312703
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312707
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 312711
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 312715
+       Name = "ø"  ' GuiOpcode: 0 Offset Dec: 312723
+       Name = "ï"  ' GuiOpcode: 0 Offset Dec: 312731
+       Name = "ä"  ' GuiOpcode: 0 Offset Dec: 312739
+       Name = "í"  ' GuiOpcode: 0 Offset Dec: 312747
+       Name = "ë"  ' GuiOpcode: 0 Offset Dec: 312755
+       Name = "á"  ' GuiOpcode: 0 Offset Dec: 312763
+       Name = "Ô"  ' GuiOpcode: 0 Offset Dec: 312771
+       Name = "Í"  ' GuiOpcode: 0 Offset Dec: 312779
+       Name = "à"  ' GuiOpcode: 0 Offset Dec: 312787
+       Name = "á"  ' GuiOpcode: 0 Offset Dec: 312795
+       Name = "Ù"  ' GuiOpcode: 0 Offset Dec: 312803
+       Name = "Ñ"  ' GuiOpcode: 0 Offset Dec: 312811
+       Name = "Ê"  ' GuiOpcode: 0 Offset Dec: 312819
+       Name = "Ç"  ' GuiOpcode: 0 Offset Dec: 312827
+       Name = "Á"  ' GuiOpcode: 0 Offset Dec: 312835
+       Name = "µ"  ' GuiOpcode: 0 Offset Dec: 312843
+       Name = "±"  ' GuiOpcode: 0 Offset Dec: 312851
+       Name = "¦"  ' GuiOpcode: 0 Offset Dec: 312859
+       Name = "°"  ' GuiOpcode: 0 Offset Dec: 312867
+       Name = "¬"  ' GuiOpcode: 0 Offset Dec: 312875
+       Name = "¨"  ' GuiOpcode: 0 Offset Dec: 312883
+       Name = "¨"  ' GuiOpcode: 0 Offset Dec: 312891
+       Name = "Ÿ"  ' GuiOpcode: 0 Offset Dec: 312899
+       Name = "¼"  ' GuiOpcode: 0 Offset Dec: 312907
+       Name = "±"  ' GuiOpcode: 0 Offset Dec: 312915
+       Name = "±"  ' GuiOpcode: 0 Offset Dec: 312923
+       Name = "©"  ' GuiOpcode: 0 Offset Dec: 312931
+       Name = "µ"  ' GuiOpcode: 0 Offset Dec: 312939
+       Name = "¶"  ' GuiOpcode: 0 Offset Dec: 312947
+       Name = "¢"  ' GuiOpcode: 0 Offset Dec: 312955
+       Name = " "  ' GuiOpcode: 0 Offset Dec: 312963
+       Name = "É"  ' GuiOpcode: 0 Offset Dec: 312971
+       Name = "Á"  ' GuiOpcode: 0 Offset Dec: 312979
+       Name = "¸"  ' GuiOpcode: 0 Offset Dec: 312987
+       Name = "º"  ' GuiOpcode: 0 Offset Dec: 312995
+       Name = "´"  ' GuiOpcode: 0 Offset Dec: 313003
+       Name = "¬"  ' GuiOpcode: 0 Offset Dec: 313011
+       Name = "ª"  ' GuiOpcode: 0 Offset Dec: 313019
+       Name = "©"  ' GuiOpcode: 0 Offset Dec: 313027
+       Name = "£"  ' GuiOpcode: 0 Offset Dec: 313035
+       Name = "œ"  ' GuiOpcode: 0 Offset Dec: 313043
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313051
+       Name = "£"  ' GuiOpcode: 0 Offset Dec: 313059
+       Name = "v"  ' GuiOpcode: 0 Offset Dec: 313067
+       Name = "g"  ' GuiOpcode: 0 Offset Dec: 313075
+       Name = "W"  ' GuiOpcode: 0 Offset Dec: 313083
+       Name = "T"  ' GuiOpcode: 0 Offset Dec: 313091
+       Name = "M"  ' GuiOpcode: 0 Offset Dec: 313099
+       Name = "H"  ' GuiOpcode: 0 Offset Dec: 313107
+       PaletteMode = 67  ' GuiOpcode: 73 Offset Dec: 313113
+       Name = "|"  ' GuiOpcode: 0 Offset Dec: 313115
+       Name = "{"  ' GuiOpcode: 0 Offset Dec: 313123
+       Name = "q"  ' GuiOpcode: 0 Offset Dec: 313131
+       Name = "h"  ' GuiOpcode: 0 Offset Dec: 313139
+       Name = "D"  ' GuiOpcode: 0 Offset Dec: 313147
+       StartUpPosition = 71  ' GuiOpcode: 70 Offset Dec: 313152
+       Name = "^"  ' GuiOpcode: 0 Offset Dec: 313155
+       Name = "P"  ' GuiOpcode: 0 Offset Dec: 313163
+       Appearance = 62  ' GuiOpcode: 65 Offset Dec: 313169
+       Name = "="  ' GuiOpcode: 0 Offset Dec: 313171
+       Name = "5"  ' GuiOpcode: 0 Offset Dec: 313179
+       Tag = "=8"  ' GuiOpcode: 47 Offset Dec: 313186
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 313193
+       Name = ">"  ' GuiOpcode: 0 Offset Dec: 313195
+       HelpContextID = 808190053  ' GuiOpcode: 51 Offset Dec: 313201
+       Name = "d"  ' GuiOpcode: 0 Offset Dec: 313207
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 313212
+       Name = "]"  ' GuiOpcode: 0 Offset Dec: 313215
+       Name = ">"  ' GuiOpcode: 0 Offset Dec: 313223
+       Name = "-"  ' GuiOpcode: 0 Offset Dec: 313231
+       LinkTopic = ""  ' GuiOpcode: 36 Offset Dec: 313236
+       Name = "$"  ' GuiOpcode: 0 Offset Dec: 313243
+       Picture="SO.frx":3F173825  ' GuiOpcode: 33 Offset Dec: 313248
+       CurrentY = 6,622721E-24  ' GuiOpcode: 20 Offset Dec: 313260
+       DrawStyle = 50  ' GuiOpcode: 27 Offset Dec: 313265
+       ScaleTop = 1,03562E-25  ' GuiOpcode: 22 Offset Dec: 313268
+       ScaleWidth = 5,095457E-22  ' GuiOpcode: 23 Offset Dec: 313273
+       Name = "%"  ' GuiOpcode: 0 Offset Dec: 313279
+       ScaleWidth = 4,043787E-28  ' GuiOpcode: 23 Offset Dec: 313284
+       CurrentX = 2,800467E-29  ' GuiOpcode: 19 Offset Dec: 313289
+       Picture="SO.frx":5D176B46  ' GuiOpcode: 33 Offset Dec: 313294
+       FillStyle = 4864  ' GuiOpcode: 29 Offset Dec: 313306
+       CurrentY = 4,423629E-34  ' GuiOpcode: 20 Offset Dec: 313309
+       CurrentX = 3,219883E-20  ' GuiOpcode: 19 Offset Dec: 313314
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313319
+       FontSize = 6,316682E-30  ' GuiOpcode: 13 Offset Dec: 313324
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 313329
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313331
+       ForeColor = 218106899  ' GuiOpcode: 4 Offset Dec: 313336
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 313341
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313343
+       Caption = ""  ' GuiOpcode: 1 Offset Dec: 313348
+       Left = 6,166181E-33  ' GuiOpcode: 5 Offset Dec: 313352
+       MousePointer = 13  ' GuiOpcode: 11 Offset Dec: 313357
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313359
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 313364
+       Width = 4,222361E-31  ' GuiOpcode: 7 Offset Dec: 313366
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313371
+       BackColor = 2565  ' GuiOpcode: 3 Offset Dec: 313376
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313381
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313385
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313389
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313393
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313397
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313401
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313405
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313409
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313413
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313417
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313421
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313425
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313429
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313433
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313437
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313441
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313445
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313449
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313453
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313457
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313461
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313465
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313469
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313473
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313477
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313481
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313485
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313489
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313493
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313497
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313501
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313505
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313509
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313513
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313517
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313521
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313525
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313529
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313533
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313537
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313541
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313545
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313549
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313553
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313557
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313561
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313565
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313569
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313573
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313577
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313581
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313585
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313589
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313593
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313597
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313601
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313605
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313609
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313613
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313617
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313621
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313625
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313629
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313633
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313637
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313641
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313645
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313649
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313653
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313657
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313661
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313665
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313669
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313673
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313677
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313681
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313685
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313689
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313693
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313697
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313701
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313705
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313709
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313713
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313717
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313721
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313725
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 313729
+       Name = "ÿÿÿ"  ' GuiOpcode: 0 Offset Dec: 313733
+       FontSize = 9,363757E-41  ' GuiOpcode: 13 Offset Dec: 313781
+       Name = "¥¥¥iiişşşşşşşşşşşş¥¥"  ' GuiOpcode: 0 Offset Dec: 313786
+       Name = "	06¥¥iiişşşşşşşşş¥30"  ' GuiOpcode: 0 Offset Dec: 313818
+       Name = "06??¥iiişşşşşşş¥540"  ' GuiOpcode: 0 Offset Dec: 313850
+       Name = "05???¥iiişşşşş¥9510£££ ¥¥¥¥05????¥iiişşş¥?7510¥¥¥?????¥iişşş£<75
+AAG¥¥???¥iiişş¥76Ÿ"  ' GuiOpcode: 0 Offset Dec: 313882
+       Name = "œ˜˜œš£ £ABGJJ¥??¥iiişş£<"  ' GuiOpcode: 0 Offset Dec: 314001
+       Name = "66666<<<<<¥¥¥JJM¥?¥iiişş"  ' GuiOpcode: 0 Offset Dec: 314032
+       Name = "((%%%%())--////¥JMM¥¥iiişş"  ' GuiOpcode: 0 Offset Dec: 314063
+       Name = "N "#$++.....¥MMR¥iiişş“"  ' GuiOpcode: 0 Offset Dec: 314094
+       Name = "N"*++++..8w¥PR¥iişşş"  ' GuiOpcode: 0 Offset Dec: 314126
+       Name = "NN!!#$$++,8uw¥MR¥iişşşŸ"  ' GuiOpcode: 0 Offset Dec: 314158
+       Name = "''N888888888\stv˜LPšişşşş"  ' GuiOpcode: 0 Offset Dec: 314190
+       Name = "''':==TXZ[_bclrKMO¢şşşşşş"  ' GuiOpcode: 0 Offset Dec: 314222
+       Name = "''':==TWY[_`aq¡JMP¥şşşşşşşş"  ' GuiOpcode: 0 Offset Dec: 314255
+       Name = "mV':=>UXY[]^•kJJM¥şşşşşşşşşş“"  ' GuiOpcode: 0 Offset Dec: 314288
+       Name = "f{y}}…ŠkkRFHIiişşşşşşşşşşŒ"  ' GuiOpcode: 0 Offset Dec: 314321
+       Name = "
+@AB‘›Q¤iişşşşşşşşşşşŒ‰‰@˜˜GRR—iişşşşşşşşşşşşş“˜˜˜˜"  ' GuiOpcode: 0 Offset Dec: 314355
+       DrawStyle = 21069  ' GuiOpcode: 27 Offset Dec: 314434
+       DrawStyle = 8  ' GuiOpcode: 27 Offset Dec: 314464
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 314467
+       Width = 9,07579E-41  ' GuiOpcode: 7 Offset Dec: 314766
+       Name = "à"  ' GuiOpcode: 0 Offset Dec: 314773
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314778
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314782
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314786
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314802
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314810
+       Name = "€?À"  ' GuiOpcode: 0 Offset Dec: 314818
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314834
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314838
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 314842
+       Name = "€"  ' GuiOpcode: 0 Offset Dec: 314846
+       Width = 1,322431E-36  ' GuiOpcode: 7 Offset Dec: 314851
+       Caption = "ø"  ' GuiOpcode: 1 Offset Dec: 314859
+       Name = "ş"  ' GuiOpcode: 0 Offset Dec: 314867
+       Name = "ÿ€ÿÿÿÀÿÿÿáÿÿÿÿ$"  ' GuiOpcode: 0 Offset Dec: 314875
+       StartUpPosition = 111  ' GuiOpcode: 70 Offset Dec: 314895
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 314899
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 314901
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 314903
+       ClientLeft = 45
+       ClientTop = 600
+       ClientWidth = 11340
+       ClientHeight = 7185
+       Appearance = 0  ' GuiOpcode: 65 Offset Dec: 314922
+       StartUpPosition = 1  ' GuiOpcode: 70 Offset Dec: 314924
+       'Object Offset: 314927
+       Begin roof.isButton Command2 'Length:747
+       End
+       'Object Offset: 315675
+       Begin roof.isButton Command1 'Length:751
+       End
+       'Object Offset: 316427
+       Begin roof.isButton Command6 'Length:751
+       End
+       'Object Offset: 317179
+       Begin roof.isButton Check1 'Length:817
+       End
+       'Object Offset: 317997
+       Begin MSComctlLib.StatusBar StatusBar1 'Length:263
+       End
+       'Object Offset: 318261
+       Begin VB.TextBox Text2
+              BackColor = 16777215  ' GuiOpcode: 2 Offset Dec: 318276
+              Left = 120
+              Top = 6360
+              Height = 285
+              Width = 5535
+              TabIndex = 8  ' GuiOpcode: 18 Offset Dec: 318290
+       End
+       'Object Offset: 318294
+       Begin MSComctlLib.ListView ListView1 'Length:489
+       End
+       'Object Offset: 318784
+       Begin Frame.FrameHide FrameHide1 'Length:351
+              'Object Offset: 319136
+              Begin VB.CommandButton Command4
+                     Left = 480
+                     Top = 240
+                     Height = 255
+                     Width = 255
+                     TabIndex = 6  ' GuiOpcode: 17 Offset Dec: 319163
+                     Picture="SO.frx":7E2E704A  ' GuiOpcode: 34 Offset Dec: 319166
+                     Style = 1  ' GuiOpcode: 41 Offset Dec: 319753
+              End
+              'Object Offset: 319756
+              Begin VB.CommandButton Command3
+                     Left = 120
+                     Top = 240
+                     Height = 255
+                     Width = 255
+                     TabIndex = 5  ' GuiOpcode: 17 Offset Dec: 319783
+                     Picture="SO.frx":7E2E7294  ' GuiOpcode: 34 Offset Dec: 319786
+                     Style = 1  ' GuiOpcode: 41 Offset Dec: 320373
+              End
+              'Object Offset: 320376
+              Begin MSComctlLib.TreeView TreeView1 'Length:193
+              End
+       End
+       'Object Offset: 320571
+       Begin Frame.FrameHide FrameHide2 'Length:323
+              'Object Offset: 320895
+              Begin VB.PictureBox ShowMP
+                     BackColor = 14745339  ' GuiOpcode: 1 Offset Dec: 320911
+                     Left = 120
+                     Top = 240
+                     Height = 3015
+                     Width = 3495
+                     TabIndex = 3  ' GuiOpcode: 18 Offset Dec: 320925
+                     ScaleMode = 1  ' GuiOpcode: 26 Offset Dec: 320928
+              End
+              'Object Offset: 258721
+Begin VB.Form main
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 258735
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 258738
+       Icon="main.frx":0000  ' GuiOpcode: 35 Offset Dec: 258740
+       LinkTopic = "Form1"  ' GuiOpcode: 36 Offset Dec: 259519
+       ClientLeft = 60
+       ClientTop = 330
+       ClientWidth = 5115
+       ClientHeight = 4245
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 259545
+       StartUpPosition = 3  ' GuiOpcode: 70 Offset Dec: 259547
+       'Object Offset: 259550
+       Begin VB.Frame mainpfrm
+              Left = 0
+              Top = 0
+              Height = 4215
+              Width = 5055
+              TabIndex = 0  ' GuiOpcode: 18 Offset Dec: 259577
+              Caption = ""  ' GuiOpcode: 1 Offset Dec: 259581
+              Caption = ""  ' GuiOpcode: 1 Offset Dec: 259586
+              FontSize = 6,885923E+11  ' GuiOpcode: 13 Offset Dec: 259591
+              ToolTipText = "rifÿ}"  ' GuiOpcode: 32 Offset Dec: 259599
+       End
+       'Object Offset: 271245
+Begin VB.Form newproject
+       Caption = "New project"  ' GuiOpcode: 1 Offset Dec: 271265
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 271280
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 271283
+       BorderStyle = 1  ' GuiOpcode: 34 Offset Dec: 271285
+       Icon="newproject.frx":0000  ' GuiOpcode: 35 Offset Dec: 271287
+       LinkTopic = "Form1"  ' GuiOpcode: 36 Offset Dec: 272066
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 272075
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 272077
+       ClientLeft = 45
+       ClientTop = 315
+       ClientWidth = 6345
+       ClientHeight = 5205
+       StartUpPosition = 1  ' GuiOpcode: 70 Offset Dec: 272096
+       'Object Offset: 272099
+       Begin MSComctlLib.ImageList ImageList1 'Length:949
+       End
+       'Object Offset: 273049
+       Begin MSComctlLib.ListView ListView1 'Length:577
+       End
+       'Object Offset: 273627
+       Begin MSComctlLib.TabStrip TabStrip1 'Length:205
+       End
+       'Object Offset: 273833
+       Begin VB.CommandButton Command3
+              Caption = "Exit"  ' GuiOpcode: 1 Offset Dec: 273851
+              Left = 4560
+              Top = 4560
+              Height = 495
+              Width = 1575
+              TabIndex = 1  ' GuiOpcode: 17 Offset Dec: 273868
+       End
+       'Object Offset: 273872
+       Begin VB.CommandButton Command2
+              Caption = "Create"  ' GuiOpcode: 1 Offset Dec: 273890
+              Left = 4560
+              Top = 3960
+              Height = 495
+              Width = 1575
+              TabIndex = 0  ' GuiOpcode: 17 Offset Dec: 273909
+              Style = 1  ' GuiOpcode: 41 Offset Dec: 273912
+       End
+       'Object Offset: 273915
+       Begin VB.Label Label1
+              Left = 120
+              Top = 3960
+              Height = 1095
+              Width = 4215
+              TabIndex = 5  ' GuiOpcode: 18 Offset Dec: 273940
+              BorderStyle = 1  ' GuiOpcode: 19 Offset Dec: 273943
+       End
+       'Object Offset: 273946
+       Begin VB.Label Label3
+              BackColor = 8421504  ' GuiOpcode: 3 Offset Dec: 273962
+              ForeColor = 16777215  ' GuiOpcode: 4 Offset Dec: 273967
+              Left = 0
+              Top = 0
+              Height = 495
+              Width = 6375
+              TabIndex = 2  ' GuiOpcode: 18 Offset Dec: 273981
+              Alignment = 2  ' GuiOpcode: 20 Offset Dec: 273984
+                     BeginProperty Font
+                            Name = "MS Sans Serif"
+                            Size = 18
+                            Charset = 204
+                            Weight = 700
+                            Italic = 0
+                            Underline = 0
+                            Strikethrough = 0
+                     EndProperty
+       End
+End
+'Object Offset: 413629
+Begin VB.Form splash
+       ScaleMode = 1  ' GuiOpcode: 25 Offset Dec: 413645
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413649
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413654
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413658
+       Name = "ÿà"  ' GuiOpcode: 0 Offset Dec: 413662
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 413668
+       StartUpPosition = 73  ' GuiOpcode: 70 Offset Dec: 413670
+       StartUpPosition = 0  ' GuiOpcode: 70 Offset Dec: 413672
+       Caption = "d"  ' GuiOpcode: 1 Offset Dec: 413674
+       Name = "ì"  ' GuiOpcode: 0 Offset Dec: 413681
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 413686
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413692
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413697
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413701
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 413705
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413711
+       Name = "ÿÛ"  ' GuiOpcode: 0 Offset Dec: 413715
+       Name = "		
+
+					ÿÀ"  ' GuiOpcode: 0 Offset Dec: 413722
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 413855
+       Caption = "0"  ' GuiOpcode: 1 Offset Dec: 413857
+       hWnd = 285409553  ' GuiOpcode: 2 Offset Dec: 413865
+       Caption = ""  ' GuiOpcode: 1 Offset Dec: 413870
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413875
+       hWnd = 16843522  ' GuiOpcode: 2 Offset Dec: 413879
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413884
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413888
+       Name = "	
+"  ' GuiOpcode: 0 Offset Dec: 413892
+       hWnd = 65795  ' GuiOpcode: 2 Offset Dec: 413907
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413912
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413916
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 413920
+       Caption = "	
+"  ' GuiOpcode: 1 Offset Dec: 413931
+       Caption = "!1AQaq"Ô–W‘¡2ğ±ÁBRb¢#Ñr‚3	áñ’Cs³$²c“£Ó4T´Ä%u'ÒSd5EµVfvÂƒ”¤e•Å7G(8"  ' GuiOpcode: 1 Offset Dec: 413946
+       hWnd = 67371265  ' GuiOpcode: 2 Offset Dec: 414031
+       WindowState = 8  ' GuiOpcode: 10 Offset Dec: 414036
+       BackColor = 84017927  ' GuiOpcode: 3 Offset Dec: 414038
+       Left = 2,350989E-38  ' GuiOpcode: 5 Offset Dec: 414043
+       hWnd = 51519761  ' GuiOpcode: 2 Offset Dec: 414048
+       ForeColor = 97599793  ' GuiOpcode: 4 Offset Dec: 414053
+       CurrentY = -8,81708E-38  ' GuiOpcode: 20 Offset Dec: 414065
+       BorderStyle = 50  ' GuiOpcode: 34 Offset Dec: 414072
+       CurrentX = -6,707097E+29  ' GuiOpcode: 19 Offset Dec: 414075
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 414080
+       HelpContextID = 1126416949  ' GuiOpcode: 51 Offset Dec: 414084
+       LinkMode = -7470  ' GuiOpcode: 37 Offset Dec: 414090
+       LinkTopic = "T&ÿÚ"  ' GuiOpcode: 36 Offset Dec: 414094
+       FontName = ""  ' GuiOpcode: 12 Offset Dec: 414104
+       hWnd = 1114897  ' GuiOpcode: 2 Offset Dec: 414108
+       Name = "'xÛQJn<èóò²®”ZÓ³g´ªA9…/nÂP‰Ùg¨©"•wnÍÈš€êl¦êĞï(š‰Í]¤îóWùU"uµ”;€Ø;;B…\BµÚNÑäşçãA§O§§)j6úD×q¥<èZq`(6wù»U"s"  ' GuiOpcode: 0 Offset Dec: 414114
+       Name = ":ÁÌxº½Õâ‚¬ Ğówlî¯b2ÅQÔâH¯mÁZıHGÎRFãJÄ+T°œÕ Ø{¼„­hŠi]Â»R…Rt'56n'fÏï¡4*
+Ô»˜»
+VµÄ·y¨¿O‘Ûh
+ú#we©êZ‹ÍÇïË±W¤î¦Ï.óåB;Ç™¦‡º€›üŠ’Í#˜:§èôÜƒM¥­IâÒ+U¥ŠîÙ^ÁÇ¹œ6ñ­iµ’ ©<NÎ4ÛO5QñœA­FÊö"¦
+ÛAûhvÓyÜ¡šv!£ğŞ-ZŠ×lá·k¼èÄt¼wmßÜ©8Ç8ßÛ¿ò©@ÚÒZíÙZ‘çB9À÷ñ#wy!'RWnÓZpª’–œ‹÷ïòvşQHsïâ	ş”¡æ¡ úöğBÙZ1Ì
+>D&‚5Õ¨¯£$]l(<wršı(TšõK©ö·²œ>µL_Ã¤¼ûÆİ£€R†W€vêî®Âj8“¸€ÜFß­Tc.#Ÿ5	àåõ²sQßÙ_©	ÃûIÍ·š£fÂ
+*EÂ^rh)Ì)SıÅ(/>Rsn¥{)Ä Eo;iDeûHï=ÜR„NÒ—(=IÛD2vØ¬8sR»"  ' GuiOpcode: 0 Offset Dec: 414232
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 414717
+       FillStyle = 17033  ' GuiOpcode: 29 Offset Dec: 414722
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 414741
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 414745
+       CurrentX = 7,272041E-36  ' GuiOpcode: 19 Offset Dec: 414748
+       OLEDropMode = 10097  ' GuiOpcode: 71 Offset Dec: 414755
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 414760
+       ForeColor = -554733353  ' GuiOpcode: 4 Offset Dec: 414769
+       MousePointer = 187  ' GuiOpcode: 11 Offset Dec: 414777
+       Name = "Š‘òT¼Çí¼v([u}›w´+BYKE|§…GÕÅC-<>°]Zo}Ğ”#u'1;ˆ«İôªbêÙyª#vİ½¿G(eZÚÏ5ÏJ£wåV„­4ZNm»©*ë  ÓonãTEæ¯ã úT2­IÍ¼‘¸yw!8[ğÛŞP4Zì§fñ_È†OAÄ;e)¿LŠ‹<€lüª:ĞœÆ›éN;P–ĞWp;6 »ÂZŠíÛMıß…Ë”WfıûÈúP%a+C·²T1§	K©^èÔ+°œÂœ+°¡^`)²¿İM¥äN`8ïà{ø¡+Bóp*@'êC*TqßNÎğğ“š»*¢‚|¾TzzzÀ}k¶µÜP"×` í¯2¥–ƒiáZw¡+e¬TÇo"  ' GuiOpcode: 0 Offset Dec: 414779
+       ScaleWidth = 1,888802E-34  ' GuiOpcode: 23 Offset Dec: 415092
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 415097
+       LinkMode = 21580  ' GuiOpcode: 37 Offset Dec: 415107
+              BeginProperty Font
+                     Name = " m¯®“]g*â›GlP´ZQ	±R4€_¸yÂ†MêÄvoáıô%ÀTí m@¨÷ jòG•zI¨¨úPÉªªĞ€÷‘³`ÙäB$€;wŸ?Ô„T\¬…İâ¢ HúAÕáÀîÑ9¶l;Hâ„z4Šñ;êÄÖøG5(kJî%¬-Ex÷Ú†I*œyÙxùPÇˆ¼ÕØ)ÙD.›	Ï¼	B^Ò™;E÷*Õí(4AäïPªÀ <j*„M%F+»”åAÈ¶4<;ÑBáJíî‡b¤tÒ"
+                     Size = 89012,4861
+                     Charset = 187
+                     Weight = 15741
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       FontSize = -1,008701E+34  ' GuiOpcode: 13 Offset Dec: 415366
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 415371
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 415373
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 415376
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 415382
+       ScaleWidth = -3,27954E-22  ' GuiOpcode: 23 Offset Dec: 415386
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 415393
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 415399
+       DrawMode = 30406  ' GuiOpcode: 31 Offset Dec: 415405
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 415408
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 415410
+       BackColor = -740655461  ' GuiOpcode: 3 Offset Dec: 415412
+       DrawWidth = -8690  ' GuiOpcode: 28 Offset Dec: 415422
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 415426
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 415430
+       ScaleLeft = 1,921929E-28  ' GuiOpcode: 21 Offset Dec: 415436
+              BeginProperty Font
+                     Name = "®Ê×™¬9s
+o¡PË§ÓÓñ%8{ëøUR.9©SJyûªËG=	¦ıá(+F9öVœh>"
+                     Size = -73810,5259
+                     Charset = 236
+                     Weight = 4434
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       Image="splash.frx":0000  ' GuiOpcode: 41 Offset Dec: 415507
+       Picture="splash.frx":CFC1D646  ' GuiOpcode: 33 Offset Dec: 415523
+       FillColor = -488617457  ' GuiOpcode: 30 Offset Dec: 415537
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 415545
+       FontSize = -2,551706E-03  ' GuiOpcode: 13 Offset Dec: 415547
+       FontSize = 6,365073E+24  ' GuiOpcode: 13 Offset Dec: 415556
+       ScaleMode = -15204  ' GuiOpcode: 25 Offset Dec: 415566
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 415569
+       CurrentX = 4,650723E-22  ' GuiOpcode: 19 Offset Dec: 415581
+       Count = -11959  ' GuiOpcode: 57 Offset Dec: 415587
+       DrawMode = 30198  ' GuiOpcode: 31 Offset Dec: 415597
+       hDC = -1887823418  ' GuiOpcode: 18 Offset Dec: 415601
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 415614
+       BackColor = -1354196341  ' GuiOpcode: 3 Offset Dec: 415618
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 415623
+       BorderStyle = 240  ' GuiOpcode: 34 Offset Dec: 415625
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 415630
+       Top = -2,405721E+38  ' GuiOpcode: 6 Offset Dec: 415657
+       Name = "Æ\è?ÓLGÿ"  ' GuiOpcode: 0 Offset Dec: 415662
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 415689
+       Icon="splash.frx":D7F6A50  ' GuiOpcode: 35 Offset Dec: 415697
+       DrawMode = 12575  ' GuiOpcode: 31 Offset Dec: 415712
+       MousePointer = 107  ' GuiOpcode: 11 Offset Dec: 415717
+       Left = 6,679124E-08  ' GuiOpcode: 5 Offset Dec: 415722
+       ScaleMode = 19440  ' GuiOpcode: 25 Offset Dec: 415733
+       Icon="splash.frx":6FD001B7  ' GuiOpcode: 35 Offset Dec: 415737
+       DrawMode = 29964  ' GuiOpcode: 31 Offset Dec: 415752
+       WindowState = 242  ' GuiOpcode: 10 Offset Dec: 415759
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 415765
+       HelpContextID = 1421382856  ' GuiOpcode: 51 Offset Dec: 415769
+              BeginProperty Font
+                     Name = "q;»Q!'[Yyë³aì#ê@İlÔ@âk¿nÂ;*²óq.ì<	J
+Û"
+                     Size = 89713,0981
+                     Charset = 195
+                     Weight = -30047
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 415843
+       FillColor = 1782286225  ' GuiOpcode: 30 Offset Dec: 415852
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 415860
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 415900
+       ScaleWidth = -4,804073E+30  ' GuiOpcode: 23 Offset Dec: 415914
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 415937
+       Appearance = 171  ' GuiOpcode: 65 Offset Dec: 415941
+       LinkTopic = "Ô32?ì	ekØ@>"›Weåï2­ë)Aáİ”UtÕ5Ì­:4ùEîˆG8—£)]µQ«+«JÓÁ¨ü ]Â£rõ­uX{¯¡½Ô½uÔwøı®&Ûi÷¼¶Vğ<ÇÄlkXÀ\ç¸ƒ` ;WM¾·ÖëÂSšm·D—¦ƒĞy{ËØ»ãP„”ck|ÊÎ´ıaÿ"  ' GuiOpcode: 36 Offset Dec: 415951
+       ScaleMode = 255  ' GuiOpcode: 25 Offset Dec: 416114
+       Name = "c.u°õÿ"  ' GuiOpcode: 0 Offset Dec: 416121
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 416133
+       ScaleWidth = 1,877159E-09  ' GuiOpcode: 23 Offset Dec: 416139
+       DrawWidth = 30223  ' GuiOpcode: 28 Offset Dec: 416150
+       FillColor = -427628728  ' GuiOpcode: 30 Offset Dec: 416159
+       Top = -6,264701E-02  ' GuiOpcode: 6 Offset Dec: 416164
+       ScaleTop = 7,703112E+09  ' GuiOpcode: 22 Offset Dec: 416180
+       Name = "Ô]Üx·Ç½ìüKÔ.êş—j;+¬ñNÅeàh’3Q$3Àê†Íô^ÃB*7PƒBÇ!¼03ØKUµ>ÆxMçº³;·ícÆ’áÒšá\^ÓG$ï›iÙŞ¹§[G¦¥æ4­wpBÕœyÎãÀSèÛÁjõşù~è6W¯z—-…°ÎC§1ø+6İe2³Bn\ŞwòGp‡ÇÌ\jv½ "  ' GuiOpcode: 0 Offset Dec: 416188
+       DrawStyle = 2731  ' GuiOpcode: 27 Offset Dec: 416357
+       HelpContextID = 976842644  ' GuiOpcode: 51 Offset Dec: 416360
+       LinkMode = 29274  ' GuiOpcode: 37 Offset Dec: 416365
+       FillColor = 1551813531  ' GuiOpcode: 30 Offset Dec: 416370
+       MousePointer = 165  ' GuiOpcode: 11 Offset Dec: 416394
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 416405
+       MousePointer = 230  ' GuiOpcode: 11 Offset Dec: 416418
+       DrawStyle = 4051  ' GuiOpcode: 27 Offset Dec: 416436
+       DrawStyle = 23147  ' GuiOpcode: 27 Offset Dec: 416445
+       DrawWidth = -6851  ' GuiOpcode: 28 Offset Dec: 416451
+       LinkTopic = "z”ãZmÓ ÷ÌÊ~G¡zGOêÖêÈõ5µõÜxÜÌMµû±·º–'ÊÓ2ÈdŒøo!§vÍ»:mÃæ˜ïLia\ºÒª¶µU¥¶*;QßùÉÏtåáKö¥+)FÓuV»,å? s´=†´áEëÈËÍ»nÊm;ëD/§§¥‡ì.Š|¤åºÃÓ<Ö¿ƒUÅ…	®m´î!ÖÆau%«œf—Äg†×9Ü£\xÅä·Ïš¡»óqÀp¼¬ru¥+Áe¼'¸ÜL–óÉ<ÃÄºİnªV´áÑ®Ïiøó»éZı5^´ğ•¯"  ' GuiOpcode: 36 Offset Dec: 416463
+       Tag = "íÛ¼¡[ö“š´#·±Nş;ªB
+¹¾Äö¡z*(jÚïíü*„IW‹Ói	ãMœ‰R8ózz1ÏôÖ»P&Rò)·qİB…nŞ5áBæTj-{«_9
+TÊ…'fÑ]›øV¨V¬µÄ­â{?PÆõA5;HâP:»}=äçˆTšJ\­)E
+İIÌ)Ä
+ÔìüHK)Ä^c@6"  ' GuiOpcode: 47 Offset Dec: 416691
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 416856
+       Tag = "w ~Âs¼ìâP–2×m*!ZZ9ª8~.P®Õ`.­{vS¿r
+×I³ÓZ†ù­’Ûra¥|g·ÃŒßNVıkDóXPÓ%_Nƒ»3X¶ÇTã±sÊ'pé˜m?ó¶ ÅãÅyd‰’›¹›ıv¼}$-}íËäŒŸ±{MŞ?îâÂ<ô—ª+ŞÀÁéó»ÊõÙ°µ–;vN1í4ïÛáÄrÒK[W8()Ä…ƒÍb^Qºªÿ"  ' GuiOpcode: 47 Offset Dec: 416859
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 417049
+       OLEDropMode = 13429  ' GuiOpcode: 71 Offset Dec: 417059
+       Tag = "KF—ÁÊtï4ä­¶~Ouwæ–êÙ¤Kÿ"  ' GuiOpcode: 47 Offset Dec: 417064
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 417096
+       FillColor = -665060371  ' GuiOpcode: 30 Offset Dec: 417099
+       StartUpPosition = 63  ' GuiOpcode: 70 Offset Dec: 417120
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 417123
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 417127
+       ClientLeft = -608
+       ClientTop = 670
+       ClientWidth = -8466
+       ClientHeight = 7001
+       WindowState = 32  ' GuiOpcode: 10 Offset Dec: 417156
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 417178
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 417185
+       ScaleWidth = 2,79991E-06  ' GuiOpcode: 23 Offset Dec: 417187
+       ClientLeft = -26817
+       ClientTop = 11587
+       ClientWidth = 3823
+       ClientHeight = -543
+       BackColor = -140888344  ' GuiOpcode: 3 Offset Dec: 417229
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 417244
+       Count = -4617  ' GuiOpcode: 57 Offset Dec: 417253
+       FillColor = 970068776  ' GuiOpcode: 30 Offset Dec: 417258
+       StartUpPosition = 221  ' GuiOpcode: 70 Offset Dec: 417266
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 417269
+       ScaleLeft = -2,950564E+16  ' GuiOpcode: 21 Offset Dec: 417272
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 417280
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 417287
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 417298
+       FontSize = 2,767152E+36  ' GuiOpcode: 13 Offset Dec: 417317
+       BorderStyle = 255  ' GuiOpcode: 34 Offset Dec: 417326
+       Name = "~Vz?(7â¸áÿ"  ' GuiOpcode: 0 Offset Dec: 417328
+       MousePointer = 89  ' GuiOpcode: 11 Offset Dec: 417349
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 417354
+       Tag = "ÎÉ^êX¬î®íyyŸ¬î¤,<íp§3|ËæŞNÈ`g3S†4T’…højªyãyæ7~N™y8Éâ%[4]“Ö´š¸Ï›˜\mÔW1õ&öï‘ÁÎ·¼·µ¸‰à~k›$'aÜiCŞ
+ú'•wlÕ\¯yó/:ohÉ?½^XÆ9QöOCeízçÑ,>KQcc‚ `jÁ£š6ºV¾	ŒaÛiÌ™]£fÚí_$Îá=ÙŸ”pİ¸r±òZ¿í™hï<„'‰1ajüÊÓùëeÌ÷ìÇYC%õÜ“{h-Úé+Ë¹ZÖ‚â\w"  ' GuiOpcode: 47 Offset Dec: 417356
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 417600
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 417613
+       Width = 3,302348E-25  ' GuiOpcode: 7 Offset Dec: 417625
+       FillStyle = 18462  ' GuiOpcode: 29 Offset Dec: 417631
+       LinkTopic = "Ä†Ó+{½Ë‡"  ' GuiOpcode: 36 Offset Dec: 417637
+       Appearance = 123  ' GuiOpcode: 65 Offset Dec: 417651
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 417654
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 417666
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 417669
+       OLEDropMode = -13395  ' GuiOpcode: 71 Offset Dec: 417675
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 417679
+       StartUpPosition = 243  ' GuiOpcode: 70 Offset Dec: 417682
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 417691
+       PaletteMode = 232  ' GuiOpcode: 73 Offset Dec: 417694
+       ScaleWidth = -1,364899E+17  ' GuiOpcode: 23 Offset Dec: 417706
+       DrawWidth = -25653  ' GuiOpcode: 28 Offset Dec: 417713
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 417743
+       HelpContextID = 16758203  ' GuiOpcode: 51 Offset Dec: 417751
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 417757
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 417767
+       DrawMode = -5086  ' GuiOpcode: 31 Offset Dec: 417774
+              BeginProperty Font
+                     Name = "~è5öy,¼ì±0í9OŠæ‘´83”ğ+Ïç¼ÏÊMÂs¬–•zµgª§ªİŞMŞYØ)¨]‹Ğäî×ÕkõÒÓÔ_–n³ô"
+                     Size = 53519,8907
+                     Charset = 170
+                     Weight = -26456
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       DrawMode = 28478  ' GuiOpcode: 31 Offset Dec: 417869
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 417874
+       OLEDropMode = 28539  ' GuiOpcode: 71 Offset Dec: 417883
+       MousePointer = 107  ' GuiOpcode: 11 Offset Dec: 417886
+       DrawStyle = 22911  ' GuiOpcode: 27 Offset Dec: 417893
+       FontSize = 2,437261E+38  ' GuiOpcode: 13 Offset Dec: 417897
+       Count = 10473  ' GuiOpcode: 57 Offset Dec: 417904
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 417955
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 417958
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 417967
+       FillColor = -962434185  ' GuiOpcode: 30 Offset Dec: 417988
+       ClientLeft = -4306
+       ClientTop = -25618
+       ClientWidth = 27634
+       ClientHeight = 5111
+       ScaleLeft = -1,592076E-05  ' GuiOpcode: 21 Offset Dec: 418040
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 418045
+       ScaleTop = 1,151762E+34  ' GuiOpcode: 22 Offset Dec: 418051
+       HelpContextID = -252546631  ' GuiOpcode: 51 Offset Dec: 418061
+       ScaleWidth = -3,630939E+16  ' GuiOpcode: 23 Offset Dec: 418068
+       hDC = 523586927  ' GuiOpcode: 18 Offset Dec: 418079
+       Count = -4439  ' GuiOpcode: 57 Offset Dec: 418087
+       PaletteMode = 81  ' GuiOpcode: 73 Offset Dec: 418096
+       BorderStyle = 142  ' GuiOpcode: 34 Offset Dec: 418131
+       FillStyle = -15605  ' GuiOpcode: 29 Offset Dec: 418135
+       DrawStyle = 18520  ' GuiOpcode: 27 Offset Dec: 418142
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 418164
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 418167
+       DrawWidth = -27165  ' GuiOpcode: 28 Offset Dec: 418174
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 418182
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 418188
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 418201
+       OLEDropMode = -1869  ' GuiOpcode: 71 Offset Dec: 418208
+       HelpContextID = -403968772  ' GuiOpcode: 51 Offset Dec: 418212
+       DrawMode = -15910  ' GuiOpcode: 31 Offset Dec: 418219
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 418224
+       Count = -479  ' GuiOpcode: 57 Offset Dec: 418231
+       BackColor = 878736044  ' GuiOpcode: 3 Offset Dec: 418241
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 418250
+       MousePointer = 99  ' GuiOpcode: 11 Offset Dec: 418252
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 418255
+       DrawMode = -29913  ' GuiOpcode: 31 Offset Dec: 418258
+       DrawStyle = 18957  ' GuiOpcode: 27 Offset Dec: 418279
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 418286
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 418307
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 418315
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 418333
+       ScaleMode = 17176  ' GuiOpcode: 25 Offset Dec: 418338
+       hWnd = 1886482433  ' GuiOpcode: 2 Offset Dec: 418347
+       BorderStyle = 187  ' GuiOpcode: 34 Offset Dec: 418352
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 418358
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 418360
+       PaletteMode = 227  ' GuiOpcode: 73 Offset Dec: 418363
+       StartUpPosition = 228  ' GuiOpcode: 70 Offset Dec: 418366
+       ScaleHeight = 1,984672E-23  ' GuiOpcode: 24 Offset Dec: 418384
+       PaletteMode = 171  ' GuiOpcode: 73 Offset Dec: 418391
+       DrawStyle = 29098  ' GuiOpcode: 27 Offset Dec: 418393
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 418401
+       Caption = "ŒnjÓ;.>ÚJwZÜÛI, ä5ğÇä¯zê<‹5˜Å‚ù\këM%ìlîRp`ò˜XæS¢äquö¤|ÿ"  ' GuiOpcode: 1 Offset Dec: 418407
+       StartUpPosition = 105  ' GuiOpcode: 70 Offset Dec: 418482
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 418486
+       OLEDropMode = 3017  ' GuiOpcode: 71 Offset Dec: 418488
+       Top = 7,464921E+33  ' GuiOpcode: 6 Offset Dec: 418504
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 418511
+       DrawWidth = -7848  ' GuiOpcode: 28 Offset Dec: 418519
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 418523
+       ScaleLeft = -1,382066E+34  ' GuiOpcode: 21 Offset Dec: 418526
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 418531
+       ForeColor = -1373441871  ' GuiOpcode: 4 Offset Dec: 418539
+       OLEDropMode = 23877  ' GuiOpcode: 71 Offset Dec: 418544
+       DrawWidth = 28073  ' GuiOpcode: 28 Offset Dec: 418547
+       Height = 7,433582E-34  ' GuiOpcode: 8 Offset Dec: 418567
+       DrawWidth = -20134  ' GuiOpcode: 28 Offset Dec: 418573
+       Count = 19411  ' GuiOpcode: 57 Offset Dec: 418583
+       ScaleWidth = -3,207798E-39  ' GuiOpcode: 23 Offset Dec: 418604
+       OLEDropMode = 27417  ' GuiOpcode: 71 Offset Dec: 418611
+       ForeColor = -278736123  ' GuiOpcode: 4 Offset Dec: 418618
+       ScaleTop = 2,086346E-10  ' GuiOpcode: 22 Offset Dec: 418625
+       FontName = "ç±²o9ü	7§âiiipi|/™ÿ"  ' GuiOpcode: 12 Offset Dec: 418639
+       StartUpPosition = 117  ' GuiOpcode: 70 Offset Dec: 418665
+       Count = 11961  ' GuiOpcode: 57 Offset Dec: 418679
+       DrawMode = 32185  ' GuiOpcode: 31 Offset Dec: 418683
+       ScaleWidth = -8,043087E-17  ' GuiOpcode: 23 Offset Dec: 418689
+       FillColor = -1761248924  ' GuiOpcode: 30 Offset Dec: 418703
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 418721
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 418723
+       Name = "ódÎ§ºWëÆêÜ`Ô.˜°“'Ş ğË<*Gáø|¼œ'-6-Ø]ßÃvş×Û•ŞgÃmk§ŒÑŠ³^5÷ıß»Üê”¦ªRœT>—ÿ"  ' GuiOpcode: 0 Offset Dec: 418744
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 418824
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 418841
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 418846
+       BackColor = -235119620  ' GuiOpcode: 3 Offset Dec: 418848
+       BorderStyle = 180  ' GuiOpcode: 34 Offset Dec: 418855
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 418861
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 418863
+       WindowState = 235  ' GuiOpcode: 10 Offset Dec: 418867
+       DrawWidth = 255  ' GuiOpcode: 28 Offset Dec: 418872
+       Top = 1,403097E-36  ' GuiOpcode: 6 Offset Dec: 418888
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 418904
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 418910
+       FillStyle = -26403  ' GuiOpcode: 29 Offset Dec: 418913
+       ScaleHeight = 5,668659E-25  ' GuiOpcode: 24 Offset Dec: 418917
+       Count = 15739  ' GuiOpcode: 57 Offset Dec: 418922
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 418929
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 418938
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 418944
+       FontName = "cï­ç¹"  ' GuiOpcode: 12 Offset Dec: 418946
+       Width = -1,853473E+09  ' GuiOpcode: 7 Offset Dec: 418958
+       ScaleWidth = 1,426856E-30  ' GuiOpcode: 23 Offset Dec: 418965
+       ScaleTop = -2,678456E+16  ' GuiOpcode: 22 Offset Dec: 419005
+       Tag = "âŞV–>9)cÚà ŠBğ^q’–òm:§ôIòL%ÕÉQ©N«ŞgÄpvö÷¯³Pø?Mh¿”N¼k|m¾jÃI66í‚[;ŒÍÌvN•k›‰˜4ƒ°–"  ' GuiOpcode: 47 Offset Dec: 419012
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 419120
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 419137
+       Appearance = 61  ' GuiOpcode: 65 Offset Dec: 419139
+       ScaleWidth = -1,571615E-11  ' GuiOpcode: 23 Offset Dec: 419141
+       PaletteMode = 249  ' GuiOpcode: 73 Offset Dec: 419150
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 419155
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 419163
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 419165
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 419192
+       DrawMode = -15279  ' GuiOpcode: 31 Offset Dec: 419203
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 419218
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 419221
+       Count = -13452  ' GuiOpcode: 57 Offset Dec: 419241
+       FontSize = -1,015536E-21  ' GuiOpcode: 13 Offset Dec: 419260
+       FillColor = -1202188705  ' GuiOpcode: 30 Offset Dec: 419266
+       ScaleWidth = 5,179601E-22  ' GuiOpcode: 23 Offset Dec: 419279
+       LinkMode = 18777  ' GuiOpcode: 37 Offset Dec: 419284
+       ScaleWidth = 6,036617E-05  ' GuiOpcode: 23 Offset Dec: 419297
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 419323
+       ScaleHeight = -5,621774E-23  ' GuiOpcode: 24 Offset Dec: 419326
+       Caption = "^ŸÌ¹åŞbı"S­x;üO'o<Ìr×SrUM?†‰ÛWfJ˜ş¨|¸uk¤8ø³:¿N³ø’6#œ°;«hä~Æ²RÃÍqØš;ªÙ»|Ã“Ş¹…?‹ª?W	§{yW;»!÷1`œ+óEÕ*è®ŠszÏEsn'hßO®ŸRî;OOqïÛÆª‘D9ÛÜß¬¢ÑMEæàwSyüŠì8‡ÃÎ•P¬)yßJ%l¥Û6ğ§ŸµJè·Óğ'>áJ«C“˜Ó`¢Pj/1Ùİ¿‚Yˆß¿½¬Ò9‰ÜNÍÈ4ëvO"âÌu…Íñl1:J›ùA¢Âx‡ÌÒ7àeqq¿·	K‘WÓaÿ"  ' GuiOpcode: 1 Offset Dec: 419333
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 419611
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 419619
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 419624
+       Width = 1,021468E-25  ' GuiOpcode: 7 Offset Dec: 419627
+       CurrentX = -33807,23  ' GuiOpcode: 19 Offset Dec: 419639
+       Name = "šItUœ>ã¥­5ö¤–ıí’Ûjò+Zl–àÄßù«ŠşX%ÊıÊ¥YL¤gŠåÅ¾™QSN®BÖ˜³æq÷Îi—9+§8,Vâ&ù‹ŠÆî,¾iÓ‘{İLÖ.WäÁ½Ç)tÆ4^Ó·¨ÔÓ0°ƒ¨ÇÙÇÛ¿÷¥¤‚;y–·‡_·ÊıÇ&üÌ£şÌTğE%ÏoI„ÉºŠK¬•ûï<1²²K¯¼=œÕå.Î ¨¢Û‘²*ªLu˜œ\±$ÚT±Ê÷½,V6ï1‘µÆÚg»+yÆ€\÷¸h.'±g‰%¹KB4eğŞ>,pã¥şÖıJŞC»©2V÷[c1n'„k Ç’(esˆ2Ü<ö¥vŞæò^J²ùŸrõm7ç3“PÃù!bãá“ã“öS€ÅY^Şã.#¼ÇŞKgu«g‰Å²£xía[¥‚¤¨ÕQÄÃÍK
+W£&ŸŸOc6væ0yÂ¨mF'"êŸÇÄ{nm[Fš’Itt?ªV‹¸˜_#ªà~ç´ç¬\¾kûÑ»/®+Oæ†‡­¶©ÈÎ†SÆÃïî¯ñsX2öñ­{9€«ê¼Ü¹9˜b:h|O§!ÁÍnì\§d ÿ"  ' GuiOpcode: 0 Offset Dec: 419646
+       DrawMode = -28221  ' GuiOpcode: 31 Offset Dec: 420133
+       DrawWidth = 8713  ' GuiOpcode: 28 Offset Dec: 420144
+       Name = "‹ÍQM§·±´œÔ§jD9ªkZ-ƒ˜Óc¶ÿ"  ' GuiOpcode: 0 Offset Dec: 420156
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 420187
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 420189
+       BackColor = -1252535112  ' GuiOpcode: 3 Offset Dec: 420208
+       LinkMode = -25428  ' GuiOpcode: 37 Offset Dec: 420214
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 420222
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 420224
+       FillStyle = 2725  ' GuiOpcode: 29 Offset Dec: 420234
+       DrawStyle = -16085  ' GuiOpcode: 27 Offset Dec: 420241
+       Top = 4,543776E-12  ' GuiOpcode: 6 Offset Dec: 420244
+       Name = "•
+í9è	úºO1ÿ"  ' GuiOpcode: 0 Offset Dec: 420251
+       Name = "ùŸô³íw[ú%€ë®›ÅéE–Èb-1Y6å!Ÿb:FÃ,!®ñ£rÒRv
+Õ|soŒM×‹,L8¦Ú¥µáOU8·oÍÉƒ½ğc…‹)$¥{á¥kFµ§e§ç_özt‚Òò;Œ¤Õ{xÈ&Á×°±äp{£¶§ó\zô¾|ÎÊ4Œ Ÿét<ÖéÖî„Ô¥,I.Õ=‘OÚvúãó?ÒŞ‘hÎt¿!e•ÔöÖÁá1˜—xÖ˜†6?Äšv’Îh†æ9ÅãÓ¦Ò°ÜŞ\ÍïÂÇÌ¦ İæåc–»Šh9÷Í9=×—xv"WcÚ¡K-¥Šï“ÔŸÙñÒœ]å®¢êæ^É—wÖ—§¥+Aãd—W}£âµvğÇÚùïzN2V‰«Òãà^Êó/éÖé‡Ûrj²­Øñ%¥®Wg©ğšï\¾xºƒ‹ê&oNôÉøìnœÒ÷²ãİ{qjÛ©r[<Ç3É“ccçi"  ' GuiOpcode: 0 Offset Dec: 420275
+       MousePointer = 42  ' GuiOpcode: 11 Offset Dec: 420686
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 420690
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 420694
+       ScaleHeight = 4,583045E-33  ' GuiOpcode: 24 Offset Dec: 420715
+       LinkTopic = "ì\ ø^!`’»n~gFHpsIkÚhvå·ÆCqgc,:|Ñ})ğñğ£×î=å‡æ„¾ôU]c8ê¯
+åN«ë°ü!òÓòım‘ùÕZ_WASÒ+‹™¯`•¼ĞŞÏÇƒdÒ(XúøÔ;o)%{o1o×ÙL'Ic%êT¬½z½gƒò¿–ãâø¸x¶ÇëÖëğWÕñrĞı+óoóa©zQ¨ìúyÓ–YÛç"³÷?›º„\}ÜMS¼1?Ğæ,îsƒ…Ğj¼ï•¼±…ŸÂxùŠİ­N•¦–ß°ôoóv.ìÄ_.•öªÛ¶‹RK„Îü¥üÏeºß>BuÎÆMEcbëëKËx„pßÙs6ã–\Şv™öv9¤ú#—nŸ4yr±G»ÒL^•Gêõ(ù¦[Şş:K*¶h”t;-µ{j~[ê¦¤Öß']fÖ–OmÒºöÚ×7cˆ»¶ñÆçJÎFT‚ßQ+[CöA®Â½&ìËày‡#‡<Í\ğÛ‹iÑêéTõ_{ç3YÏâC)O·Š”ÔZªNÔéo}M*h>ŠüÇuQôÃ¢úƒ]iwÛ³;~8[:ê/*]^A•eE}6¯åü†w=Jİw´Y¡7î>‰æMå‹»òÌaRônéµ[$ºğ«¨½IÕTÔ÷:»Yß3!˜¸Š+s$Q2™"Œc#Œ"  ' GuiOpcode: 36 Offset Dec: 420720
+       Name = "I_iİû»#„°°U#§MmgÁ7®öÇŞXÏÕÑ+KQ£xœ7"æĞë[>”ÿ"  ' GuiOpcode: 0 Offset Dec: 421256
+       BackColor = -1539659349  ' GuiOpcode: 3 Offset Dec: 421308
+       Width = -1,770126E+35  ' GuiOpcode: 7 Offset Dec: 421326
+       ClientLeft = -19101
+       ClientTop = -16707
+       ClientWidth = 18667
+       ClientHeight = -1674
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 421367
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 421372
+       DrawWidth = -19169  ' GuiOpcode: 28 Offset Dec: 421384
+       PaletteMode = 237  ' GuiOpcode: 73 Offset Dec: 421393
+       DrawStyle = 6087  ' GuiOpcode: 27 Offset Dec: 421399
+       CurrentX = 5,206898E-08  ' GuiOpcode: 19 Offset Dec: 421404
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 421410
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 421439
+       LinkMode = -8597  ' GuiOpcode: 37 Offset Dec: 421455
+       Height = -4,795023E+16  ' GuiOpcode: 8 Offset Dec: 421481
+       Count = -24533  ' GuiOpcode: 57 Offset Dec: 421487
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 421497
+       Width = -2,620785E-35  ' GuiOpcode: 7 Offset Dec: 421505
+       Count = -19270  ' GuiOpcode: 57 Offset Dec: 421513
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 421517
+       PaletteMode = 249  ' GuiOpcode: 73 Offset Dec: 421521
+       Top = 1,714708E+16  ' GuiOpcode: 6 Offset Dec: 421526
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 421534
+       StartUpPosition = 184  ' GuiOpcode: 70 Offset Dec: 421551
+       ScaleLeft = -1,053467E-13  ' GuiOpcode: 21 Offset Dec: 421553
+       DrawWidth = -5044  ' GuiOpcode: 28 Offset Dec: 421561
+       Left = -4,594531E-14  ' GuiOpcode: 5 Offset Dec: 421569
+       ScaleWidth = -1,897266E-11  ' GuiOpcode: 23 Offset Dec: 421575
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 421580
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 421592
+       LinkTopic = "m^?Îßä_å‰í¼ˆ©º¡Ë/êgÅ½LCu É]†´
+"  ' GuiOpcode: 36 Offset Dec: 421595
+       ForeColor = -882942001  ' GuiOpcode: 4 Offset Dec: 421633
+       DrawMode = 29845  ' GuiOpcode: 31 Offset Dec: 421640
+       DrawMode = -8686  ' GuiOpcode: 31 Offset Dec: 421643
+       DrawMode = 27795  ' GuiOpcode: 31 Offset Dec: 421657
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 421664
+       DrawWidth = -301  ' GuiOpcode: 28 Offset Dec: 421666
+       StartUpPosition = 230  ' GuiOpcode: 70 Offset Dec: 421669
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 421676
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 421683
+       FontSize = -1,242023E-29  ' GuiOpcode: 13 Offset Dec: 421690
+       Tag = "OI¸Ìhï¡šjş%éÿ"  ' GuiOpcode: 47 Offset Dec: 421701
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 421724
+       LinkTopic = "9!ş£×?39ğĞP»/¥K7ŸÌ~ ¹ş]ÿ"  ' GuiOpcode: 36 Offset Dec: 421729
+       Top = 2,414789E-15  ' GuiOpcode: 6 Offset Dec: 421761
+       ScaleWidth = 2,347064E-38  ' GuiOpcode: 23 Offset Dec: 421768
+       Height = 2,028381E+30  ' GuiOpcode: 8 Offset Dec: 421783
+       Name = "ùµâò~Eÿ"  ' GuiOpcode: 0 Offset Dec: 421789
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 421801
+       Name = "G°óÿ"  ' GuiOpcode: 0 Offset Dec: 421803
+       HelpContextID = 735717247  ' GuiOpcode: 51 Offset Dec: 421816
+       BackColor = 1501634259  ' GuiOpcode: 3 Offset Dec: 421821
+       PaletteMode = 148  ' GuiOpcode: 73 Offset Dec: 421837
+       FillColor = -1090291989  ' GuiOpcode: 30 Offset Dec: 421844
+       ScaleLeft = -6,548446E+07  ' GuiOpcode: 21 Offset Dec: 421856
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 421866
+       FillColor = -10069057  ' GuiOpcode: 30 Offset Dec: 421870
+       Name = "ü<†ì†#Ó5~O‰Ú¹£ï?f?´«Rë	²˜L~"×HÅr~é¥î-¼GIlAã\‡	nòÂæÓ®Áò.M`İ›“Ä¥²O_ÑNSÄcş¢ç;Ã–#ö«biÕ®9WKä¢ã>¬tÿ"  ' GuiOpcode: 0 Offset Dec: 421875
+       ScaleTop = 1,326346E-31  ' GuiOpcode: 22 Offset Dec: 421996
+       hDC = 1216841366  ' GuiOpcode: 18 Offset Dec: 422008
+       ScaleWidth = 2,105488E+27  ' GuiOpcode: 23 Offset Dec: 422019
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 422041
+       DrawWidth = 16236  ' GuiOpcode: 28 Offset Dec: 422044
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 422051
+       StartUpPosition = 243  ' GuiOpcode: 70 Offset Dec: 422062
+       ScaleTop = 7,810679E+32  ' GuiOpcode: 22 Offset Dec: 422082
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 422087
+       OLEDropMode = 17353  ' GuiOpcode: 71 Offset Dec: 422089
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 422103
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 422107
+       FillColor = 1546401651  ' GuiOpcode: 30 Offset Dec: 422120
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 422125
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 422139
+       FontName = "kX'Ô9§[Au;§ºŒM1¶å’FÖ¶'5ÄòóîÛĞùWË|Ş_¼f’mİUiQY[(ôÎ>mÌds-•j-$å*&íĞ•lÑkªÖ{[å/®ù˜-¬4·Q­l²™¼c!(Œ‡#¾3÷°4xuiak¹@ì­WWæÉÓL»j2Ñm±”xôòÇ”|Á-ó‰tœãc²ÉFUÕêiŸ:w  é—Ï>#CÛqØŒåä˜‘!æp´¹ÆMwl	â[­ö…ësùçÜÆz\UyT’~Ôx½ß»£ó4pcò§&¹%%ÍZz¡Ÿ3=jƒ úFÏUãğ¶ya›¹n#Øpcc"  ' GuiOpcode: 12 Offset Dec: 422153
+       HelpContextID = 1577808868  ' GuiOpcode: 51 Offset Dec: 422424
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 422431
+       ScaleTop = 7,997997E-20  ' GuiOpcode: 22 Offset Dec: 422436
+       DrawMode = -3259  ' GuiOpcode: 31 Offset Dec: 422457
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 422460
+       Name = "mÕN›ez}—Òxld™Ç@Ü¶fÅóòº(fdü‘[Ìé9Ÿ«ŒÙ²•Ú>…»¼Ÿ‘ÍG3“»Z'N
+ZÕ:™o?=ãçòrËË
+)Ê‰É7M6Ò/E3?óå^¼ğƒ˜‘Ø…Ò‰ÍÃfíˆAÏ·g‚òjFÎäĞ\vvp@Ğæówv!(9ø~4/§¦°¿vİˆ•Âã%ÌßÇfÉ[k+æ¼½x« ‚&—I+éú yÎÎ+V>*Âçoá|/%•–kA4––ş˜­-ú[Ânw¸}1‡±nRÚı]­“#ÑÛZµÆŒ¬kdš#·sù{‰\æ1±×H>
+Uú´'ê;¬L†S/†±"¥‹*ÓQxéYEñ:¬c´˜=‹Ç_wBn¦i5Ûâ\ºAõ,Ş—Í)?]2¡¡oáY……ñÒóëJ½:÷VêLƒKnsOˆŠxÇ;£•ƒèYC/‡Fœ]ã˜Äù±BæTF—¸Š¼ö»wjŞ¢ÙÁ”’Ö^]ÄšùJÉa³ˆŒæ2GEc–|2êÅ$r†‚ñ9cùI¶Gb×‰8×E§/-6ğñl’¥8iZ>M*Õmˆöú
+÷'¢ğú¿–—7s<wepr“ã¶+Y|9$€T—µ•o=6Š‚ºõ4°¥+(õZµÔ÷Lñò°ÌBnm¦å§átn:ìÖcµ†'…ÔYLv!®˜ÃÁ’Â‚÷IÍ¡eÀ<î©;Zğy\yba§/™6Ÿ;[Yü®4á0ç(éz–ŸTŒ<²«:Á—9©íÃçı+lsö±•q°ŸÔ§é-ÕûØ•ıØ¾yåéä8—{¦^‹û˜ªßáÃÔ¹g¥ÿ"  ' GuiOpcode: 0 Offset Dec: 422481
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 423139
+       FillStyle = -12569  ' GuiOpcode: 29 Offset Dec: 423144
+       hDC = -1396172435  ' GuiOpcode: 18 Offset Dec: 423152
+       Name = "á¬s<ò»úN-RX’¼ÒZ5³‘‡•ÃXqœäş*ÑE[c¦—aÎåøË	e·~sq	å{o¤s×Š0Â•Ëzi;Êœ[Y¶g¸ı·Uõ6Ÿ4iNs³nû¦St–ÖşÚ&ÖŞ`ĞÆË‹šğCÈô‡ªXJUŒ­Ö¸W'6£|sRÂŒq0ÕÚÕ:|®ŠÊ«Sù²'ÓZ€ú|šS,ı…Ş“ñ²¸ÿ"  ' GuiOpcode: 0 Offset Dec: 423165
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 423344
+       FontSize = -1,034705E-30  ' GuiOpcode: 13 Offset Dec: 423368
+       LinkTopic = "\¦%†š8²DÍç¶¤>˜6óÅ#	kÆİà®^<1Âÿ"  ' GuiOpcode: 36 Offset Dec: 423373
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 423413
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 423418
+       ScaleTop = -0,7247745  ' GuiOpcode: 22 Offset Dec: 423433
+       Name = "¯oäÜ²slãåA¨ÃhJÙIúø  'fÂ‚œ"  ' GuiOpcode: 0 Offset Dec: 423441
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 423475
+       ScaleLeft = -3,139108E-05  ' GuiOpcode: 21 Offset Dec: 423478
+       Height = 1,987331E+21  ' GuiOpcode: 8 Offset Dec: 423484
+       WindowState = 84  ' GuiOpcode: 10 Offset Dec: 423489
+       MousePointer = 74  ' GuiOpcode: 11 Offset Dec: 423494
+       Count = -13682  ' GuiOpcode: 57 Offset Dec: 423497
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 423503
+       Name = "ëè?—Kæ?ñØß•Ê+şíÊÿ"  ' GuiOpcode: 0 Offset Dec: 423510
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 423555
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 423562
+       PaletteMode = 97  ' GuiOpcode: 73 Offset Dec: 423568
+       Top = -1,308491E+36  ' GuiOpcode: 6 Offset Dec: 423570
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 423580
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 423582
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 423587
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 423593
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 423595
+       DrawMode = 32413  ' GuiOpcode: 31 Offset Dec: 423605
+       HelpContextID = 1634049528  ' GuiOpcode: 51 Offset Dec: 423611
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 423628
+       FillStyle = 21757  ' GuiOpcode: 29 Offset Dec: 423635
+       FillColor = -366328486  ' GuiOpcode: 30 Offset Dec: 423648
+       DrawWidth = 24304  ' GuiOpcode: 28 Offset Dec: 423658
+       Top = -746722,6  ' GuiOpcode: 6 Offset Dec: 423662
+       Tag = "åZy=äŸ3â¬e”ÌMÊ2ù\Z—Ó^ªİ:4Òùèù{°¹Ä\õ«HØ2×)s¼³¡­º‚G6û”S÷ŒqşsO1û$·É{úQšÉâºÅüœOéäz¸)ÚyïË±ÅÂyÜIÇçş(ı\±şCÚ¿ —ö·}û´iŸ¨²0^0H=í†fóöHYçˆ8ï
+½p=«Üv¾BÄŒ·\RÕ)'ËZô4|u×˜ëÜ.·Ö8œ“ş75mvÇŠ;ÄáíukÛJÕ}c#‰L¾£¡Å?añ½í…,,æ4d¨ÔåÒÏ§ßÙÁ½‹Ju7+$nn>û-aki)‹¥¶‚WÊİP'eWÎ?P1"ñ°c­E·ëjú—é¾–WOC©~&ûòûÆ^üÑüÔZ[={«7ÿ"  ' GuiOpcode: 47 Offset Dec: 423668
+       PaletteMode = 94  ' GuiOpcode: 73 Offset Dec: 423992
+       Caption = "ûƒ(îœ“|şª5ì;-Å	oŒúO\?éM?iø/ç{}ùÖW7aŞbÓys¶@,!¶4îBñ³±{&âF{³/İrO–ó};óæ¡½g)h”b×%.ôÅ›WÈ6ú÷®²_[ÆïºaôõüÙ	46WEOisÁ»¹q¼ó‹ä.½.jª³™úwƒ7¼%$¬Pu|­Q?öŠdmgê®ÇÂö¾êÃL1×`oowpX×wÑµó®7pÚÊbIès³Ô‘ÌıIÄŒ³80Ö¢Ûõ»:ûSçOÿ"  ' GuiOpcode: 1 Offset Dec: 423994
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 424219
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 424222
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 424232
+       DrawMode = 32755  ' GuiOpcode: 31 Offset Dec: 424235
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 424243
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 424248
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 424261
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 424265
+       PaletteMode = 213  ' GuiOpcode: 73 Offset Dec: 424272
+       Tag = "şzuó¿Ôí`òË¡Qı3ù³é‘êŸ£ÿ"  ' GuiOpcode: 47 Offset Dec: 424274
+       Name = "7ñÌ»O#ÿ"  ' GuiOpcode: 0 Offset Dec: 424309
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 424327
+       Name = "LÌ6Õš»Hk==•ÑYËçñhíá´{›÷§:Vo#²FÈO)k«Ño®cqÆIÆN«4ñPó;›9˜Ëf°åƒ&›’T_½n‡Â­¥§Ûœ|;5òñ¯Ÿd—®K1”WÜÄĞæö1îaîq_ò4°·–İuO‘§ûO¸y»/m×Œ¥ª7—*µ‡ÈaåúÂ„g2`ÿ"  ' GuiOpcode: 0 Offset Dec: 424332
+       ScaleWidth = -4,992635E+36  ' GuiOpcode: 23 Offset Dec: 424505
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 424512
+       Width = -3,625209E-04  ' GuiOpcode: 7 Offset Dec: 424541
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 424549
+       Width = 2,364475E+25  ' GuiOpcode: 7 Offset Dec: 424553
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 424574
+       ScaleWidth = 5,086793E+33  ' GuiOpcode: 23 Offset Dec: 424577
+       Count = -7543  ' GuiOpcode: 57 Offset Dec: 424583
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 424587
+       DrawMode = -8839  ' GuiOpcode: 31 Offset Dec: 424609
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 424612
+       Tag = " ÿ"  ' GuiOpcode: 47 Offset Dec: 424620
+       Width = -6,893984E+37  ' GuiOpcode: 7 Offset Dec: 424628
+       Name = "z¿Ôí`òË¡#ôÏæÌrCıG®>f>t ÿ"  ' GuiOpcode: 0 Offset Dec: 424636
+       ClientLeft = -3377
+       ClientTop = -1737
+       ClientWidth = 4071
+       ClientHeight = 255
+       ScaleWidth = -3,007341E+38  ' GuiOpcode: 23 Offset Dec: 424691
+       Name = "§Bñ§ÿ"  ' GuiOpcode: 0 Offset Dec: 424696
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 424706
+       Name = "Åå<‹şAşGÒ]çÿ"  ' GuiOpcode: 0 Offset Dec: 424708
+       DrawStyle = 32284  ' GuiOpcode: 27 Offset Dec: 424736
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 424739
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 424746
+       Count = 15609  ' GuiOpcode: 57 Offset Dec: 424777
+       Tag = "Ü§Iğc›·xØ¾Ú~}¡÷Óå}‹ùhéä½’Íe‘¼†7‚‚îúêâ+ÁÑÈ×â¾æœHÏzb¸ğ¥ëQIûOĞQÂ–éÀRÓu¿T›’ö4~OşÍœ…£gêî,Ûé™…º‰¼]Fõ>FºFı+Óş ÂTÀ–¯‰Iä¿M'f!Kkı]óØuù Ğ}1ê~¢Ñú ØıQ’±²G<–÷‘Ü[E+_ûË)]è‡rmqû+¹|·˜Îåc‹‡™qN¿¶QµÂ¹}go¿<×–İÙ©`âåÜšIŞømMqÛÅê4M5óÕ¦ã¿å¼ÿ"  ' GuiOpcode: 47 Offset Dec: 424787
+       DrawMode = 4042  ' GuiOpcode: 31 Offset Dec: 425032
+       Top = 1,123178E+31  ' GuiOpcode: 6 Offset Dec: 425035
+       MousePointer = 110  ' GuiOpcode: 11 Offset Dec: 425040
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 425042
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 425044
+       Tag = "Ğ¹¹%âİ½šøV¹'EÏ*~Ÿpg+¹|¬œŞ…Uó&ıŒôÏIõ¾¥êÎÖœÕz»í?Èenb½À¾9"}µÅMod­kÃ˜ÈÀw0´·Şy<,¦â¯EEQğÖIÖÎS¢İ9ìlï˜á‹’m«¯Li†ÒV¤ÿ"  ' GuiOpcode: 47 Offset Dec: 425050
+       Name = "¹s,ú=iSÉ<Ùé\8V&ãÚ?ÎÓşÇâÇ|Pÿ"  ' GuiOpcode: 0 Offset Dec: 425184
+       FillColor = 1328421982  ' GuiOpcode: 30 Offset Dec: 425224
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 425230
+       DrawMode = 18981  ' GuiOpcode: 31 Offset Dec: 425239
+       Width = 5,79961E+12  ' GuiOpcode: 7 Offset Dec: 425243
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 425253
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 425258
+       DrawWidth = 30684  ' GuiOpcode: 28 Offset Dec: 425260
+       ForeColor = 515138076  ' GuiOpcode: 4 Offset Dec: 425265
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 425271
+       Width = 1,630769E-38  ' GuiOpcode: 7 Offset Dec: 425274
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 425283
+       Top = -4,782714E+27  ' GuiOpcode: 6 Offset Dec: 425317
+       FontSize = -1,973867E+07  ' GuiOpcode: 13 Offset Dec: 425349
+       DrawMode = 8123  ' GuiOpcode: 31 Offset Dec: 425355
+       ScaleLeft = -1,067882E-30  ' GuiOpcode: 21 Offset Dec: 425361
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 425389
+       Left = -554,4753  ' GuiOpcode: 5 Offset Dec: 425391
+       CurrentX = 2,265367E-33  ' GuiOpcode: 19 Offset Dec: 425399
+       hDC = -1427770205  ' GuiOpcode: 18 Offset Dec: 425405
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 425420
+       DrawMode = -8174  ' GuiOpcode: 31 Offset Dec: 425449
+       Count = -16435  ' GuiOpcode: 57 Offset Dec: 425457
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 425462
+       ScaleLeft = 5,663825E+29  ' GuiOpcode: 21 Offset Dec: 425477
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 425483
+       FontSize = -4,599201E-21  ' GuiOpcode: 13 Offset Dec: 425486
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 425492
+       ScaleWidth = 1,990967E-24  ' GuiOpcode: 23 Offset Dec: 425507
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 425513
+       FontSize = 6,330357E+15  ' GuiOpcode: 13 Offset Dec: 425515
+       ClientLeft = 25964
+       ClientTop = -2712
+       ClientWidth = 965
+       ClientHeight = -12709
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 425547
+       Tag = "’ôÛTßÁ5³‰{'í†•£1ò×§éê9û¹7‹wêMs«=´6[-hì^‹°±±¾ËSàuñ%Ìm’Úk~I˜\v"  ' GuiOpcode: 47 Offset Dec: 425551
+       Caption = "æ­¥W]–rÅri]q£\.¾œ‡o”Ş
+XÁI¬Hâ^‹²Èµm¼ºVºÒ”©œÈjËMk“Ãj¼–<M•±†Ë)»ÿ"  ' GuiOpcode: 1 Offset Dec: 425625
+       Height = -7,556238E+36  ' GuiOpcode: 8 Offset Dec: 425703
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 425709
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 425712
+       ScaleHeight = 1,619598E+09  ' GuiOpcode: 24 Offset Dec: 425716
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 425721
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 425727
+       ScaleWidth = 0,2324764  ' GuiOpcode: 23 Offset Dec: 425730
+       ScaleMode = -14423  ' GuiOpcode: 25 Offset Dec: 425736
+       FillColor = 605600625  ' GuiOpcode: 30 Offset Dec: 425739
+       DrawMode = -11316  ' GuiOpcode: 31 Offset Dec: 425745
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 425749
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 425755
+       hDC = 306745114  ' GuiOpcode: 18 Offset Dec: 425774
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 425779
+       Name = "€]RIGAç³S”±%)ºÊ®¾œZ»6’¹IPëäêí2­{¤Äs°¿ÅÇ]µÍp?e³·xì££úÖ™Ù>UÑûN~½ek	s)pzâ{#¨˜<Ş¥ÔØüö{’Uañù9>ëälrIF9ÌMOÕäqáƒ	´®É«_âw»ã'‹šÆ6dşä#+ŠªR«’Ú³×àÉ‹ËZ¿˜Inè®[6‚Çß°÷?o‘vs²Q|5^ÿ"  ' GuiOpcode: 0 Offset Dec: 425782
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 425975
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 425978
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 425985
+       FillStyle = -21572  ' GuiOpcode: 29 Offset Dec: 425990
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 426009
+       Top = 1,874817E-31  ' GuiOpcode: 6 Offset Dec: 426015
+       ScaleHeight = 5,983539E+23  ' GuiOpcode: 24 Offset Dec: 426023
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 426028
+       CurrentX = 1,481025E-07  ' GuiOpcode: 19 Offset Dec: 426031
+       DrawMode = 26637  ' GuiOpcode: 31 Offset Dec: 426037
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 426043
+       ScaleTop = 6,682533E+09  ' GuiOpcode: 22 Offset Dec: 426052
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 426072
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 426075
+       OLEDropMode = 18187  ' GuiOpcode: 71 Offset Dec: 426084
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 426119
+       FontSize = 3,809424E+35  ' GuiOpcode: 13 Offset Dec: 426121
+       Name = "³ÖÜÜÕ#g»4êy·ól§j¤ŞR‚€;ë@.BR¢¾)P¤æT…æÛÇ¼¨TNo"¤¡yÏÓÅBœ•*=ãòÕuoi×–ÜİÏ­´Ø=ÌÏc¶¹Î "  ' GuiOpcode: 0 Offset Dec: 426132
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 426238
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 426240
+       Name = "…hN ÁezQ¤!Åæ¬2sG«!|ÚÜÅ3šÏ¸^b#q TUá<‰‰äÜ¢×Àôª~ôO¡~¢bFY:4ÿ"  ' GuiOpcode: 0 Offset Dec: 426247
+       Name = "È»[»›+«{ÛI]owi+'µ¸ŒÑñÉƒ˜ö_S”T“‹µ3ãØs”ãcM5ÄÖ†}ûĞ^é×Yz3Œ›Vê\.>m[„—«p÷w¶öò²w1Ö·€G+šZàç0ÓìWÃ³Û¯3»³­aFNä«“viâ~‡İûÏ/¼ò1œÚ¤ãI&ÖVñÔù­òã×¾Zz›«´^©¸ş%¡²YØe²6D\6	ìå|pä ğË„‘¹„óT–EK@?Bßûïœ®6˜‰U'eSÓ]uĞ|ÓË»énî.W×	Éªé£Z%f¦´ÓˆıÓ­:òÅó”gPáÕQÛøã~K%§2¶‘6ï"  ' GuiOpcode: 0 Offset Dec: 426317
+       FontSize = 2,376122E-05  ' GuiOpcode: 13 Offset Dec: 426583
+              BeginProperty Font
+                     Name = "zî˜}‹–-
+Qvr5K9ÑîsŞ_İ;æK1Z·JÊ_8t®&ìz«aĞ×ıwè§ËMÆ‡éuÖ7-¨­ ’ÇNÛÁÌ•æ»ÉNÇ;hw¤àçs»c@ÚÜò;—=¾³_{2š‹vÉªYôÅz$c¼7ŞïÜ9_³uÉ*F	ÖŞtºÚÏ–ë>¥P²ê;9òòÍ4ÍÔö+¯í¯Ír×?ôË¨ö“°<WÒ÷¶èÃÏe_F‹¿ÂÖœ‡É÷&ıÅİùîòş*Öÿ ñ):¿]mGÖ­IŠùfù¿ÁarW:–â¶9¶“Ú^Ãaœ²kÇ4–óA"
+                     Size = 207951,5269
+                     Charset = 189
+                     Weight = -18700
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       LinkTopic = "/‹½7$¢ èôÕ9Añ¦¶§Â}{3—İ^cÁ‹rNštœkªæš»ÿ"  ' GuiOpcode: 36 Offset Dec: 426853
+       LinkMode = 28312  ' GuiOpcode: 37 Offset Dec: 426902
+       Tag = "6Rû÷·V¿|‹!ÉË"(Ë"ååkKˆ‹#mI;ILHoO0cFô]Œ#Ã§ñla½Õå¼	]’U·MéÍ®/Ù]GÇ>ªõ#1Õ{¨µŞm¢+œİÇ5½“	,¶¶¢8 i;Äq´
+ñ5wõÙ»áËÇ"´ğ½oÖÏ‹ïç‰¼³SÇš¥]‹‚:—6:³ì×Î¦Ï–=aşSÿ"  ' GuiOpcode: 47 Offset Dec: 426905
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 427071
+       Height = 2,617938E+37  ' GuiOpcode: 8 Offset Dec: 427086
+       LinkMode = -6632  ' GuiOpcode: 37 Offset Dec: 427093
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 427105
+       FillStyle = -11199  ' GuiOpcode: 29 Offset Dec: 427107
+       hDC = -688328407  ' GuiOpcode: 18 Offset Dec: 427115
+       Width = 6,728066E-36  ' GuiOpcode: 7 Offset Dec: 427140
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 427145
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 427149
+       ScaleHeight = -2,161401E-16  ' GuiOpcode: 24 Offset Dec: 427158
+       FontSize = -3,168104E+16  ' GuiOpcode: 13 Offset Dec: 427195
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 427201
+       FillStyle = -27923  ' GuiOpcode: 29 Offset Dec: 427211
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 427219
+       CurrentX = -9,217676E-08  ' GuiOpcode: 19 Offset Dec: 427222
+       FillStyle = -17715  ' GuiOpcode: 29 Offset Dec: 427229
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 427234
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 427237
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 427259
+       Tag = "Ï%>a—ÓBê×'Ş]LXáÁÍ¡ïLæğŞù¸¸b¼G¥]¢}TŒ²;§ud¤¥ƒ)-µ|òmŸ¾v~dtkôFK¤z;-m¨ózÛ¬Y5­•¤R²ã“Æas_,¥­'•µæ¡ ]ï“÷7ßY¬X¸Æ5¢v9=8æüíæ,e¥”Â’–$è-Q›xŞŠp:ğ_Èw^ô™ÃåúS¬²öØ	®rOÊi|ëÄ6Óãc&µt¯!Œp1‡³˜nb+ZÌó®äÆÆœsXQrT¤’Ò©¡Ó×Fp¼…¿ppğOJ2«q­‰§¥W†¶ñÔ÷ßS:'ò“a¨²=_×Ù;;O½Lr™PÊ7îy‚CÜöÙÄL³:GzE‘š8“VJé7vøßÃYLİ,Ní±_›B§Ğzå¸·4q^s2’¶®²ø[üµ¶¼øì»~¬é]òÿ"  ' GuiOpcode: 47 Offset Dec: 427263
+       ScaleTop = -2,056944E+15  ' GuiOpcode: 22 Offset Dec: 427608
+       Top = 5,066293E-08  ' GuiOpcode: 6 Offset Dec: 427619
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 427624
+       CurrentY = 2,610525E+09  ' GuiOpcode: 20 Offset Dec: 427632
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 427638
+       ScaleLeft = 4,33096E+23  ' GuiOpcode: 21 Offset Dec: 427641
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 427646
+       OLEDropMode = -22771  ' GuiOpcode: 71 Offset Dec: 427649
+       FillStyle = -6102  ' GuiOpcode: 29 Offset Dec: 427656
+       PaletteMode = 220  ' GuiOpcode: 73 Offset Dec: 427660
+       FontName = "EâÆ‰J2¢âµ#ñ_ömêN©ÿ"  ' GuiOpcode: 12 Offset Dec: 427664
+       FillColor = -1071418279  ' GuiOpcode: 30 Offset Dec: 427698
+       Name = "+şfÍsü¹şş\OyÃó2ÿ"  ' GuiOpcode: 0 Offset Dec: 427721
+       DrawWidth = -13009  ' GuiOpcode: 28 Offset Dec: 427743
+       hDC = 1873596521  ' GuiOpcode: 18 Offset Dec: 427752
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 427758
+       ScaleWidth = -2,489996E-29  ' GuiOpcode: 23 Offset Dec: 427768
+       FillColor = -488648773  ' GuiOpcode: 30 Offset Dec: 427774
+       Count = 12454  ' GuiOpcode: 57 Offset Dec: 427788
+       DrawMode = -19888  ' GuiOpcode: 31 Offset Dec: 427793
+       OLEDropMode = -20633  ' GuiOpcode: 71 Offset Dec: 427803
+       FillColor = -563628765  ' GuiOpcode: 30 Offset Dec: 427806
+       FillStyle = 11727  ' GuiOpcode: 29 Offset Dec: 427811
+       FontSize = 1,035286E-34  ' GuiOpcode: 13 Offset Dec: 427824
+       DrawStyle = -24626  ' GuiOpcode: 27 Offset Dec: 427840
+       hDC = 634481754  ' GuiOpcode: 18 Offset Dec: 427843
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 427858
+       DrawMode = -8512  ' GuiOpcode: 31 Offset Dec: 427863
+       FillColor = 16766716  ' GuiOpcode: 30 Offset Dec: 427873
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 427878
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 427880
+       ScaleWidth = -1,360721  ' GuiOpcode: 23 Offset Dec: 427890
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 427897
+       Name = "-†›z»Y/_=wË{™b<Ö2QU«ø©ù+KxŸYïN“usHu/BÏ¨4üP`4ıµÕæ+ñÂóicHb“ÁôDaàU¬dP.›yî¼laaÎ²•oM®×n¾S¼İ{Ï=÷p¬…ZZ¬‹¥iª´±pºÖKşˆu¬`÷ø©cu†¥Å1Ü¦âÆbÒğÍ s±ÍkÙ]œÍ¡ØJûüİQŞyg„ì–˜¾	lzğ¿.o©nœÚÅÓ®É
+ãZ}šÏ©ZûD|¸üßXaµ67_[ãõ¸‚…•Äß¶™>í{cqGÂ\[°SG¯›ds»ËpJXrÃn-èi¸×†2GÕóû»uù’ÄXŸ×”©¦ì“÷ª­G[KéÏ–_“¼VGPÜê¨3z¾hŞ§¼¼Í"¢ŞÎÖ
+xM~Ê¸€?MôYfsÓÌXjaÀ“P\roO¥W'º¼·†ñş'­´æø¢—¹rŸˆú!®îz™ó£¦õÕİ«leÔ¹¼…Ó,šy„1¸dQ—læ-­ÓiÚ½øÉ,ãu»«üÊ¾ÓÂî]àóşb†b”¼ågÆ—®ˆ÷ßö–=ËSÿ"  ' GuiOpcode: 0 Offset Dec: 427923
+       Name = "tŸ§¿üäÿ"  ' GuiOpcode: 0 Offset Dec: 428383
+       Name = "ÿ"  ' GuiOpcode: 0 Offset Dec: 428401
+       DrawWidth = -1470  ' GuiOpcode: 28 Offset Dec: 428411
+       WindowState = 247  ' GuiOpcode: 10 Offset Dec: 428419
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 428422
+       DrawWidth = -803  ' GuiOpcode: 28 Offset Dec: 428434
+       Name = "¨£'7zT
+×Ì•-**•M“MX[\\Üd²m'„ïY»Å Ò+p{e}ä©à¸Ù¬WİÍ+½úËvec9¼LOíÂÙqğGùœ•0Y<Ög#u’»5ÍÜ†Y{;šĞw€pÃ‚ŠQZcXÓx’ù›«ü95¸±ñıÖÛ«Èí`œ¹±45ÒHâÂôZ)²¼H[-ÔªÑŒ2‰ÁbNj)Öšİœ_‰äd8‡Ë¼Şd®&‘±Åy!{ˆ RGm&ƒbÂR•*è—>Ãlp°Qé:¥ª)¿kôÒlwW­ '²~=¸÷ÃtmóZrğ›‹y<H™,&XŞçbÚúM¡ì\D¡Fl±«¸ì¥,LšqqQ£¤ İèº¤ÕU]´Ö¸“-4ş ÿ"  ' GuiOpcode: 0 Offset Dec: 428444
+       CurrentX = -1,535011E+19  ' GuiOpcode: 19 Offset Dec: 428753
+       ScaleTop = 1,77794E+25  ' GuiOpcode: 22 Offset Dec: 428759
+       FillStyle = 28633  ' GuiOpcode: 29 Offset Dec: 428764
+       Count = -9526  ' GuiOpcode: 57 Offset Dec: 428775
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 428780
+       ClientLeft = -22531
+       ClientTop = -25268
+       ClientWidth = 11264
+       ClientHeight = -16971
+       StartUpPosition = 214  ' GuiOpcode: 70 Offset Dec: 428818
+       ScaleMode = -14934  ' GuiOpcode: 25 Offset Dec: 428840
+       FillStyle = 13926  ' GuiOpcode: 29 Offset Dec: 428844
+       CurrentX = -1,454894E-28  ' GuiOpcode: 19 Offset Dec: 428848
+       FillColor = 1843230987  ' GuiOpcode: 30 Offset Dec: 428855
+       FontName = "$l¥¤”¾$Ñ†Ô–¦Ÿ1™¶’¦FLf9¯oçä“Èù})`ğÚ"  ' GuiOpcode: 12 Offset Dec: 428862
+       DrawStyle = -7678  ' GuiOpcode: 27 Offset Dec: 428912
+       DrawWidth = 14038  ' GuiOpcode: 28 Offset Dec: 428925
+       BorderStyle = 88  ' GuiOpcode: 34 Offset Dec: 428928
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 428931
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 428952
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 428956
+       CurrentY = -1,415487E-18  ' GuiOpcode: 20 Offset Dec: 428961
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 428971
+       MousePointer = 15  ' GuiOpcode: 11 Offset Dec: 428975
+       HelpContextID = 158302036  ' GuiOpcode: 51 Offset Dec: 428988
+       Height = 2,975432E+11  ' GuiOpcode: 8 Offset Dec: 428994
+       hDC = -409813785  ' GuiOpcode: 18 Offset Dec: 429011
+       FillStyle = -25948  ' GuiOpcode: 29 Offset Dec: 429016
+       Left = -3,681435E-07  ' GuiOpcode: 5 Offset Dec: 429022
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 429032
+       ScaleHeight = 3,497666E+13  ' GuiOpcode: 24 Offset Dec: 429036
+       DrawStyle = 6923  ' GuiOpcode: 27 Offset Dec: 429042
+       StartUpPosition = 224  ' GuiOpcode: 70 Offset Dec: 429057
+              BeginProperty Font
+                     Name = "Tgg»²ø˜ÊpŒ[ªÔ•j·V½&Í-¶½±ÇÃŠÉêá§1vQ9¶øÛœŸ'îÉ.-öÎ’Gm<Z¸x3•èFózÒ÷º/iÜG9…˜¸·"•‰ÏW$[o˜ÃZ'ŠñŒù«ÜÓ¦‰ğÉ°‚:<SúÛƒ]ô òp[Ü±e©+uºôm8¸pÊá6ïÊUT¤U¼rõRÍGš“h1zRÑ²GO’Kçšqå>`ù²pœ¾i¿WÃµûMqÌàáÓíàF¿ÅYì^Ã¯u¬µ5Ü~ ÊKgmSK[0ÛXöğå€"
+                     Size = 61274,1432
+                     Charset = 84
+                     Weight = 29553
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 429291
+       CurrentX = 7,185335E-26  ' GuiOpcode: 19 Offset Dec: 429305
+       Tag = "#H¯úií:ºrúK=IˆÈK#¨ËÈËÉæ.Ïk½¤‚®</A®/Øa‘Æ¹˜„«ûÊ¼•·k:™+3‹Êd±¤¸›©mÁ"•ykOœ
+­¸—¢Ÿ
+8ÙÌµ‰([ğ¶½§V½«“S…tU*.ŠÔ©P¢+Mû*•x@?ŞRğPÛD¨»i+Ş¨º]¿JT(3%c‡ËdÈş¹½i4ç†'9€÷¸
+9Z§˜„>f‘ÉÁÈcãnK…+9ôÎ=¤ù–W7Qç8¥ã+ˆR¿†Ô¼@àğP%6ĞmÚ6yRñ>İ¶¶›Ô¼epƒÏ¿b®F1€òmØ—‡ÛíìJ‡RÓèíà¥ã/¶O6ÁÃë¢^%Î!°ĞÓz^*+Ú|ÉP *6RRñn'a*8mJ˜İEíÛ^î>d¼epJß*GXÊ—ƒÃ ì;øQ/ZË³fîó]¡/é5ú7¥Iªi4Ù^;¥P¨¨íİÁ/Á´¥àà7PwĞÓ¹/”»Àß¹/¤ã]‡eJTÆí‡2wêƒÚ¼fâO Üv«x—×æª—‹öı4úÒ©QsX;(8•oÂ–k{+]ıªT·*;öqV¤ºT5ì'ğŞ¥ã/¶Î5ØI'fÑ±Z˜İáÆ şr•-İLµÙÛØ­ápS`?iKÃíÙ]%)²£´%L”;Mæ›’ñ‡Û©Í­/sZĞ\÷5­$“°<Rõ£‡{”Úµ$ƒei¥-Ü¶Ï9÷°ÔI|öÓÂ¯dôÌW
+_rOë±~_Çaİæà°0ã–«gMsz¿•YËSPh¥E{É+—©Ä«°Ì"  ' GuiOpcode: 47 Offset Dec: 429310
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 429948
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 429952
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 429966
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 429973
+       ScaleMode = 26926  ' GuiOpcode: 25 Offset Dec: 429979
+       Tag = "¦òVZß9ÓìÕ¼1Ã›°´Äe¯bm.q®“–bÛOıGÅç°ñ^oánIqKWY>t{Llçqp1R¤â¡'ÇíõÆK™©ê}ûs²c541ƒ§Â[^I.ÏJîÆgÛNİ‡{ZEW? ¾Úxuù[æt~Ó¥ß2XôÆJÉÅ?æ‹qkÔ´¡,ionÍİ«µVnIGI±Xjk«kfc2–ÑçğÌûû²yá?âóN-Ü/kJãÏÛÑweÂµò­g?<îı¼D§¥êü¯Lz8ïğ³6•½}Ü sK»åù»6òndãa>…ú¨³R…˜ŠœkGáëç,·l1•rÒmı.ÉzµK^c3ŒÀæqxi.¬ñwRç³Ì’BØş‡gRÙdsˆ£]5ZQ¼ÇˆZ±sœèÚ»y^®m<§/+ÆÀÁrŒ_ÜR³ä·Äå¡h³]¦¼Í(ûr÷fsXÜ9ß¼…ó‹‰ÅEvCmâ:¿Î¢ÍfkòÅ¿U;¡Æ{µÆ¿rq‡µ—V5ög3FXƒÍs’ÎÊİ BÈì wqsüWşÊËîãKRıOÜˆòÙ,5k–#â¤"ùë"UgkQˆÓXÛå³Î×^ÌÓ¸i‹š<Ì¢ÁáÊ_4Ûö/aµf¡‡ı¬(Güoì1—Ú§Qd›á]eîL4 ¶ş wE+>¥œpa^ÿ"  ' GuiOpcode: 47 Offset Dec: 429982
+       CurrentX = 2,059535E+22  ' GuiOpcode: 19 Offset Dec: 430513
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 430521
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 430523
+       FillColor = -2136753545  ' GuiOpcode: 30 Offset Dec: 430526
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 430536
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 430538
+       WindowState = 147  ' GuiOpcode: 10 Offset Dec: 430540
+       ClientLeft = -26954
+       ClientTop = 28288
+       ClientWidth = -25275
+       ClientHeight = -25427
+       hWnd = -1250797770  ' GuiOpcode: 2 Offset Dec: 430570
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 430575
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 430580
+              BeginProperty Font
+                     Name = "İåÀË:+¼­Ã¼ŞqršÄúã{(×:fµZò	\ëÇKsŞ6S`Ú—‡ÛT°»èxq<ñnTçRÎöEo"
+                     Size = -90481,3701
+                     Charset = 88
+                     Weight = 28752
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 430664
+       Name = "æ•­™G
+SiE6Ş¤l0éDøüy±çn.õìµk@âLîgâ\ygp“¢u|Vôü=Ï™jóÕÃ*Fœû/ğ,5©-Éê»6¸P˜l#–ñÄqô€?Ú+õ7òÁúè¿bİ¸0³<?
+söØºHnôm8ìaÜEÜìµ‹¸òB×¸ÿ"  ' GuiOpcode: 0 Offset Dec: 430670
+       ScaleTop = -2,874302E-16  ' GuiOpcode: 22 Offset Dec: 430807
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 430820
+       LinkMode = -13249  ' GuiOpcode: 37 Offset Dec: 430822
+       ClientLeft = -6992
+       ClientTop = -26383
+       ClientWidth = 9731
+       ClientHeight = 12367
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 430854
+       CurrentY = -6,396845E-13  ' GuiOpcode: 20 Offset Dec: 430870
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 430875
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 430879
+       Tag = "_ş-Ó8F6R€†0YÃ
+ùb¹>.k·ç+xìæĞb¸©rju÷(r¯ÑD©•Âp­kR—‰pw¥áöõúzqŠ
+Ã·ûéx}µBwl¢TÊè€oü©P¡À‡7åÛø*(A¿ùUr1Œ(6lîŞ•-Ä†êôŞz^n„;¢dp¨ónáŞ•
+I­xíÜ‰™8ºÔ1J‘À›O%áq±·µ/àßÜ—‹r¥ó÷¨¸M£aÚ{w¥áq­%¯÷O*W·fİ¼Rğ¸É·ê¦Ô¨¸Å*~Ê­â}º«KMçj—‹öõŠ”¦ô¼&ê~4©.P¿J•@WvİŸZT\“jT\'äKÁBƒ»ŠT\Ô;B^‹øø%áöÀá±/@/nÄ¨¸S·gfÊ%àá[$Ğî)R¸7FO&Â•%Á³~ô¨¸‹øQKÅûfÛ§›.ÚóU\1¯8×ˆpÑ?h’ıâ¬4â!¼=ü£Šâfg}¬5¯Oåüt¦ïÂXJY‰/•Ò<søtósŸ$ò¾Y^d’G>G—8š’OJİ‡4ô½'1°ÙÚ¶Ôãİ2xãâ…K¾õjï£i2DD­íôHV+¥üfR7¯Ãêµ[î3Ö¾ğraãÆ3 Æ`¡UÌ0:(®It­ñ€i!ÜÇa;¶.'Ù‹mµnz8Ï9¼E*E4¿v•ÓñYÓÄK]{‘®Íå±øèÙ¬mµÅÛyÃecå`æpÚêìiÚ¢Ç_»Wê°Íä%şä£–«j|¼'R<n–´`uŞ¥’õàQöøûG½Ò\…<ËßÅv(Ó•ì©ÂY<´m–#|Q¾T)Éi;RöÛ`.²U¡lÙ²Á_òvìgÖòâËL’ä[v,¬*£†åÇ)SÙºOõ}ä.c±xÌf!ì5dÖöqºAMÔ’a# ¬~Êv6ß¯eŞvI§Â-kQUçu;:Ç1—ËÇ‚È]änîâÉãc7–g¹†{w:	a<¢¾&ƒyª×ÒIQôÛï6ç±§JMµ(­vU:;=Ièã4Ö´•î¢æ$Î¥ÑÃ?¸²ºcxçÊÿ"  ' GuiOpcode: 47 Offset Dec: 430887
+       LinkTopic = "Ò]El1i²ìüµV¦7"  ' GuiOpcode: 36 Offset Dec: 431714
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 431752
+       hWnd = -1215533732  ' GuiOpcode: 2 Offset Dec: 431768
+       ScaleHeight = -9,813949E+33  ' GuiOpcode: 24 Offset Dec: 431774
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 431779
+       BorderStyle = 230  ' GuiOpcode: 34 Offset Dec: 431786
+       LinkTopic = "eWJÑû™ŞG/<Î[Â5qn/ú—ªÖt›¥¦·¯ñ\¶/Z@’n[4À’·ñ]æ4[»Ú,[õYí¡Å[ªQşäá&êù£P`ÑÖ¿×dògí ³–Ì¯óæ.wì,~î3Ğ’åuè3î¹8é”¦ÿ"  ' GuiOpcode: 36 Offset Dec: 431796
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 431910
+       Name = "E‡µõv•´"  ' GuiOpcode: 0 Offset Dec: 431912
+       BackColor = 1588788277  ' GuiOpcode: 3 Offset Dec: 431926
+       Name = "	Ëæ›õYµ™G&™¹ìG†mg¨¥aŠó€šˆ,ËFÓ³÷!„ùÊ‹M*øíé,³øòT½upGáè£5é§¸¹y’âgÎó¾I\|äí[Ò¦ƒ…7}ÖM¾SÆ|‹*3]RĞ^Mÿ"  ' GuiOpcode: 0 Offset Dec: 431937
+       ScaleHeight = -1,347702E-02  ' GuiOpcode: 24 Offset Dec: 432047
+       Height = 5,288229E-25  ' GuiOpcode: 8 Offset Dec: 432052
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 432078
+       LinkMode = -17285  ' GuiOpcode: 37 Offset Dec: 432082
+       ScaleLeft = 9,684146E-25  ' GuiOpcode: 21 Offset Dec: 432088
+              BeginProperty Font
+                     Name = "I·‡©R\ÓòÕ*Gñ%L”E+»"
+                     Size = -178231,6801
+                     Charset = 82
+                     Weight = -20856
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 432129
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 432135
+       Top = -5,154236E-03  ' GuiOpcode: 6 Offset Dec: 432139
+       Width = -9,540199E-36  ' GuiOpcode: 7 Offset Dec: 432145
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 432150
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 432154
+       hDC = -1907056015  ' GuiOpcode: 18 Offset Dec: 432156
+       ScaleTop = 1,209809E-26  ' GuiOpcode: 22 Offset Dec: 432161
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 432170
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 432192
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 432194
+              BeginProperty Font
+                     Name = "–¤Õ*[­Š“øÔ¨qdúÁúÕ©;GÊT]´Wm+ÁZ‹´ ƒü‰R¨¦ZíßçR"
+                     Size = -145399,4409
+                     Charset = 210
+                     Weight = 8778
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       Left = 1,615999E+36  ' GuiOpcode: 5 Offset Dec: 432256
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 432263
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 432268
+       DrawWidth = 11064  ' GuiOpcode: 28 Offset Dec: 432273
+       OLEDropMode = 26981  ' GuiOpcode: 71 Offset Dec: 432293
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 432303
+       ScaleWidth = -1,645986E-15  ' GuiOpcode: 23 Offset Dec: 432305
+       WindowState = 236  ' GuiOpcode: 10 Offset Dec: 432315
+       DrawStyle = -23470  ' GuiOpcode: 27 Offset Dec: 432317
+       Width = 9,253264E+09  ' GuiOpcode: 7 Offset Dec: 432322
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 432328
+       hWnd = -242453058  ' GuiOpcode: 2 Offset Dec: 432349
+       CurrentY = -1,28544E-30  ' GuiOpcode: 20 Offset Dec: 432354
+       Count = 25465  ' GuiOpcode: 57 Offset Dec: 432360
+       PaletteMode = 66  ' GuiOpcode: 73 Offset Dec: 432363
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 432375
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 432396
+       DrawWidth = 31286  ' GuiOpcode: 28 Offset Dec: 432399
+       ScaleTop = 2,475544E-22  ' GuiOpcode: 22 Offset Dec: 432408
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 432415
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 432417
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 432435
+       ClientLeft = -28943
+       ClientTop = -21107
+       ClientWidth = -1642
+       ClientHeight = 3230
+       PaletteMode = 59  ' GuiOpcode: 73 Offset Dec: 432459
+       CurrentY = -6,476852E-09  ' GuiOpcode: 20 Offset Dec: 432462
+       ClientLeft = 11845
+       ClientTop = 3495
+       ClientWidth = -6453
+       ClientHeight = 12682
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 432486
+       DrawMode = 22255  ' GuiOpcode: 31 Offset Dec: 432502
+       PaletteMode = 114  ' GuiOpcode: 73 Offset Dec: 432513
+       Tag = "O+—ËR÷E.uFÜ´âìq¸w°Õ²ZÚFdİ³÷’‰_!XıˆËæmò³>ÿ"  ' GuiOpcode: 47 Offset Dec: 432515
+       DrawMode = -14611  ' GuiOpcode: 31 Offset Dec: 432567
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 432570
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 432575
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 432580
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 432585
+       HelpContextID = -1916936740  ' GuiOpcode: 51 Offset Dec: 432590
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 432611
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 432624
+       MousePointer = 43  ' GuiOpcode: 11 Offset Dec: 432628
+       BackColor = -1140627304  ' GuiOpcode: 3 Offset Dec: 432633
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 432639
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 432645
+       MousePointer = 147  ' GuiOpcode: 11 Offset Dec: 432658
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 432661
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 432688
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 432693
+       MousePointer = 207  ' GuiOpcode: 11 Offset Dec: 432715
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 432717
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 432719
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 432721
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 432723
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 432725
+       ScaleWidth = -1,357609E+18  ' GuiOpcode: 23 Offset Dec: 432730
+       ScaleWidth = 4,045251E-06  ' GuiOpcode: 23 Offset Dec: 432739
+       ScaleTop = 1,137056E-26  ' GuiOpcode: 22 Offset Dec: 432744
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 432762
+       OLEDropMode = -16602  ' GuiOpcode: 71 Offset Dec: 432766
+       Left = 5,904288E-21  ' GuiOpcode: 5 Offset Dec: 432779
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 432791
+       DrawWidth = -17199  ' GuiOpcode: 28 Offset Dec: 432795
+       ScaleWidth = 5,385332E+33  ' GuiOpcode: 23 Offset Dec: 432798
+       ScaleLeft = -1,102388E+08  ' GuiOpcode: 21 Offset Dec: 432823
+       StartUpPosition = 79  ' GuiOpcode: 70 Offset Dec: 432828
+       DrawStyle = 27708  ' GuiOpcode: 27 Offset Dec: 432838
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 432842
+       Caption = "»NíÅÌá¥ˆÚĞíç´éW‰ó-µ8Ê/H­{kJÕJ‹µğ©Pâlx¼,RÛ;1™Ö8œZ$`5Ìß³]±Îíqô[¼ö.>.=ØÛ/bã~–œì¾EJ?wÒÙ>íĞ†k?q”lvvÑŒvÔrÙb!qğØŞ%äí‘î;\÷m=ÛÂºë¦OKôÕÄgñ"¢•Ø-Z=|/…˜@"  ' GuiOpcode: 1 Offset Dec: 432847
+       Width = 7,050573E-05  ' GuiOpcode: 7 Offset Dec: 433012
+       ScaleHeight = 9,814587E+17  ' GuiOpcode: 24 Offset Dec: 433020
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 433025
+       BackColor = -921589382  ' GuiOpcode: 3 Offset Dec: 433029
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 433040
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 433043
+       WindowState = 42  ' GuiOpcode: 10 Offset Dec: 433063
+       FillColor = 2001799646  ' GuiOpcode: 30 Offset Dec: 433067
+       PaletteMode = 82  ' GuiOpcode: 73 Offset Dec: 433074
+       DrawWidth = 17259  ' GuiOpcode: 28 Offset Dec: 433077
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 433089
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 433091
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 433096
+       ScaleWidth = 5,665181E+28  ' GuiOpcode: 23 Offset Dec: 433101
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 433135
+       CurrentY = 1,362351E-29  ' GuiOpcode: 20 Offset Dec: 433137
+       BorderStyle = 188  ' GuiOpcode: 34 Offset Dec: 433146
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 433161
+       ScaleLeft = 7,92091E+30  ' GuiOpcode: 21 Offset Dec: 433164
+       LinkMode = 21578  ' GuiOpcode: 37 Offset Dec: 433171
+       Left = -5,602244E-14  ' GuiOpcode: 5 Offset Dec: 433175
+       CurrentX = 4,170632E+12  ' GuiOpcode: 19 Offset Dec: 433182
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 433213
+       BackColor = -1469792574  ' GuiOpcode: 3 Offset Dec: 433215
+       LinkMode = -23470  ' GuiOpcode: 37 Offset Dec: 433226
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 433239
+       CurrentY = -5,045292E-03  ' GuiOpcode: 20 Offset Dec: 433243
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 433248
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 433258
+       DrawMode = 21586  ' GuiOpcode: 31 Offset Dec: 433262
+       LinkMode = -901  ' GuiOpcode: 37 Offset Dec: 433266
+       ScaleTop = 2,187568E+36  ' GuiOpcode: 22 Offset Dec: 433272
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 433283
+              BeginProperty Font
+                     Name = "‚½”J‹” €ï	P¡a*º­IqÜ}ë±×öWìu”ñÌÖî©ÁÔú¨µâ+Ñqá7`KíbF|§=Ia÷A–µ`†;—ºØ£ÁóÅOè8.>ïÅ>#—œÁûx²ª×Õ¥{_&íµ[ÔN#häAÃ¹ZŞg  ÙMÛÖVŒµİÜ­HÓ%R¤¸w"
+                     Size = 125723,777
+                     Charset = 135
+                     Weight = 30135
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       DrawStyle = -17363  ' GuiOpcode: 27 Offset Dec: 433438
+       MousePointer = 120  ' GuiOpcode: 11 Offset Dec: 433445
+       ScaleHeight = -1,596667E-24  ' GuiOpcode: 24 Offset Dec: 433448
+       hDC = 1882610179  ' GuiOpcode: 18 Offset Dec: 433454
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 433478
+       BackColor = -484642462  ' GuiOpcode: 3 Offset Dec: 433497
+              BeginProperty Font
+                     Name = "‘È†_ÉF*RoÕ^‘ub,¥«ñì±¼ÅH9ãkœçú/1H×H4$nHÍÕ:Õ?Ú†&\g·\_¯M¼Çcï¼ãµ>6 xøÿ ½ÅS´¾ÎFÉ³úëwGqÓŸÑä•a‹‡Ãõ]z*k ­ñ•‡xvÔåZ"Ê¦M„b¯óùœu–:6Ï˜†7A{c‘¬!Ã™ä
+’ÃM»w.3Å[–"
+                     Size = 183837,6113
+                     Charset = 1
+                     Weight = 23595
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 433680
+       DrawMode = 10770  ' GuiOpcode: 31 Offset Dec: 433683
+       FontSize = -1,083831E+18  ' GuiOpcode: 13 Offset Dec: 433692
+       OLEDropMode = -5759  ' GuiOpcode: 71 Offset Dec: 433697
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 433702
+       FontName = "™ñ×VW1ÊØì',…îc€pköTp\L¬×ÜÄQuU­yU§7xa7…ƒ)&¥uÅ§ü.ÃD»w‰g‹¹­O†øN'ø.FÑÖbÅ¸B\Ms=ŒèWfÿ"  ' GuiOpcode: 12 Offset Dec: 433705
+       BorderStyle = 221  ' GuiOpcode: 34 Offset Dec: 433797
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 433806
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 433814
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 433823
+       StartUpPosition = 216  ' GuiOpcode: 70 Offset Dec: 433831
+       DrawWidth = 18358  ' GuiOpcode: 28 Offset Dec: 433863
+       FillStyle = -21331  ' GuiOpcode: 29 Offset Dec: 433881
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 433884
+       DrawStyle = -30856  ' GuiOpcode: 27 Offset Dec: 433886
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 433891
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 433900
+       DrawMode = -3387  ' GuiOpcode: 31 Offset Dec: 433903
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 433918
+       ScaleTop = 4,76768E-32  ' GuiOpcode: 22 Offset Dec: 433931
+       LinkMode = -3513  ' GuiOpcode: 37 Offset Dec: 433945
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 433949
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 433951
+       PaletteMode = 116  ' GuiOpcode: 73 Offset Dec: 433954
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 433958
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 433961
+       FillStyle = 30857  ' GuiOpcode: 29 Offset Dec: 433965
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 433969
+       CurrentY = 3,778214E+18  ' GuiOpcode: 20 Offset Dec: 433971
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 433997
+       Tag = "¿^ô©n–£ù¢íER¢é9¾´¨QJ‹¢¾d¼K‚¾d©nŠí
+T]Ü)±Z‹¥¯•*[¤¯*K¢»;¼.ªÔ]KÂè¯~õ*[¢½éR]ïJ‹¢»’ñnPU/‚´ß¹/D%âÜ%wÔ¼K¥¯÷Òñn’»ğºZÕ*.¥EÑ_¯‚T]í4J‹¥$ÿ"  ' GuiOpcode: 47 Offset Dec: 434001
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 434147
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 434151
+       BackColor = -1790253089  ' GuiOpcode: 3 Offset Dec: 434168
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 434173
+       ScaleLeft = -5,30641E+10  ' GuiOpcode: 21 Offset Dec: 434178
+       WindowState = 84  ' GuiOpcode: 10 Offset Dec: 434184
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 434186
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 434188
+       Left = True  ' GuiOpcode: 5 Offset Dec: 434193
+       Name = "fyæ–ÔºİşzFİr\¦ßyÙfÕõ	ğÅs«A¯q­*§[JR¢ív%EÂÔı	Qw„•J‹¦FÈ™-rvÃóà3Ë?²\µb;Sô´äåãXÎ<Uæ{*{û”Ó±é]#¨27auÖ:ëJâ3~‰„ºBÛ‰\-&7†­.Ü	62ŸÜœ¬j¤×9érïìáâJÉ¸¸'Jİ¥mæéà©éI°9};œ¸Áf`÷PIR×š)™#IŠX6=sA~5ÙC8¼½8N“ºËáÊÆÓ\µV5ë:ÚZâ85/Æ"  ' GuiOpcode: 0 Offset Dec: 434198
+       Tag = "h1Ü´Âğ¢ò¶cÕáºj·šÓVJ‘Çt;9ì÷˜Y¡}­ÕÅ¤¿ÖÛJè¤ßö˜yOÖÌ9ÕU|l74õ:»VËÆ›¦Y‚Ií,¤‚â;{‹	ßÓ670$c…H;w-tnºÎt"åÑ¤âŞºq¯y×¿–\Ñ»Ìg¦Éİfq–â^VîóìUŒb£dU=›suœÛ|6¾šn.­M«,ícµ’™|y\Şj–†Ñ²´JÎ)§Vkœ ãv)é­YÒ¾R¶Ôâİ7í,´Ì,½ÍÛ²ó3#Cì4ü›Yp«e¼X‹yüê‡‹,W‹d#­ìÚvXyxå•ìEYê¿ğóšöBó+w-åõÃî®g<ÒLã¿€"  ' GuiOpcode: 47 Offset Dec: 434443
+       FontSize = 6,465434E-38  ' GuiOpcode: 13 Offset Dec: 434732
+       FontSize = 7,431574E+10  ' GuiOpcode: 13 Offset Dec: 434738
+       ScaleTop = -1,706606E-06  ' GuiOpcode: 22 Offset Dec: 434755
+       Left = 2,685969E+14  ' GuiOpcode: 5 Offset Dec: 434768
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 434780
+       Name = ".–½êT8’§éJ‹…­6%Kt„÷Ğ+R8ŠÓŠ—…Ú
+ı*Ô]?¤ÿ"  ' GuiOpcode: 0 Offset Dec: 434782
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 434825
+       Count = -607  ' GuiOpcode: 57 Offset Dec: 434827
+       DrawMode = 13319  ' GuiOpcode: 31 Offset Dec: 434856
+       ScaleLeft = -5,729757E-21  ' GuiOpcode: 21 Offset Dec: 434865
+       FillColor = 1894552341  ' GuiOpcode: 30 Offset Dec: 434872
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 434883
+       Count = -607  ' GuiOpcode: 57 Offset Dec: 434885
+       OLEDropMode = -7035  ' GuiOpcode: 71 Offset Dec: 434899
+       ScaleHeight = 1,831723E+36  ' GuiOpcode: 24 Offset Dec: 434903
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 434913
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 434928
+       FillStyle = -9085  ' GuiOpcode: 29 Offset Dec: 434932
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 434936
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 434938
+       FillStyle = -5032  ' GuiOpcode: 29 Offset Dec: 434957
+       FillColor = -266093854  ' GuiOpcode: 30 Offset Dec: 434960
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 434966
+       WindowState = 201  ' GuiOpcode: 10 Offset Dec: 434980
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 434983
+       OLEDropMode = -6432  ' GuiOpcode: 71 Offset Dec: 434990
+       DrawStyle = -5654  ' GuiOpcode: 27 Offset Dec: 434996
+       FillColor = 1642894101  ' GuiOpcode: 30 Offset Dec: 435006
+       DrawMode = 13319  ' GuiOpcode: 31 Offset Dec: 435017
+       ScaleLeft = -5,112888E+26  ' GuiOpcode: 21 Offset Dec: 435026
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 435037
+       ScaleWidth = 6,524622E+37  ' GuiOpcode: 23 Offset Dec: 435040
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 435045
+       FillStyle = -5032  ' GuiOpcode: 29 Offset Dec: 435064
+       FillColor = -266093854  ' GuiOpcode: 30 Offset Dec: 435067
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435073
+       FillStyle = -5032  ' GuiOpcode: 29 Offset Dec: 435091
+       FillColor = -266093854  ' GuiOpcode: 30 Offset Dec: 435094
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435100
+       MousePointer = 201  ' GuiOpcode: 11 Offset Dec: 435114
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 435117
+       ScaleLeft = -5,423173E-23  ' GuiOpcode: 21 Offset Dec: 435122
+       DrawMode = -4903  ' GuiOpcode: 31 Offset Dec: 435127
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 435147
+       Width = -1,576672E+15  ' GuiOpcode: 7 Offset Dec: 435152
+       ScaleLeft = -5,112888E+26  ' GuiOpcode: 21 Offset Dec: 435160
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 435171
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 435174
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 435177
+       Count = -607  ' GuiOpcode: 57 Offset Dec: 435179
+       OLEDropMode = 25733  ' GuiOpcode: 71 Offset Dec: 435193
+       ScaleHeight = 1,831723E+36  ' GuiOpcode: 24 Offset Dec: 435197
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 435207
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 435222
+       FillStyle = -9085  ' GuiOpcode: 29 Offset Dec: 435226
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 435230
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 435232
+       FillStyle = -5032  ' GuiOpcode: 29 Offset Dec: 435251
+       FillColor = -266224926  ' GuiOpcode: 30 Offset Dec: 435254
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435260
+       WindowState = 201  ' GuiOpcode: 10 Offset Dec: 435274
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 435277
+       OLEDropMode = -6432  ' GuiOpcode: 71 Offset Dec: 435284
+       DrawStyle = -5654  ' GuiOpcode: 27 Offset Dec: 435290
+       FillColor = 1642894101  ' GuiOpcode: 30 Offset Dec: 435300
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 435314
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 435329
+       FillStyle = -2171  ' GuiOpcode: 29 Offset Dec: 435333
+       ScaleLeft = -5,423173E-23  ' GuiOpcode: 21 Offset Dec: 435336
+       DrawMode = -4903  ' GuiOpcode: 31 Offset Dec: 435341
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 435361
+       DrawMode = -3066  ' GuiOpcode: 31 Offset Dec: 435365
+       ScaleLeft = -5,112888E+26  ' GuiOpcode: 21 Offset Dec: 435374
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 435385
+       ScaleWidth = 6,524622E+37  ' GuiOpcode: 23 Offset Dec: 435388
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 435393
+       FillStyle = -5032  ' GuiOpcode: 29 Offset Dec: 435412
+       FillColor = -266093854  ' GuiOpcode: 30 Offset Dec: 435415
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435421
+       MousePointer = 201  ' GuiOpcode: 11 Offset Dec: 435435
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 435438
+       ScaleLeft = -5,423173E-23  ' GuiOpcode: 21 Offset Dec: 435443
+       DrawMode = -4903  ' GuiOpcode: 31 Offset Dec: 435448
+       Width = -5,677569E+36  ' GuiOpcode: 7 Offset Dec: 435468
+       DrawWidth = -304  ' GuiOpcode: 28 Offset Dec: 435473
+       Count = 20443  ' GuiOpcode: 57 Offset Dec: 435482
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 435498
+       Count = -607  ' GuiOpcode: 57 Offset Dec: 435500
+       OLEDropMode = 25733  ' GuiOpcode: 71 Offset Dec: 435514
+       ScaleHeight = -0,3445088  ' GuiOpcode: 24 Offset Dec: 435518
+       MousePointer = 202  ' GuiOpcode: 11 Offset Dec: 435542
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 435545
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435552
+       DrawStyle = -5654  ' GuiOpcode: 27 Offset Dec: 435558
+       FillColor = 1894552341  ' GuiOpcode: 30 Offset Dec: 435568
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 435579
+       Count = -607  ' GuiOpcode: 57 Offset Dec: 435581
+       OLEDropMode = 25733  ' GuiOpcode: 71 Offset Dec: 435595
+       ScaleHeight = -1,867586E-20  ' GuiOpcode: 24 Offset Dec: 435599
+       WindowState = 201  ' GuiOpcode: 10 Offset Dec: 435623
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 435626
+       ScaleLeft = -5,423173E-23  ' GuiOpcode: 21 Offset Dec: 435631
+       DrawMode = -4903  ' GuiOpcode: 31 Offset Dec: 435636
+       Width = 5,677569E+36  ' GuiOpcode: 7 Offset Dec: 435656
+       DrawStyle = -304  ' GuiOpcode: 27 Offset Dec: 435661
+       Count = 20443  ' GuiOpcode: 57 Offset Dec: 435670
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435686
+       DrawStyle = -5654  ' GuiOpcode: 27 Offset Dec: 435692
+       FillColor = 1642894101  ' GuiOpcode: 30 Offset Dec: 435702
+       DrawMode = -3066  ' GuiOpcode: 31 Offset Dec: 435713
+       ScaleLeft = -5,112888E+26  ' GuiOpcode: 21 Offset Dec: 435722
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 435733
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 435736
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 435739
+       OLEDropMode = -6779  ' GuiOpcode: 71 Offset Dec: 435755
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 435784
+       FillStyle = -9085  ' GuiOpcode: 29 Offset Dec: 435788
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 435792
+       FontSize = -3,367854E-09  ' GuiOpcode: 13 Offset Dec: 435794
+       FillStyle = -5032  ' GuiOpcode: 29 Offset Dec: 435813
+       FillColor = -266224926  ' GuiOpcode: 30 Offset Dec: 435816
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435822
+       WindowState = 201  ' GuiOpcode: 10 Offset Dec: 435836
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 435839
+       ScaleLeft = -5,423173E-23  ' GuiOpcode: 21 Offset Dec: 435844
+       DrawMode = -4903  ' GuiOpcode: 31 Offset Dec: 435849
+       MouseIcon="splash.frx":6D786B91  ' GuiOpcode: 59 Offset Dec: 435857
+       Width = 5,677569E+36  ' GuiOpcode: 7 Offset Dec: 435869
+       DrawStyle = -304  ' GuiOpcode: 27 Offset Dec: 435874
+       Count = 20443  ' GuiOpcode: 57 Offset Dec: 435883
+       WhatsThisHelp = -1  ' GuiOpcode: 67 Offset Dec: 435899
+       DrawStyle = -5654  ' GuiOpcode: 27 Offset Dec: 435905
+       FillColor = 1642894101  ' GuiOpcode: 30 Offset Dec: 435915
+       Top = -1,13558E-17  ' GuiOpcode: 6 Offset Dec: 435930
+       Count = -21075  ' GuiOpcode: 57 Offset Dec: 435938
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 435942
+       ScaleTop = -1,518248E+24  ' GuiOpcode: 22 Offset Dec: 435949
+       FontSize = -1,021459E+23  ' GuiOpcode: 13 Offset Dec: 435957
+       Tag = "Õğ¯e†Çè—D.mšÿ"  ' GuiOpcode: 47 Offset Dec: 435974
+       FillStyle = -16441  ' GuiOpcode: 29 Offset Dec: 435994
+       ScaleLeft = -5,112888E+26  ' GuiOpcode: 21 Offset Dec: 436002
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 436013
+       FillStyle = 29167  ' GuiOpcode: 29 Offset Dec: 436016
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 436020
+       OLEDropMode = 25733  ' GuiOpcode: 71 Offset Dec: 436036
+       ScaleHeight = 1,831723E+36  ' GuiOpcode: 24 Offset Dec: 436040
+       FontItalic = -1  ' GuiOpcode: 15 Offset Dec: 436050
+       Tag = "Ã«ƒÜOD>èog±¾®+œí§Ö–ÑáY>ÆXìâz!ğoCû=õtñ\çm>´¶Éö0êÇaà¹èoEc‚GÃÑıÃHš	¨Ú6A¸‡¹XïLİmÆŸZ[I-Ù•JÌ(uVÃIÉôC¥7Q‹Hzm¥bÇ:O¶ƒf-´#Å6/<…á¼ÄP@çóu«Åxo=¦K'•¥Õ‡i¥Õ³IÊÛ¢]'€A%ÇM4ÃíXndÂØ;ÃkIåkà¸€à(‹yfWüÓëKiC//ø¡Åğ«=†^Ë£}–CÉÒÃÌÇ?¶£÷
+=é›óO­-¥ìÊ/ø¡_Ê¶lHz<n/úO£.çñ$d×`±ò>WG#£2<ºI/1'iªÉï,ÚÑ‹>³Úcİ•–œ(7¯á[ğt/¢"  ' GuiOpcode: 47 Offset Dec: 436064
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 436397
+       Name = "ßWXø®s¶ŸZ[KáY>ÆXì<3t¢‡G´COvŸÆúºx¦s¶ŸZ[KáyNÆXì:íèEkÒìş;ÕÂx®o¶ŸZ[IáyNÆXì<è?C óOÒ=Q4¾Y_€Æ†µ T’L"  ' GuiOpcode: 0 Offset Dec: 436399
+       FillStyle = -7447  ' GuiOpcode: 29 Offset Dec: 436510
+       FillStyle = -5032  ' GuiOpcode: 29 Offset Dec: 436524
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 436542
+       StartUpPosition = 205  ' GuiOpcode: 70 Offset Dec: 436544
+       DrawWidth = 6012  ' GuiOpcode: 28 Offset Dec: 436549
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 436555
+       BackColor = -1975514017  ' GuiOpcode: 3 Offset Dec: 436559
+       OLEDropMode = 14219  ' GuiOpcode: 71 Offset Dec: 436575
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 436587
+       WindowState = 216  ' GuiOpcode: 10 Offset Dec: 436590
+       HelpContextID = -859493166  ' GuiOpcode: 51 Offset Dec: 436595
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 436604
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 436606
+       LinkMode = 1910  ' GuiOpcode: 37 Offset Dec: 436609
+       DrawWidth = -6308  ' GuiOpcode: 28 Offset Dec: 436612
+       CurrentX = 3,028577E+12  ' GuiOpcode: 19 Offset Dec: 436615
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 436640
+       CurrentX = 1,325535E-34  ' GuiOpcode: 19 Offset Dec: 436645
+       ShowInTaskbar = -1  ' GuiOpcode: 68 Offset Dec: 436652
+       OLEDropMode = -6432  ' GuiOpcode: 71 Offset Dec: 436681
+       DrawStyle = -5654  ' GuiOpcode: 27 Offset Dec: 436687
+       Tag = ";uc°âz!ğoC{=õtñ\çm>´¶“Â²}Œ:±Ø=ÅtGàæ‡ö{êéâ¹ÎÚ}im“ìaÕÁî+¢ô?³ØßWOÎvÓëKhğ¼§c¬vq=ø7¡½Æúºx®s¶ŸZ[G…dûuc°{‰è‡Á½ìö7ÕÓÅs´úÒÚ</)ØÃ«ƒÜOD>èg±¾®+œí§Ö–ÑáyNÆXìâz!ğoC{=õtñ\çm>´¶
+Éö0êÇ`÷ÑƒzÙìo«§Šç;iõ¥´¾”ìaÕÁî+¢ô?³ØßWOÎvÓëKi</)ØÃ«ƒÜOD>èog±¾®+œí§Ö–Òø^S±‡V;j®Î"  ' GuiOpcode: 47 Offset Dec: 436697
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 436981
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 436983
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 436988
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 436993
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 436998
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437003
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437008
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437013
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437018
+       FontName = "cdâË¬…¼2ñ&Fóù˜1úJ-˜¹¤c¤Ô¶ş¶±¼¹å.twoÿ"  ' GuiOpcode: 12 Offset Dec: 437023
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 437071
+       Left = -5,577355E-25  ' GuiOpcode: 5 Offset Dec: 437074
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 437080
+       Height = -8,949506E-34  ' GuiOpcode: 8 Offset Dec: 437099
+       ClientLeft = -29460
+       ClientTop = 24803
+       ClientWidth = 23755
+       ClientHeight = -14592
+       FillStyle = 15278  ' GuiOpcode: 29 Offset Dec: 437132
+       LinkMode = -29016  ' GuiOpcode: 37 Offset Dec: 437138
+       FontSize = -1,851193E+21  ' GuiOpcode: 13 Offset Dec: 437141
+       LinkTopic = "2F+qÍ'eÍÌåsš”‹âã6è5>2M—u‹«Bg¬¯`”=ÁÅKŒ¿qk3ÑÍ­ŠFÈ×
+´´Ö ñXR†iÔò ¬ñ#s{FÄ—sŒ¸3¹À“Ìk]êƒ°Ì<®¼$v‚P[LtvÕ¡ÚíôŞ 4l“®RGÑŞ#^âÀ×·•¢•ßXÜVÉZ‘®6I£ØØù|[hZÕ»|«Y°ï :··¶¸ëio/gm½¼4ç‘İ¤Ñ­"  ' GuiOpcode: 36 Offset Dec: 437147
+       LinkMode = -32572  ' GuiOpcode: 37 Offset Dec: 437341
+       Name = "ÁµTªFèz÷)6AíŸ$ÓŒd>ÃiW8ml·t¨s†öÇö[½ÜÏ§&U¦ƒ9i:ö¶w9I¼i«ÉZíX™›õ”v±†1´4ó¨²"  ' GuiOpcode: 0 Offset Dec: 437344
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 437424
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437426
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437431
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437436
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437441
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437446
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437451
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437456
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437461
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437466
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437471
+       hWnd = -264977149  ' GuiOpcode: 2 Offset Dec: 437476
+       HelpContextID = -1838183392  ' GuiOpcode: 51 Offset Dec: 437485
+       OLEDropMode = -18682  ' GuiOpcode: 71 Offset Dec: 437490
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 437496
+              BeginProperty Font
+                     Name = "jwöÁçpVã1û‹QÑ›RN* Æè+ÍwpÆ}9úh­Ôµ‹ÍèF"lşAôñ2Q[·ó™iŞ$"
+                     Size = -54991,4657
+                     Charset = 251
+                     Weight = 11711
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       DrawMode = 752  ' GuiOpcode: 31 Offset Dec: 437577
+       WindowState = 73  ' GuiOpcode: 10 Offset Dec: 437582
+       MDIChild = -1  ' GuiOpcode: 48 Offset Dec: 437585
+       MousePointer = 147  ' GuiOpcode: 11 Offset Dec: 437588
+       CurrentX = -5,51638E+19  ' GuiOpcode: 19 Offset Dec: 437602
+       LinkMode = -22281  ' GuiOpcode: 37 Offset Dec: 437607
+       FontSize = 1,279709E-08  ' GuiOpcode: 13 Offset Dec: 437616
+       HelpContextID = 408434878  ' GuiOpcode: 51 Offset Dec: 437622
+       Left = 6445,513  ' GuiOpcode: 5 Offset Dec: 437630
+       Icon="splash.frx":221E60FE  ' GuiOpcode: 35 Offset Dec: 437635
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 437647
+       Picture="splash.frx":454D7FB5  ' GuiOpcode: 33 Offset Dec: 437649
+       FillColor = 2017463952  ' GuiOpcode: 30 Offset Dec: 437664
+       BackColor = 276512969  ' GuiOpcode: 3 Offset Dec: 437673
+       ScaleHeight = -9,805045E+27  ' GuiOpcode: 24 Offset Dec: 437678
+       Tag = "ÛJ€ZR¡ª˜‘å›‹£Öîâûra©¼Îk(×Ÿç³¾õ˜<5ªÃ+m©²085ó6å¼ßÕÜ·‘Ô<L±ŠlìùÓádø—°Ûj»W÷«i­ê*dc|Vl4$˜ù‹G{ÃT¹ÀÅúiT3öÙ+ÖsÚ]EpÊÓš7
+öT,ZkIš’zÑhwò…
+NFùP€p@zÿ"  ' GuiOpcode: 47 Offset Dec: 437684
+       HelpContextID = 1564165978  ' GuiOpcode: 51 Offset Dec: 437839
+       StartUpPosition = 135  ' GuiOpcode: 70 Offset Dec: 437851
+       ScaleTop = 9,975943E+29  ' GuiOpcode: 22 Offset Dec: 437856
+       Top = -8,968598E-18  ' GuiOpcode: 6 Offset Dec: 437862
+       Caption = "ü«Y°Èdò¶˜˜5Óœ]3ÄV–Ñig”‚Dq°m&€Àq! •R©¨zúúîy®c¿È¹²^ÄIÇãØy ³¨¡#ƒå d#`ôY@\]•ib1Q««<˜ìd×Ò}ââ¤¸¬LÍòÖÒ8Ö1 SêP´7Ê€ä€ "  ' GuiOpcode: 1 Offset Dec: 437867
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 437993
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 437995
+       hWnd = -142149373  ' GuiOpcode: 2 Offset Dec: 438000
+       Tag = "¿gªØx~÷õË½vøÕ¯=¤ÊzÂw¿gªØ;Ş7×.vOİvø×¯=£ÊzÂw¿gªØ;Ş7×.v_İvøÕ¯}£ÊzÂw¿gªØ;Ş7×.v=ÿ"  ' GuiOpcode: 47 Offset Dec: 438015
+       Image="splash.frx":7AC717C7  ' GuiOpcode: 41 Offset Dec: 438116
+       FontName = "ªØ;Ş7×.v=ÿ"  ' GuiOpcode: 12 Offset Dec: 438146
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 438195
+       ClientLeft = -12437
+       ClientTop = -20322
+       ClientWidth = -9937
+       ClientHeight = 3766
+       ClientLeft = -12309
+       ClientTop = -20322
+       ClientWidth = -9937
+       ClientHeight = 3766
+       ClientLeft = -12309
+       ClientTop = -20322
+       ClientWidth = -9937
+       ClientHeight = 3766
+       FontName = "ªØ;Ş7×.v=ÿ"  ' GuiOpcode: 12 Offset Dec: 438296
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 438345
+       ClientLeft = -12309
+       ClientTop = -20322
+       ClientWidth = -9937
+       ClientHeight = 3766
+       ClientLeft = -12437
+       ClientTop = -20322
+       ClientWidth = -9937
+       ClientHeight = 3766
+       PaletteMode = 148  ' GuiOpcode: 73 Offset Dec: 438417
+       ScaleMode = -12674  ' GuiOpcode: 25 Offset Dec: 438422
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 438442
+       CurrentX = 1,198756E-04  ' GuiOpcode: 19 Offset Dec: 438445
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 438463
+       Width = -1,480316E+23  ' GuiOpcode: 7 Offset Dec: 438477
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 438488
+       Width = -1,480316E+23  ' GuiOpcode: 7 Offset Dec: 438502
+       MouseIcon="splash.frx":5EED5451  ' GuiOpcode: 59 Offset Dec: 438545
+       MouseIcon="splash.frx":EEA0B3DB  ' GuiOpcode: 59 Offset Dec: 438557
+       ScaleMode = -12674  ' GuiOpcode: 25 Offset Dec: 438572
+       FillColor = -1206659501  ' GuiOpcode: 30 Offset Dec: 438592
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 438613
+       Width = -1,480316E+23  ' GuiOpcode: 7 Offset Dec: 438627
+       MouseIcon="splash.frx":68A1B2FD  ' GuiOpcode: 59 Offset Dec: 438645
+       MouseIcon="splash.frx":F8551287  ' GuiOpcode: 59 Offset Dec: 438657
+       ScaleMode = -12674  ' GuiOpcode: 25 Offset Dec: 438672
+       Name = "ñ«^ûG”õ„î~Î=U°w¼o®\ì¾ÿ"  ' GuiOpcode: 0 Offset Dec: 438686
+       PaletteMode = 148  ' GuiOpcode: 73 Offset Dec: 438719
+       ScaleMode = -12674  ' GuiOpcode: 25 Offset Dec: 438724
+       Width = -1,19881E-14  ' GuiOpcode: 7 Offset Dec: 438743
+       StartUpPosition = 127  ' GuiOpcode: 70 Offset Dec: 438749
+       MouseIcon="splash.frx":B25611A9  ' GuiOpcode: 59 Offset Dec: 438752
+       Picture="splash.frx":D1AF76FD  ' GuiOpcode: 33 Offset Dec: 438768
+              BeginProperty Font
+                     Name = "§)u(§êÛÏ ı¥;®]èÂ‹şTºQ—ÜÆ_6+_ÌßAÄõó©•ëS³6„õıœG·ÒuÌÏı§rÂñÁ*~â÷¦¿ä›õÓiÌÿ YàÙê.­ƒï.µ^ñş_Şİr~Â€ôÂ=T½ÅñUò·ëmûÍBÿ ®İjÈ\}òãªº¬İãâË]Âï¦)¶,–Ñ‡di"
+                     Size = -211552,9278
+                     Charset = 178
+                     Weight = -21990
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       ScaleTop = 2,469056E-29  ' GuiOpcode: 22 Offset Dec: 438952
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 438957
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 438966
+       DrawWidth = -111  ' GuiOpcode: 28 Offset Dec: 438969
+       Name = "Üpüqê­ƒ½b¯ß—;8ûéëS¾ßWõ±òçò?ğêø~gªØNùõËœ›Ö~²·wWu¯ÿ"  ' GuiOpcode: 0 Offset Dec: 438972
+       FillColor = -112273238  ' GuiOpcode: 30 Offset Dec: 439039
+       FontSize = 2,454945E+27  ' GuiOpcode: 13 Offset Dec: 439053
+       LinkMode = 255  ' GuiOpcode: 37 Offset Dec: 439061
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 439064
+       DrawWidth = -112  ' GuiOpcode: 28 Offset Dec: 439091
+       Name = "pËöqê­„ïxß\¹Ùä{ë İÖvv£ÉúÂ½Ã/ÙÇª¶÷õË—ßç]~4ëÏhò~°Ã/ÙÇª¶÷õËuøÓ¯=£ÉúÂw¿gªØ;Ş7×.vr=}ë±ÿ"  ' GuiOpcode: 0 Offset Dec: 439094
+       Name = "~°Ã/ÙÇª¶÷õËœ}şu×ãN¼ö'ë	Ü2ıœz«`ïxß\¹Ùãw]ºŞÿ"  ' GuiOpcode: 0 Offset Dec: 439200
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 439256
+       DrawMode = 17146  ' GuiOpcode: 31 Offset Dec: 439259
+       FontName = "ªØ;Ş7×.vuŸÖ¾³?íuwZŸ.#ÿ"  ' GuiOpcode: 12 Offset Dec: 439263
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 439291
+       MouseIcon="splash.frx":34CB2DCD  ' GuiOpcode: 59 Offset Dec: 439310
+       Tag = "úåÎÎÅ¯^:ãcvËèº·«¤º`£fŸ3y9»Æ•ôQäp¥Èó"¬Ö*uR|æÜÏ™^­]Šdú•®mâ9®±ZŸ)n@íğ_q$gÌ°ğü¢õÅl7wéËærõI¯Àò³u~÷n+æ/[5çh´Éj¥£Çw‰÷—ÄOô‚½ÓiÂª)û‰÷±ËŠım¯}•÷Wşc±Ìİõk¨QÛn›¨òrBAâ%åÌ>b³S+-‡Ul5Ï32—;ÚqÃu»­y;Ù¬.z½­nß{gs¡›PäÉ?„çFæsNhI»88©‰’Ë¥U‡ªØ\Î4¥KÍØõ³Á€êï\î™5Ãº×­ñX›:ì“µL1•ÜÆ5·"  ' GuiOpcode: 47 Offset Dec: 439330
+       Appearance = 181  ' GuiOpcode: 65 Offset Dec: 439618
+       OLEDropMode = -13420  ' GuiOpcode: 71 Offset Dec: 439620
+       ScaleTop = -7,47685E+14  ' GuiOpcode: 22 Offset Dec: 439626
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 439634
+       Count = -19164  ' GuiOpcode: 57 Offset Dec: 439636
+       DrawMode = 12120  ' GuiOpcode: 31 Offset Dec: 439644
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 439656
+       MousePointer = 75  ' GuiOpcode: 11 Offset Dec: 439658
+       Width = 1,211438E-33  ' GuiOpcode: 7 Offset Dec: 439663
+       KeyPreview = -1  ' GuiOpcode: 49 Offset Dec: 439673
+       ForeColor = 1095835312  ' GuiOpcode: 4 Offset Dec: 439676
+       Appearance = 197  ' GuiOpcode: 65 Offset Dec: 439681
+       Icon="splash.frx":EF76E147  ' GuiOpcode: 35 Offset Dec: 439683
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 439696
+       ScaleTop = 2,119992E-02  ' GuiOpcode: 22 Offset Dec: 439702
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 439712
+       Left = 7,537334E+31  ' GuiOpcode: 5 Offset Dec: 439740
+       Top = 7,537334E+31  ' GuiOpcode: 6 Offset Dec: 439747
+       Name = "»†_³Ul1ïxß\¹Ùä}ë¨İÖ­yíSÖî~Î=U°w¼o®\ì¾ÿ"  ' GuiOpcode: 0 Offset Dec: 439752
+       PaletteMode = 148  ' GuiOpcode: 73 Offset Dec: 439805
+       ScaleMode = -12674  ' GuiOpcode: 25 Offset Dec: 439810
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 439830
+       CurrentX = 1,198756E-04  ' GuiOpcode: 19 Offset Dec: 439833
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 439851
+       Width = -1,480316E+23  ' GuiOpcode: 7 Offset Dec: 439865
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 439876
+       Width = -1,480316E+23  ' GuiOpcode: 7 Offset Dec: 439890
+       FontTransparent = -1  ' GuiOpcode: 26 Offset Dec: 439901
+       Width = -1,480316E+23  ' GuiOpcode: 7 Offset Dec: 439915
+       MouseIcon="splash.frx":50D1A1DB  ' GuiOpcode: 59 Offset Dec: 439933
+       MouseIcon="splash.frx":E0850165  ' GuiOpcode: 59 Offset Dec: 439945
+       ScaleMode = -12674  ' GuiOpcode: 25 Offset Dec: 439960
+       FillColor = -1206659501  ' GuiOpcode: 30 Offset Dec: 439980
+       Tag = "ª¶÷õË½vøÕ¯=¤ÊzÂw¿gªØ;Ş7×.v=ÿ"  ' GuiOpcode: 47 Offset Dec: 440011
+       Image="splash.frx":9A860087  ' GuiOpcode: 41 Offset Dec: 440057
+       MinButton = -1  ' GuiOpcode: 39 Offset Dec: 440084
+       ClientLeft = -12437
+       ClientTop = -20322
+       ClientWidth = -9937
+       ClientHeight = 3766
+       CurrentY = 7,834717E-39  ' GuiOpcode: 20 Offset Dec: 440127
+       Height = 8,798954E+12  ' GuiOpcode: 8 Offset Dec: 440134
+       Caption = ""  ' GuiOpcode: 1 Offset Dec: 440139
+              BeginProperty Font
+                     Name = "P"
+                     Size = 33975,5077
+                     Charset = 1
+                     Weight = 16405
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       CurrentY = 1,400125E-11  ' GuiOpcode: 20 Offset Dec: 440159
+       DrawMode = -9503  ' GuiOpcode: 31 Offset Dec: 440167
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 440181
+       LinkMode = 23692  ' GuiOpcode: 37 Offset Dec: 440185
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 440189
+       FontSize = -643,804  ' GuiOpcode: 13 Offset Dec: 440195
+       MouseIcon="splash.frx":CD620A76  ' GuiOpcode: 59 Offset Dec: 440205
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 440234
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 440241
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 440244
+       WhatsThisButton = -1  ' GuiOpcode: 66 Offset Dec: 440251
+       Tag = "Ze^E¶ƒø–™µ'î¸¯ÜY6BèÓıÎÇô)7¥Ó‘öÑò½‡«rqúº<8-å&ÊÚ6>Ÿå\'í)ö“ÓWÊ>ü—ËEÈŒ-ŞK%<××ÓŞkûéúîbVÅ´#T¦å¥¶tù\w•haR†+AShò«BT´DP"  ' GuiOpcode: 47 Offset Dec: 440253
+       ForeColor = 339738625  ' GuiOpcode: 4 Offset Dec: 440392
+       Caption = ""  ' GuiOpcode: 1 Offset Dec: 440397
+       Picture="splash.frx":AA6608ED  ' GuiOpcode: 33 Offset Dec: 440402
+       FontUnderline = -1  ' GuiOpcode: 17 Offset Dec: 440426
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 440429
+       Top = -1,785292E-26  ' GuiOpcode: 6 Offset Dec: 440432
+       CurrentX = 5,829759E-17  ' GuiOpcode: 19 Offset Dec: 440437
+       LinkMode = -19835  ' GuiOpcode: 37 Offset Dec: 440453
+       Moveable = -1  ' GuiOpcode: 74 Offset Dec: 440459
+       CurrentX = 1,472885E+31  ' GuiOpcode: 19 Offset Dec: 440463
+       FillStyle = 16105  ' GuiOpcode: 29 Offset Dec: 440469
+       FontBold = -1  ' GuiOpcode: 14 Offset Dec: 440472
+       WindowState = 202  ' GuiOpcode: 10 Offset Dec: 440480
+       MaxButton = -1  ' GuiOpcode: 38 Offset Dec: 440482
+       DrawWidth = 21371  ' GuiOpcode: 28 Offset Dec: 440486
+       ScaleWidth = 1,134042E-12  ' GuiOpcode: 23 Offset Dec: 440494
+       Icon="splash.frx":FAA841F2  ' GuiOpcode: 35 Offset Dec: 440499
+       ScaleMode = 13378  ' GuiOpcode: 25 Offset Dec: 440525
+       ClientLeft = 20194
+       ClientTop = -29484
+       ClientWidth = -18726
+       ClientHeight = -6548
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 440547
+       hWnd = -2146916350  ' GuiOpcode: 2 Offset Dec: 440549
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 440554
+       hWnd = 713033896  ' GuiOpcode: 2 Offset Dec: 440556
+       hWnd = 36347904  ' GuiOpcode: 2 Offset Dec: 440561
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 440566
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 440570
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 440572
+       Name = "
+"  ' GuiOpcode: 0 Offset Dec: 440574
+       Height = 2,168405E-19  ' GuiOpcode: 8 Offset Dec: 440580
+       FillStyle = 2696  ' GuiOpcode: 29 Offset Dec: 440585
+       BorderStyle = 0  ' GuiOpcode: 34 Offset Dec: 440589
+       Height = -4,064499E+17  ' GuiOpcode: 8 Offset Dec: 440592
+       Image="splash.frx":AAD4A619  ' GuiOpcode: 41 Offset Dec: 440597
+       ScaleHeight = -1,279795E-23  ' GuiOpcode: 24 Offset Dec: 440614
+       LinkTopic = "úVÅŠÖm$´&v†"  ' GuiOpcode: 36 Offset Dec: 440619
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 440645
+       ScaleMode = -31619  ' GuiOpcode: 25 Offset Dec: 440662
+       LinkMode = -5907  ' GuiOpcode: 37 Offset Dec: 440667
+       ClipControls = -1  ' GuiOpcode: 50 Offset Dec: 440678
+       CurrentX = 2,254842E-17  ' GuiOpcode: 19 Offset Dec: 440684
+       hDC = -620004173  ' GuiOpcode: 18 Offset Dec: 440690
+       MousePointer = 246  ' GuiOpcode: 11 Offset Dec: 440699
+       Width = 3,752728E-32  ' GuiOpcode: 7 Offset Dec: 440702
+       DrawMode = -19861  ' GuiOpcode: 31 Offset Dec: 440710
+       CurrentY = 1,180374E+16  ' GuiOpcode: 20 Offset Dec: 440734
+       MousePointer = 166  ' GuiOpcode: 11 Offset Dec: 440742
+       DrawWidth = -31653  ' GuiOpcode: 28 Offset Dec: 440748
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 440751
+       ForeColor = 407167103  ' GuiOpcode: 4 Offset Dec: 440753
+       ScaleLeft = -1,717476E+31  ' GuiOpcode: 21 Offset Dec: 440762
+       ScaleMode = 29159  ' GuiOpcode: 25 Offset Dec: 440769
+       Visible = -1  ' GuiOpcode: 46 Offset Dec: 440772
+       LinkTopic = "'yYšª9U¡*^P‚¥ 
+Ğ•*"  ' GuiOpcode: 36 Offset Dec: 440774
+       Tag = "E@@"  ' GuiOpcode: 47 Offset Dec: 440798
+              BeginProperty Font
+                     Name = " @P>´•P€%J¨ €  € ¨¨  
+€€ 
+ ¨
+ ¨
+ ¨Å @TT T@{s13ÆJû¤&ƒ{¨Ì"
+                     Size = 873,3216
+                     Charset = 1
+                     Weight = 5440
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       LinkTopic = "çŒ€æ>Úè·BæyîoÑæ\(hNvñşeˆÚ“Xv>=ŒõeõŞNêg·%qq<ñ8µí¹{œæ8CÍAªåE% àÎM¿‰³¥ÊNõ•j^@”%N\¡Z¥ @"  ' GuiOpcode: 36 Offset Dec: 440904
+              BeginProperty Font
+                     Name = "P"
+                     Size = 34079,1632
+                     Charset = 5
+                     Weight = 1301
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       FontStrikethru = -1  ' GuiOpcode: 16 Offset Dec: 441016
+       Name = ""  ' GuiOpcode: 0 Offset Dec: 441018
+       Caption = ""  ' GuiOpcode: 1 Offset Dec: 441025
+              BeginProperty Font
+                     Name = " @
+Âª ¨
+ª"
+                     Size = 107374,2084
+                     Charset = 4
+                     Weight = 4160
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       Height = -7,349895E-39  ' GuiOpcode: 8 Offset Dec: 441059
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 441064
+       hWnd = -2147341696  ' GuiOpcode: 2 Offset Dec: 441066
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 441071
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 441075
+       ForeColor = -1258089152  ' GuiOpcode: 4 Offset Dec: 441079
+              BeginProperty Font
+                     Name = "ıFÁ<Z&Ñÿ ÆÇ¯®Ó-¡6æ¿ÑcV"
+                     Size = 134637,2944
+                     Charset = 1
+                     Weight = 1
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       RightToLeft = -1  ' GuiOpcode: 69 Offset Dec: 441133
+       PaletteMode = 26  ' GuiOpcode: 73 Offset Dec: 441145
+       BackColor = 1074050349  ' GuiOpcode: 3 Offset Dec: 441147
+       Enabled = -1  ' GuiOpcode: 9 Offset Dec: 441166
+       HasDC = -1  ' GuiOpcode: 42 Offset Dec: 441173
+       Name = "“Ã]cDS9Ì»ÇÜ×îy;sÏ´Ş¨\8µÀ8qd1¹MX˜Né\&%l5„B
+"  ' GuiOpcode: 0 Offset Dec: 441180
+              BeginProperty Font
+                     Name = " €  €"
+                     Size = 54525,9522
+                     Charset = 21
+                     Weight = 2112
+                     Italic = 0
+                     Underline = 0
+                     Strikethrough = 0
+              EndProperty
+       ControlBox = -1  ' GuiOpcode: 40 Offset Dec: 441257
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 441260
+       hWnd = 136347648  ' GuiOpcode: 2 Offset Dec: 441262
+       WindowState = 160  ' GuiOpcode: 10 Offset Dec: 441267
+       BorderStyle = 160  ' GuiOpcode: 34 Offset Dec: 441269
+       AutoRedraw = -1  ' GuiOpcode: 32 Offset Dec: 441271
+       Width = 1,165446E-40  ' GuiOpcode: 7 Offset Dec: 441273
+              BeginProperty Font

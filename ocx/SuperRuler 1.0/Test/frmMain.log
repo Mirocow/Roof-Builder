@@ -1,0 +1,11 @@
+Line 16: Class acSR.SuperRuler of control SuperRuler2 was not a loaded control class.
+Line 28: Class acSR.SuperRuler of control SuperRuler1 was not a loaded control class.
+Line 21: The property name _ExtentX in SuperRuler2 is invalid.
+Line 22: The property name _ExtentY in SuperRuler2 is invalid.
+Line 23: The property name Orientation in SuperRuler2 is invalid.
+Line 25: The property name MaxH in SuperRuler2 is invalid.
+Line 26: The property name MaxV in SuperRuler2 is invalid.
+Line 33: The property name _ExtentX in SuperRuler1 is invalid.
+Line 34: The property name _ExtentY in SuperRuler1 is invalid.
+Line 36: The property name MaxH in SuperRuler1 is invalid.
+Line 37: The property name MaxV in SuperRuler1 is invalid.

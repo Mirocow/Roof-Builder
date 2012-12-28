@@ -1,0 +1,117 @@
+Roof Builder is copyright (c) 1996-2005  MDinc aka Morozov Dmitry.  All rights 
+reserved.
+"Roof Builder" is trademark of MS companies.
+
+IMPORTANT - READ CAREFULLY
+
+This license statement and limited warranty constitutes a legal agreement ("License 
+Agreement") between you ("Licensee", either as an individual or a single entity) and 
+MDinc ("Licensor"), owner of the brand "MS Companies", for the software product 
+Roof Builder ("Software") of which MDinc is the copyright holder.
+
+The Web Site referred to in this agreement is http://www.roofbuilder.net
+
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU 
+AGREE TO BE BOUND BY ALL OF THE TERMS AND CONDITIONS OF THE 
+LICENSE AGREEMENT.
+
+Upon your acceptance of the terms and conditions of the License Agreement, 
+MDinc grants you the right to use the Software in the manner provided below.
+
+If you do not accept the terms and conditions of the License Agreement, you are to 
+promptly delete each and any copy of the Software from your computer(s).
+
+This license agreement only applies to the software product "Roof Builder" and not 
+to any other product even if that product is similar to Roof Builder and has a similar 
+name.
+
+The Licensor reserves the right to license the same Software to other individuals or 
+entities under a different license agreement.
+
+After accepting this license agreement, the Licensee is permitted to use the 
+Software under the terms of this agreement for no more than sixty (60) days, and for 
+evaluation purposes only, without payment to the Licensor.  For this purpose, the 
+Licensor provides a special free trial version of the Software that can be freely 
+downloaded from the Licensor's web site.
+
+If the Licensee wishes to use the software for more than sixty (60) days and/or for 
+purposes other than evaluating the Software, the Licensee must purchase a single 
+user license.  This license bears the name of the licensed person or entity and is not 
+transferable to any other party.  Pricing and availability is subject to change without 
+prior notice.  The Licensee can consult the most recent pricing information at 
+http://roofbuilder.firma-ms.ru/Roof_Builder/lic.shtml
+
+If a single user license was bought, the Licensee has the option of installing the 
+Software on a single machine possibly used by one or more persons, or installing the 
+Software on several machines used exclusively by a single person.  Any 
+combination of these options, or installing the Software on a network server, is not 
+permitted.
+
+Regardless of the number of licenses bought, the Licensee has right to place an 
+additional copy of the Software on a removable medium for backup purposes to 
+protect the investment made.
+
+Technical support is available directly from the Licensor at no additional charge.  
+When encountering problems, the Licensee must first visit the Web Site and read 
+the information presented there to make sure the question or problem is not already 
+answered there.  If not, the licensee may write to technical support email address 
+with his question in either the English or Dutch language.
+
+The Software is provided "as is". In no event shall the Licensor or any of his 
+affiliates be liable for any consequential, special, incidental or indirect damages of 
+any kind arising out of the delivery, performance or use of this Software, to the 
+maximum extent permitted by applicable law.  While the Software has been 
+developed with great care, it is not possible to warrant that the Software is error free. 
+ The Software is not designed or intended to be used in any activity that may cause 
+personal injury, death or any other severe damage or loss.
+
+When errors are found in the Software, the Licensor will release a new version of 
+the Software that no longer contains those errors a reasonable amount of time after 
+the Licensor is given an accurate description of those errors.  Which amount of time 
+is reasonable will depend on the complexity and severity of the errors.  The Licensor 
+will mention the release on the Web Site and, at the Licensor's option, directly 
+contact the Licensee to announce the new release.  The Licensee can then, at 
+their option, upgrade to the latest version or to continue to use the older version the 
+Licensee already has.  In either case, no payment to the Licensor is required.  In the 
+latter case, the Licensee will no longer be entitled to technical support until the 
+Licensee has upgraded to the latest version.
+
+The Licensor reserves the right to charge an upgrade fee in the case of major new 
+enhancements or additions to the Software.  This major new version will then start a 
+new version line that will use version numbers clearly distinguishable from the old 
+version line.  The Licensee has no obligation to upgrade to the new version line and 
+the Licensor will continue to make the latest version of the previous version line 
+available for download to Licensee.
+
+You must not attempt to reverse compile, modify, translate or disassemble the 
+Software in whole or in part.  You must not run the Software under a debugger or 
+similar tool allowing you to inspect the inner workings of the Software.
+
+The Software remains the exclusive property of the Licensor.  Any Licensee who 
+fully complies with the terms in this license agreement may use it according to the 
+terms of this license agreement.  You must not give copies of the Software or your 
+license key to other persons or entities.  You must not transfer the Software or your 
+license key to another person or entity.  You must also take reasonable steps to 
+prevent any third party from copying the software from one of your machines without 
+your permission.
+
+You may distribute the free evaluation version of the Software that is available for 
+public download on the Web Site at the moment that you do distribute it, on the 
+condition that you do this by making identical copies of the downloaded file(s).  
+Public download means any file that can be downloaded by browsing to the Web 
+Site and navigating through the links visible on the page, without the use of any 
+password or identification that you may type in or that may be automatically supplied 
+by your browser if you have typed it in before.
+
+You must not ask payment for the act of distributing the evaluation version of the 
+Software or for the evaluation version itself.  You may ask a reasonable contribution 
+to cover your expenses in material, shipping and communication costs.  You must 
+make it clear to the recipient that you are sending an evaluation version and that 
+the recipient will have to accept a license agreement in order to evaluate it, and 
+make payment in order to fully use the Software.  You must not distribute the 
+evaluation version by making it part of a larger package, unless that package is a 
+collection of free evaluation software and other software that does not require 
+payment.
+
+The Licensor reserves the right to revoke your license if you violate any or all of the 
+terms of this license agreement, without prior notice.

@@ -1,0 +1,29 @@
+[Job with slopes of a roof]
+1) Copying together with we shall open also application of this action to the chosen number of slopes
+2) Mirror copying together with we shall open also application of this action to the chosen number of slopes
+3) Removal(Distance) of figure of a slope together with we shall open also application of this action to the chosen number of slopes
+
+[General]
+1) Scalability of a window
+2) The manager of structures with an opportunity of addition, editing, removal(distance) of recordings
+	 (the Description, working width, general width, нахлест on length of a sheet)
+3) The manager of projects with an opportunity of search by name a file, a general view conclusion of a roof, sorting и.т.д.
+	 (the Name of a file, the Description of the project, the Name of a computer, the Description of a product, the service description, the Full way, the Size in kilobytes)
+4) The manager of patterns with an opportunity of addition of the current edited figure and коректировки it(him) with a conclusion
+5) An opportunity of automatic preservation of the project in temporary catalogue WINDOWS
+6) An opportunity of change of the data on firm including the name of the organization and any other information
+   Which will be is deduced at listing
+7) A maximum quantity of the data:
+	 (Slopes = 52, Cuts(Sections) = 5, Points = 1000, MAXR = 50, Lines = 900)
+8) Automatic input of a name of a computer in field Agent
+9) An opportunity of a conclusion of the area on working and general width of a sheet
+
+[Accounting of slopes]
+
+[Seal]
+1) A conclusion to the network printer
+2) A conclusion пред viewing
+3) A conclusion of any quantity of slopes
+4) A conclusion of any slope (the Choice at will)
+5) A seal of a cap of a sheet
+	 (the Name of the program, the version, a name of a file, date)

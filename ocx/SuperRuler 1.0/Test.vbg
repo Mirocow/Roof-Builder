@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=Test\Test.vbp
+Project=usercontrols\acSR.vbp

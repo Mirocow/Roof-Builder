@@ -1,0 +1,81 @@
+Type=Control
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\windows\system32\STDOLE2.TLB#OLE Automation
+Class=CPoints; CPoints.cls
+Class=CPoint; CPoint.cls
+UserControl=Canvas.ctl
+Class=CLine; CLine.cls
+Module=Grad; GEometry.bas
+Module=Polygon; Polygon.bas
+Module=Declare; Declare.bas
+Module=GL; GL.bas
+Class=CLines; CLines.cls
+Class=CGeometry; CGeometry.cls
+Class=CPolygon; CPolygon.cls
+Class=CPolygons; CPolygons.cls
+Startup="(None)"
+HelpFile=""
+ExeName32="Geometry.ocx"
+Command32=""
+Name="prjCanvas"
+HelpContextID="0"
+CompatibleMode="1"
+CompatibleEXE32="Geometry.ocx"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="NeoSys Deployment"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[TaskList]
+Num=5
+
+[TASK1]
+Description=Не плодить родителей
+Status=0
+Priority=2
+Comment=При кликании на существующей точки в момент привязывания пораждаются дублеры родители Сделать проверку на совпадение ключей
+
+[TASK2]
+Description=Деление линий
+Status=0
+Priority=2
+Comment=Сделать деление линий
+
+[TASK3]
+Description=Поиск линий
+Status=2
+Priority=1
+Comment=Находит линию на котрой был произведен клик Точне находит точки и складывает их в класс CLine
+
+[TASK4]
+Description=Поиск пересекающихся линий
+Status=0
+Priority=1
+AssignedTo=
+Comment=Даны 2 линии CLine  определить пересекаются ли они
+
+[TASK5]
+Description=Управление кл курсора
+Status=0
+Priority=1
+AssignedTo=
+Comment=Прикрутить управления кл курсора перемещение итд

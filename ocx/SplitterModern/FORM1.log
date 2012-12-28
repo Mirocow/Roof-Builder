@@ -1,0 +1,9 @@
+Line 13: Class SplitterHV.SplitHV of control SplitHV2 was not a loaded control class.
+Line 24: Class SplitterHV.SplitHV of control SplitHV1 was not a loaded control class.
+Line 19: The property name _ExtentX in SplitHV2 is invalid.
+Line 20: The property name _ExtentY in SplitHV2 is invalid.
+Line 21: The property name LimitBorder in SplitHV2 is invalid.
+Line 22: The property name Style in SplitHV2 is invalid.
+Line 30: The property name _ExtentX in SplitHV1 is invalid.
+Line 31: The property name _ExtentY in SplitHV1 is invalid.
+Line 32: The property name LimitBorder in SplitHV1 is invalid.

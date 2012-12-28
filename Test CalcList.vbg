@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\Roof_Builder_plugins\CalcList\CalcList.vbp
+Project=RoofBuilder.vbp
